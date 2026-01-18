@@ -1,0 +1,2 @@
+grasprt amem amem /nosvga
+

@@ -1,0 +1,198 @@
+
+
+
+
+                    M E M O R Y    C O N F I G U R A T I O N
+
+
+
+
+        MEMORY REQUIREMENTS
+        
+             In order to play the game you need 590k of free conventional
+             random access memory (RAM) and 1 MB of free expanded memory
+             (EMS).  Just because your computer has total memory of 2MB or
+             more does not always mean you can run the game under your
+             computer's current configuration.  For example, your memory
+             above the 1MB DOS area may not be configured for EMS.  (Windows 
+             users generally do not set aside any EMS memory.)  Also, you may 
+             have drivers and terminate and stay resident programs residing 
+             in RAM that leave less than 590k of free RAM.
+        
+        
+        TESTING FOR SUFFICIENT MEMORY
+        
+             Run the MS-DOS memory program by using MEM <Enter> and check 
+             the displayed results.  You need at least 604,160 bytes 
+             largest executable file size (free RAM) and at least 
+             1,048,000 bytes free EMS memory (expanded memory).
+        
+             If you don't meet the above requirements then you must
+             reconfigure your config.sys and autoexec.bat files, or create
+             a separate boot disk.  
+        
+             If you wish to reconfigure your computer, consult the DOS
+             manual.  Keep in mind that any changes you make may affect
+             other programs.  If you're not sure of what you're doing, then
+             the safest course of action is to make a separate boot disk.
+        
+             The following instructions refer to DOS 5.0 and 6.0 and 386 or
+             faster CPUs.  If you are using a DOS compatible operating system,  
+             such as DR-DOS, or a compueter with a 286 CPU, check your      
+             instruction manuals.  Also, the following instructions do not 
+             include directions for using data compression.  If you are 
+             going to use the games in compressed file format (using 
+             Stacker, DOS 6.x compression, etc.), the config.sys and 
+             autoexec.bat files must be configured to run the compression       
+             software.
+        
+        
+
+
+
+        CREATING A BOOT DISK
+         
+             Format a disk for the floppy drive which is your boot drive. 
+             Use the DOS command  format /s <Enter> (see the DOS manual). 
+             This will format the disk and copy to it the command.com file
+             and the hidden system files.
+        
+             From your DOS directory copy to the boot disk the following
+             files:
+                            himem.sys        emm386.exe
+        
+             If you wish to play the game with the mouse, copy your mouse
+             system driver file to the boot disk.  It must be a .sys file
+             (usually has the name mouse.sys).  Next you must place the
+             config.sys and autoexec.bat files onto the boot disk.
+
+        
+        WARNING - CREATING CONFIGURATION FILES WITH A WORD PROCESSOR
+        
+             Do not create the config.sys file and the autoexec.bat file
+             for the boot disk at the root level of drive C:.  The
+             config.sys file for your current configuration resides there. 
+             If you use your word processor to create a new config.sys and
+             autoexec.bat files in the root of drive C: you will wipe out
+             your old config.sys and autoexec.bat files.  Generally you
+             shouldn't have this problem.  Nearly all wordprocessing
+             programs are configured to create and save files in a
+             subdirectory, not the root directory of drive C:.  If you're
+             not sure, then it's best to create the boot disk files on the
+             boot disk itself.  
+        
+        
+        CONFIG.SYS FILE - NO MOUSE
+        
+             Create a DOS text file as follows:
+        
+                            device=himem.sys
+                            dos=high
+                            device=emm386.exe 1024
+                            files=20
+                            buffers=10
+        
+             You may use any wordprocessor but make sure you save the file
+             as an ASCII or DOS text file.  (Do not save the file as a
+             formatted wordprocessing file.)  The file must be named
+             config.sys.  Copy this file onto the boot disk.
+        
+        
+
+
+        CONFIG.SYS FILE - MOUSE DRIVER
+        
+             Create a DOS text file as follows:
+        
+                            device=himem.sys
+                            dos=high,umb
+                            device=emm386.exe 1024 ram
+                            devicehigh=mouse.sys
+                            files=20
+                            buffers=10
+        
+             If your mouse driver is not "mouse.sys" then change the line
+             "devicehigh=mouse.sys" to reflect the name of your mouse
+             driver.  For example, if your mouse driver is "ffmouse.sys"
+             then the line should read "devicehigh=ffmouse.sys" not
+             "devicehigh=mouse.sys."
+        
+             You may use any wordprocessor but make sure you save the file
+             as an ASCII or DOS text file.  (Do not save the file as a
+             formatted wordprocessing file.)  The file must be named
+             config.sys.  Copy this file onto the boot disk.
+        
+
+        AUTOEXEC.BAT FILE
+
+             Create a DOS text file as follows:
+        
+                       prompt=$p$g
+                       path=c:\;c:\dos
+
+             If your DOS utility files are not in the directory c:\dos then
+             change the "path" line to reflect the name of the directory
+             which contains the DOS files.  For example, if your DOS files
+             are in "c:\dosfiles" then the path line should read
+             "path=c:\;c:\dosfiles" not "path=c:\;c:\dos."
+        
+             You may use any wordprocessor but make sure you save the file
+             as an ASCII or DOS text file.  (Do not save the file as a
+             formatted wordprocessing file.)  The file must be named
+             autoexec.bat.  Copy this file onto the boot disk.   
+        
+        
+        USE OF THE BOOT DISK
+
+             Before using the boot disk make sure it has the following
+             files
+                            command.com
+                            himem.sys
+                            emm386.exe
+                            config.sys
+                            autoexec.bat
+
+             It must also contain your mouse driver, such as mouse.sys, if
+             you wish to play the game with a mouse.        
+
+
+
+             To boot your computer from the boot disk, place the boot disk
+             in the boot drive (typically drive A:).  Reset the computer
+             using the reset switch, or the keyboard combination Ctrl-Alt-
+             Del, or simply turn the computer off, wait a few seconds, then
+             turn the computer on.
+        
+             The computer will now boot (load DOS) from the boot disk you
+             created and configure 1 megabyte of your computer's extended
+             memory to act as expanded memory.  Test that the configuration
+             is proper by using the DOS memory program (MEM <Enter>).  The
+             memory program should show that you have approximately 629,000
+             bytes as the largest executable file size, and 1,048,576 bytes
+             of free EMS memory.
+        
+        
+        WHAT THESE FILES DO
+
+             The autoexec.bat file for the boot disk causes the computer to
+             display standard prompts which show the drive and subdirectory.  
+             It also causes the computer to first search the root of drive C: 
+             then the DOS directory when you issue a file execution command 
+             from DOS.
+
+             The config.sys file allows DOS to access the high memory area
+             (1024k through 1088k), loads most of the DOS system files in
+             that high memory area, and treats 1 megabyte of extended
+             memory as expanded memory.  The version of the config.sys file
+             that loads a mouse driver allows DOS to have access to the
+             upper memory block (640k through 1,024k) and places the system
+             driver in that memory block.  Note: Some mouse drivers may not
+             load into upper memory.  In that case, it will be loaded
+             automatically in RAM.  If after the mouse driver is loaded the
+             amount of available RAM is less than 604,000 bytes, then you
+             should use the config.sys file version that does not load the
+             mouse driver.
+        
+                                                                                
+                                                                                
+              

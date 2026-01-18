@@ -1,0 +1,561 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			       WAR IN KOREA
+
+				 Ver. 1.2
+
+	      A Cricket Software WarGame for I.B.M. compatible PC's.
+
+		    Copyright 1994-1995 by John Daigle
+			  All rights reserved.
+
+
+  Hardware required:
+  IBM compatible PC with EGA/VGA monitor and Microsoft compatible mouse.
+
+  Description:
+  War In Korea is a 2 player war game played on a map of the Korean peninsula.
+  Each player has an army consisting of 80 divisions: 40 Infantry,
+  20 Armored, 10 Air Cavalry & 10 Marine. Players alternate turns,
+  moving all their units then resolving battles at the end of each turn.
+  A player wins by eliminating all enemy units or capturing all enemy cities
+  and holding them for 1 turn.
+
+  The  Map:
+  The map shows the countries of North & South Korea, part of China and a
+  a small portion of Japan. The map has a grid divided into horizontal &
+  vertical coordinates numbered horizontally(east/west) 1 to 160 and
+  vertically(north/south) 0 to 115, for a total of 18,560 squares.
+
+     Terrain:
+     Each square is colored or marked according to its terrain.
+
+     land-green
+     cities-gray
+     mountains-black inverted V 's on white
+     ocean-blue
+     roads-red lines
+     rivers-blue lines
+     bridges-red lines over rivers
+
+  Units:
+  NKPA (North Korean Peoples Army) & PRC (Peoples Republic of China) units
+  are colored light-magenta (referred to as red units).
+  ROK (Republic Of Korea [south]) & U.S./Allied units are colored light-cyan
+  (referred to as blue units).
+
+  In map modes of 4, 8, & 12 to 1:
+  Infantry units are marked with an 'X' inside a white box.
+  Armored units are marked with a yellow rectangle bordered by white.
+  Air Cavalry units are marked with an 'X'ed blue circle bordered by white.
+  Marine units are marked with an 'M'in a red rectangle bordered by white.
+
+  In 2 to 1 map mode:
+  Infantry units are marked with an 'X'.
+  Armored units are marked with a yellow square.
+  Air-Cav units are marked with a blue square.
+  Marine units are marked with a red square.
+
+  In the full map (1 to 1) mode only the colors of the units(red/blue)
+  are shown. In maps of 8 to 1 and 12 to 1, the unit number is shown
+  on the unit & in map of 12 to 1, the unit types (INF,ARM,AIR,MRN)
+  are also shown.
+
+  There are 2 types of specialized infantry units:
+     Marine-can land on beach squares ( any open-land square adjacent to an
+     ocean square).
+     Air Cavalry-can fly to and land on any open-land square.
+
+								     Page 1
+
+
+  Movement:
+  At the start of each turn each unit is given a movement count (mc).
+  INF,AIR,MRN units get 24 mc. ARM units get 36 mc.
+  As the unit is moved the mc is decreased depending on the terrain.
+
+     travel on roads, cities & bridges costs 1 mc.
+     travel on land costs 3 mc.
+     travel in mountains costs 4 mc.
+     crossing rivers (not on bridges) costs 3 mc.
+
+  Some movement is prohibited:
+     armor units in mountains
+     in a square occupied by another unit
+     when mc=0 or not enough mc's to cross certain terrain
+
+  Don't worry too much about all the rules, the computer will let you know
+  if you try to break any of them!
+
+  All actions in this game are controlled by the movement of the mouse and
+  the 2 mouse buttons. The ONLY time the keyboard is used is to enter the
+  file name of a saved game.
+
+  LETS PLAY!
+
+  Start the game by loading the game diskette and typing kwar at the
+  DOS prompt. The message "PLEASE WAIT-LOADING DATA FILES" will appear for
+  a moment followed by the game map and a sign-on message.
+
+  SIGN-ON MESSAGE:
+  Gives the name of the game, version number, instructions for
+  ordering a registered copy and 2 buttons. The 'PRINT ORDER' button
+  is used to print an order form on your printer. If you have no printer
+  or it is off or off-line, a 'CHECK PRINTER !' message will be displayed
+  when you push the button. The 'OK' button is used to erase the sign-on
+  messages. To push a button, move the mouse arrow over the button and
+  push the left mouse button.
+
+  SELECT GAME WINDOW:
+
+  If there are any saved games on the disk, a black window will be shown over
+  part of the map. This window allows you to select a new game or a saved game
+  (all saved games have a .SAV extension ie: EXAMPLE.SAV).
+  If there are NO saved games this window will not appear and you will start
+  a new game. To select between new game and saved games move the mouse up
+  or down, the highlight window will move as you move the mouse. When the
+  desired selection is highlighted, push LEFT or RIGHT mouse button.
+
+  For now select NEW GAME.
+
+  You are now ready to start the game!
+
+								     Page 2
+
+
+  STARTING TO PLAY:
+
+  Look at the screen. You have the game map with the units (RED & BLUE) in
+  their bivouac ares, a mouse arrow somewhere in the middle of the map,
+  7 rectangle "buttons" on the left side and a grid location displayed in
+  the top right corner.
+
+  A Note on the buttons:
+  Buttons colored light gray are inactive, buttons lit up in another color
+  are active.
+
+  Move the MOUSE:
+
+  The arrow will move around the map and the grid location will change.
+  The sign-on messages will disappear when the mouse is moved.
+
+  The MAP button:
+
+  The light green button on the left is the MAP button. This allows you
+  to zoom a part of the map to 2,4,8 or 12 times its size. At the start of the
+  game the button reads "MAP 1 TO 1".
+
+  Using the MAP button:
+
+  Move the mouse arrow over the MAP button and push the LEFT mouse button.
+  You hear a beep, the button flashes and now reads "MAP 2 TO 1" but the map
+  didn't change. HOW COME?? That brings us to...
+
+  Zooming the map:
+
+  With the MAP button reading "2 to 1" move the arrow to anywhere on the map.
+  Push the LEFT mouse button. A white outline will appear on the map about
+  half the size of the map as long as the button is held down.
+  This shows the area of the map you will zoom to when you push the RIGHT
+  mouse button.Now release the LEFT button and push the RIGHT mouse button.
+  The area of the map shown will be the area that was inside the outline.
+  Now move the arrow back to the MAP button and push the LEFT mouse
+  button. The button flashes and reads "4 to 1". Move the arrow to anywhere
+  on the map and push the RIGHT mouse button. The map doubles again.
+  Try this for the "8 to 1" and "12 to 1" map zooms.
+  You can move around the map in the 2,4,8 & 12 to 1 modes by moving the arrow
+  to the square you desire to and pushing the RIGHT mouse button. That square
+  will now be in the center of the screen. But what about getting back to the
+  big picture?	Just point on the MAP button again and push (& release) the
+  LEFT mouse button until the MAP button reads "1 to 1". Now push the RIGHT
+  mouse button. The whole map appears. As long as the whole map is shown,
+  you can change the zoom on the MAP button (2 to 1, 4 to 1, 8 to 1, 12 to 1),
+  move the mouse arrow to anywhere on the map, and use the LEFT mouse button
+  to outline the area of the map that will be shown when you push the RIGHT
+  mouse button.
+
+  Get familiar with zooming the map then we'll learn....
+
+								     Page 3
+
+
+  MOVING A UNIT: [picking up, moving & dropping]
+
+  NOTE: You can not pick up and move units when full map is shown (1 to 1).
+  Put the arrow on a BLUE unit and push the LEFT mouse button. You hear a beep
+  and the unit name and "MOVES LEFT=" appear in the bottom right. You have just
+  "picked that unit up". Now move the mouse. The unit follows the arrow. You
+  will notice that the unit does not move until the arrow is near the center
+  of the next square. this is to make it easier to move the unit without
+  mistakenly moving to the wrong square. If you try to make an illegal move
+  (such as moving a unit on top of another), you will hear a buzz and a red on
+  yellow error message will appear in the bottom left of the screen. Notice that
+  the "MOVES LEFT" number will decrease as you move. When you are out of moves
+  and try to move the unit, the error message will say "INSUFFICIENT MOVES
+  LEFT". OK you say, I've got this unit stuck to my arrow and I'm out of moves.
+  Now what do I do?...Easy! Just push the LEFT mouse button again. You will
+  hear 2 beeps and the unit name and MOVES LEFT will disappear from the bottom
+  right. You have now "dropped the unit" and are free to move the arrow to
+  another unit and continue moving units.
+
+  OOPS!! What if I moved the unit to the wrong square or changed my mind ?
+	 That brings us to......
+
+  The CANCEL button:
+
+  If you mistakenly move the unit to the wrong square, "drop" the unit and
+  move the arrow over the CANCEL MOVE button. Push the LEFT mouse button.
+  You will hear a beep, the button will flash, and the arrow will move over
+  the unit you dropped. Notice that the unit is located where it was before
+  you made the move. The units mc (movement count) was also restored to
+  its previous value. That brings us to another button on the screen....
+
+  The MOVES DONE button:
+
+  Move the arrow over the MOVES DONE button and push the LEFT mouse button.
+  You will hear a beep and the button color will change from blue to red (to
+  be technical, from light cyan to light magenta).
+  Now it is RED's turn to move . You (or your opponent) can move all the red
+  units. You can end the turn at any time, you do not have to move all your
+  units. You can move as many or as few as you like. At each new turn, the
+  units are restored with their full movement counts (mc's).
+  Push the MOVES DONE button again and it turns blue (Its now BLUE's turn
+  again). There is one more type of movement we have not covered, that is...
+
+
+
+  AIR & SEA MOVEMENT:
+
+  All units except AIR can be moved by sea from one friendly port to
+  another friendly port. This can be done only if the unit is in a friendly
+  port at the start of a turn. A friendly port is defined as a city square
+  adjacent to an ocean square in a city controlled by your army. This type of
+  movement does not deduct any mc's (movement counts) from the unit.
+
+								     Page 4
+
+
+  AIR units can move by air from any land square to any land square not in
+  an enemy's zone of control (ie: not adjacent to an enemy unit).
+  No mc's are deducted.
+
+  MRN (marine) units can move from any friendly port to another friendly port
+  or to any beach square (a land square adjacent to an ocean square).
+  Unlike other units MRN units can land on a beach square adjacent to an enemy
+  unit ( as long as they attack that unit at the end of the turn).
+
+  NOTE: Air and sea movement can only be done once per unit per turn.
+	and may not have made any other moves that turn.
+
+  HOW TO DO AIR/SEA MOVEMENT:
+
+  SEA: Pick up a unit with the LEFT mouse button (remember: unit must be in
+  a friendly port city square at the start of turn). Now push the RIGHT mouse
+  button. A message will appear at the bottom left "SEA TRANSFER-MOVE POINTER
+  TO DESTINATION AND DROP UNIT". Note: if the unit was not in a port square
+  or did not have its full mc, ie: it had been moved in this turn, a red on
+  yellow error message will appear in the bottom left.
+  Using the mouse, move the arrow to another friendly port square. The unit
+  will follow the arrow (sometimes it lags behind but it will always catch up).
+  Using the LEFT mouse button drop the unit in the new port square. Note:
+  You may notice when you are dragging the unit over other units they will
+  disappear. Don't worry, they will be replaced when you drop the unit.
+  If you try to drop the unit anywhere but a friendly port, you will hear
+  a buzz and an error message at the bottom left will remind you of the rule.
+  Remember MRN units can also land on beaches.
+
+  AIR: Just like sea movement except you pick up an AIR CAV unit in a land
+  square at the start of a turn and move it to any open land square not
+  adjacent to an enemy unit. Like sea movement, air movement costs no mc's.
+
+
+  FRIENDLY & UNFRIENDLY CITIES:
+
+  To find the status of a city, move the mouse arrow over an open city square
+  ie: no units underneath it, and push and hold the LEFT mouse button. A
+  message will appear at the bottom right telling you the name of the city.
+  The background color of the message will tell you the status of the city:
+  light cyan-BLUE control
+  light magenta-RED control
+  half light cyan & half light magenta-CONTESTED
+  The message will disappear when you let up on the LEFT mouse button.
+
+  HOW TO CONTROL A CITY:
+  At the start of the game all the cities in South Korea are under BLUE
+  control and all the cities in North Korea are under RED control. To gain
+  control of an enemy held city, enter or pass through that city (if no enemy
+  units are also in the city). You do not have to remain in the city, it is
+  in your control until an enemy unit enters or passes through the city( if
+  you have no units in that city). A city with both BLUE and RED units
+  in it is considered CONTESTED.
+
+								     Page 5
+
+
+  ATTACKS AND BATTLES:
+
+  When you move any unit adjacent to an enemy unit (not across a river),
+  an alarm will sound, a yellow arrow (or arrows) will appear on the
+  attacking unit pointing to the unit (or units) under attack, and the MC of
+  the attacking unit will be reduced to zero. This is how you attack enemy
+  units. Once you move a unit into an enemy's 'zone of control' you can not
+  move that unit any more. However you can still cancel the move and the
+  attack after dropping the unit by using the cancel button ( see above ).
+
+  You have the option to attack or not attack an enemy unit on the other side
+  of a river and you may move past any enemy unit as long as a river divides
+  you. If you drop a unit with an enemy unit next to you across a river, the
+  alarm will sound and a green arrow will appear on your unit pointing
+  to the enemy unit. This message will be in the bottom left of the screen:
+  'TO ATTACK PUSH LEFT BUTTON  FOR NO ATTACK PUSH RIGHT BUTTON'.
+  If you wish to attack that unit push the LEFT mouse button, the arrow will
+  change red and the MC will be reduced to zero. If you don't wish to attack,
+  push the RIGHT mouse button, the arrow will disappear and the MC will remain
+  unchanged. If you make a mistake, use the cancel button.
+
+
+  On multi-unit battles the attacker has the option of dividing combat any
+  way he wishes as long as the following rules are observed:
+
+  1. If an attacking unit is adjacent to one defender, it must attack that
+     defender.
+  2. If an attacker is adjacent to two or more defenders, it must attack those
+     defenders that are not also adjacent to other attacking units.
+  3. The attacker has the option to attack defenders that are also adjacent to
+     other attacking units, but an attacker must attack at least one of the
+     defenders it is adjacent to.
+  4. No defender can be attacked more than once in the same turn and no
+     attacker can attack more than once in the same turn.
+
+  These rules may sound confusing, but the computer will keep track of them
+  for you.
+
+  ATTACK OPTIONS:
+
+  After you have moved all the units you want and attacked all the enemy
+  units you want, push the MOVES DONE button. If there are multi-unit battles
+  requiring you to decide how to divide combat, the map will zoom 8 to 1
+  to that battle, the attacker will have a yellow arrow pointing to a
+  defender shown in reverse video, this message will be in the bottom left of
+  the screen 'TO ATTACK PUSH LEFT BUTTON  FOR NO ATTACK PUSH RIGHT BUTTON',
+  & a message 'ATTACK OPTIONS LEFT ='will be in the top left of the screen.
+  If you wish to attack that unit, push the LEFT mouse button. If not push the
+  RIGHT one. This will continue until all attack options have been decided.
+
+								     Page 6
+
+
+  FIGHTING BATTLES:
+
+  After all options have been selected or after the MOVES DONE button is
+  pushed and units have attacked but no options need be selected then we go
+  into the battle phase of the game. The map will zoom 8 to 1 to a battle,
+  attackers & defenders will be shown in reverse video with  red arrows
+  showing the direction of attack. A message at the top left will show, the
+  total number of battles to be fought, the battle selected, and the odds of
+  that battle.
+
+  A note about odds:
+
+  Each unit has a combat factor as well as a movement count. INF, AIR & MRN
+  units have a combat factor of 1 & ARM units have a combat factor of 2.
+  Defenders across a river from attackers have their combat factors doubled
+  (but only if no other units are attacking them from the defenders side of
+  the river). The computer calculates the odds by adding up the total attacker
+  and defender combat factors, dividing and giving the fractional remainder to
+  the defender. ie: 3.5 to 1 = 3 to 1, 1 to 3.5 = 1 to 4 etc.
+
+  How the computer resolves a battle:
+
+  There are 5 possible results to a battle, they are:
+
+  Attacker eliminated - all attacking units are removed from the game
+  Defender eliminated - all defending units are removed from the game
+  Attacker back 2 - all attackers must retreat 2 squares
+  Defender back 2 - all defenders must retreat 2 squares
+  Exchange - all defenders are removed from the game, all attackers equal
+	     to the total combat factors of the defenders are removed from
+	     the game
+
+  The computer gets a random number from 1 to 6 (ie: rolls a die.) This
+  number and the odds of the battle determine the result of the battle.
+
+  The combat result table:
+
+ odds| 1-6 | 1-5 | 1-4 | 1-3 | 1-2 | 1-1 | 2-1 | 3-1 | 4-1 | 5-1 | 6-1
+     |------------------------------------------------------------------
+    1|Aelim|Aelim|A b 2|A b 2|D b 2|Delim|Delim|Delim|Delim|Delim|Delim
+  d 2|Aelim|Aelim|Aelim|A b 2| exch| exch| exch| exch| exch|D b 2|D b 2
+  i 3|A b 2|A b 2|A b 2|A b 2|A b 2|D b 2|D b 2|D b 2|Delim|Delim|Delim
+  e 4|Aelim|A b 2|A b 2|A b 2|A b 2|A b 2|A b 2|D b 2|D b 2|D b 2|Delim
+    5|Aelim|Aelim|Aelim|Aelim|Aelim|Aelim| exch| exch|D b 2|Delim|Delim
+    6|Aelim|Aelim|Aelim|Aelim|Aelim|Aelim|Aelim|Delim|Delim|Delim|Delim
+
+ Odds greater than 1 to 6 - A eliminated. Odds greater than 6-1 - D eliminated
+
+								     Page 7
+
+
+  SELECT BATTLE button (green):
+
+  You can select the battle you wish to fight first, just push the SELECT
+  BATTLE button until you have the battle you desire.
+
+  START COMBAT button (red):
+
+  When you wish to fight a battle push the START COMBAT button. The sight and
+  sound of the battle will flash on the screen for a few seconds, then the
+  result of the battle will be displayed in a yellow on red message at the
+  bottom of the screen.
+
+  COMBAT RESULTS:
+
+  If the result of the battle is Defender or Attacker eliminated, those units
+  will disappear from the map, if there are more battles to be fought the
+  SELECT BATTLE button will be green , if not, the TURN DONE button will be
+  light cyan or light magenta (depending on who's turn it is).
+
+  If the result of the battle is Defender or Attacker back 2 spaces, you must
+  pick up those units and move them 2 squares in any direction.(NOTE: if you
+  are not able to move the unit 2 squares back, the unit will be removed from
+  the map when you drop it. So be sure not to drop the unit until you have
+  moved the 2 squares [if you can!].)
+  The combat result message will be re-displayed until all units to be moved
+  in the battle are moved, then the SELECT BATTLE button or the TURN DONE
+  button will light up accordingly.
+
+  If the result of the battle is exchange and the attacker combat factors are
+  equal or less then defender factors, all units in the battle are removed
+  from the map, if the attackers combat factors are greater then the defender
+  you will be asked to pick attacking units to eliminate until the FACTORS
+  LEFT message at the top of the screen equals zero. NOTE: If FACTORS LEFT =1
+  and the only attacking unit left is an ARMOR unit with a combat factor of 2,
+  you have no choice but to eliminate it.
+
+  After all battles have been resolved, push the TURN DONE button.
+
+  The game continues until one country's units are eliminated or it's cities
+  captured for one turn.
+
+  EXITING AND SAVING THE GAME:
+
+  You will notice at the start of each turn, the EXIT GAME button lights up
+  brown. When you press this button the exit game windows will appear in the
+  middle of the map.
+
+  The larger window has 6 options which you can highlight by moving the mouse
+  up and down.
+  The small window has the name of the current .SAV file (saved game file).
+  If there are no saved games, '--NO .SAV FILES--' will be displayed.
+
+								     Page 8
+
+
+  A description of the 6 options:
+
+  RETURN TO GAME - Does as it says, returns you right back to the game.
+
+  QUIT GAME - Exits the game with out saving. - sends you back to DOS.
+
+  MAKE NEW .SAV FILE - A cursor will appear in the current file window.
+		       use the keyboard to enter an 8 character or less
+		       file name (don't enter the dot extension ,it's always
+		       .SAV and entered automatically). push return (CR) when
+		       done. The game will be saved in the new file and you
+		       will exit to DOS.
+		       Notes: Use the backspace key for corrections.
+			      A return with a blank file name will cancel the
+			      command.
+
+  SAVE CURRENT FILE - The game will be saved in the file shown in the current
+		      file window. If no file is shown, you will hear a buzz
+		      and the command will be ignored.
+
+  DELETE .SAV FILE - The file shown in the current file window will be deleted
+		     from the disk. If no file is shown, you will hear a buzz
+		     and the command will be ignored. If there are other .SAV
+		     files on the disk, the next one will be displayed in the
+		     current file window. If no other .SAV files are present,
+		     '--NO .SAV FILES--' will be displayed.
+
+  SELECT .SAV FILE - If more than one .SAV file exists the next one will be
+		     shown in the current file window. After the last one is
+		     shown the first one will be redisplayed. If one or no
+		     files exist you will hear a buzz and the command will be
+		     ignored.
+
+
+  WINNING THE GAME:
+
+  If you capture all the enemy's units or all his cities for one turn,
+  bells will sound and a large message will appear at the bottom of the
+  screen declaring VICTORY!! Then pushing any mouse button will exit to DOS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								     Page 9
+
+
+
+
+
+
+	-------------- IMPORTANT NOTICE ----------------
+
+
+  WAR IN KOREA is a copyrighted shareware program. You have 30 days to
+  evaluate it. After 30 days you must register it in order to use it.
+  To register send Check or Money Order for $22.00 (includes shipping) to:
+
+		    John Daigle
+		    10680 West Rd.
+		    Redwood Valley, Ca. 95470
+
+  You can print out an order form using the 'Print Order' button
+  on the sign-on message or print the file 'ORDERFOR.DOC'.
+
+  Be sure to specify 3 1/2 or 5 1/4 disks.
+
+  Registered users will receive a copy of the game with all the latest
+  updates, an information phone number and major discounts on all programs
+  from Cricket Software.
+
+  If you are a distributor or vendor of shareware be sure to read the
+  'VENDOR.DOC' file.
+
+

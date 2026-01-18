@@ -1,0 +1,688 @@
+Orbots The Game - gamehelp.doc
+==============================
+
+Copyright (c) 1995  Sunshower Systems Inc.
+
+Table  Of  Contents
+----------------------------------------------------------------------------
+   Overview:
+
+   Chapter One:
+		1.1  System Requirements
+		1.2  Installation
+		1.3  File Listing
+		1.4  Memory Requirements
+		1.5  Legal disclaimers
+
+   Chapter Two:
+		2.1  Using the Menu
+		2.2  Install game Options
+		2.3  Sound Card Hoop-La
+		2.4  Setup Program
+		2.5  Using a Boot Disk
+
+   Chapter Three:
+		3.1  Using the Keyboard
+		3.2  Using the Mouse
+		3.3  Using the Joystick
+		3.4  Saving a Game
+		3.5  Loading a Saved Game
+		3.6  High Score
+		3.7  Bonus points, Game speeds, and Cheat mode
+   Chapter Four:
+                4.1  Trouble Shooting, Support
+		4.2  Hints
+		4.3  Running under Windows 3.x
+		4.4  Windows 95
+		4.5  Error Messages
+
+   Chapter Five:
+		5.1  About Shareware
+                5.2  ASP Ombudsman Statement
+                5.3  Further Adventures
+----------------------------------------------------------------------------
+
+
+
+Overview:
+---------
+	Orbots the Game is a heart pounding,  brain boggling,  shoot 'em up,
+	extravaganza.  Super smooth 256 color VGA graphics are complemented
+	with extraordinary digital sound.  An adrenaline junkies dream!
+	You must pilot the astro-chopper to defeat an invasion of half machine,
+	half organo mutants from another dimension.  They have plenty of
+	surprises for you, and some nasty tricks for you to figure out.  If you
+	get through their defenses,  you still must face their mother ship to
+	defeat them.
+        Good Luck. You'll need it!  <ASP>
+
+Chapter One:
+------------
+1.1 System Requirements
+		The game requires an IBM compatible computer with a 386
+	processor or better. A colour VGA video monitor and compatible video
+	card.  It is also recommended that you have a MS compatible mouse
+	(the game was designed for a mouse, but will also support a
+	joystick, or the keyboard).  For sound you require a compatible
+	sound card with speakers (see Chapter Two Sound Card Hoop-La for
+	more details).  The game has been written to use memory wisely,
+	so 640K of conventional memory is all that is required. The full game
+	takes up approximately 2.5MB of hard disk drive space. You also
+	must have DOS 3.3 or later.
+
+1.2  Installation
+		Please run the supplied install program to install the
+	game.
+
+	- Just type install at a dos prompt and follow the instructions.
+	- The game will ask you to setup sound cards, etc.
+	  when the game is started for the first time by typing 'orbots',
+	  at a dos prompt.
+	- To remove the game, simply delete all files from the Orbots
+	  the Game directory.
+
+
+1.3 File Listing
+		If the game will not start or you have other problems,
+	type 'setup' to automatically check the game directory for the
+	proper files and to reinitialize the game again.
+
+	ORBOTS.EXE           SETUP.EXE      FILE002.OBW
+	FILE003.OBW          AL.RMC         S20.RMC
+	SUNINT.OBW           SUNDEMO.DAT    THEMES.LDP
+        TEST1.RMC            FAT.OPL        ORBOT.ICO
+	SUNGAMEA.OBW         SUNSHWA.LEV    PMIDPAK.COM
+	SBFM.ADD             ADLIB.ADD      GENMID.ADD
+	PCSPKR.ADD           SBPIFM.ADD     SBP2FM.ADD
+	SC32MPU.ADD          SBFM.ADV       ADLIB.ADV
+	GENMID.ADV           PCSPKR.ADV     SBP1FM.ADV
+	SBP2FM.ADV           SC32MPU.ADV
+	ADLIB.COM            CMIDPAK.COM
+	IBMBAK.COM           NOSOUND.COM    VENDOR.DOC
+	PMIDPAK.COM          SB16.COM       SBCLONE.COM
+	SBLASTER.COM         SBPRO.COM      SMIDPAK.COM
+	TMIDPAK.COM          GAMEHELP.DOC   ORDER.TXT
+
+1.4 Memory
+		To use the game with full rich sound and digital effects,
+	the game requires 554K of free conventional memory and a 16-bit
+	sound card. 8-bit sound cards will not work as well but are far
+	superior to the PC speaker. You can check your memory by using the
+	DOS "mem or mem/c" command. See your DOS reference manual for
+	details. If you are not using any of the sounds or music, the game
+	requires only 350K free conventional memory. To make more memory
+	see section 2.5. To reset the game to min. memory see section 2.4.
+
+1.5  Legal
+		This file must always be distributed with the game.
+	- All trademarks are the property of their respective owners.
+Users of Orbots the Game must accept this disclaimer of warranty:
+Terms & Conditions
+
+LIMITED WARRANTY.
+ORBOTS THE GAME IS PROVIDED 'AS IS'.  ALL WARRANTIES, EITHER EXPRESSED OR
+IMPLIED, ARE DISCLAIMED AS TO THE SOFTWARE AND ITS QUALITY PERFORMANCE,
+MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. THE ENTIRE RISK
+RELATING TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS ASSUMED BY
+THE USER. IN NO EVENT WILL SUNSHOWER SYSTEMS INC. BE LIABLE FOR DIRECT,
+INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM THE USE,
+INABILITY TO USE, OR ANY DEFECT IN THE SOFTWARE.  IF THE SOFTWARE PROVES
+TO HAVE DEFECTS, THE USER ASSUMES THE COST OF ANY NECESSARY SERVICING
+OR REPAIRS.
+
+	Copyright (c) 1995 Sunshower Systems Inc.
+	All rights reserved. All rights of reproduction in other media
+	reserved.
+
+	Special Thanks to:
+	- General MIDI patches (c) 1994 The Fat Man and K. Weston Phelan
+	The Fat Man
+	7611 Shoal Creek Blvd.
+	Austin TX 78757
+	1-512-454-5775
+	BBS: 1-512-454-9990
+
+Chapter Two:
+------------
+2.1 Using the Menu
+		All the menu's in this game are easily operated with just a
+	few simple keystrokes. On line help is available for most menu
+	screens by pressing the 'h' key or the 'F1' key. The simple use of
+	the arrow keys will move you among the available selections.  The
+	enter/return key will select the option.  You may also make your
+	selection by pressing the capitalized letter of the menu line.
+	The 'ESC' will exit the  current menu and move you back to the
+	 previous menu screen.
+
+2.1.1 Select Episode
+		The first menu screen offers the user a choice of
+	adventures:  Organobots Revenge, The Plasma People, or
+	Organobots Return.  The Shareware version comes with the complete
+	adventure,  Organobots Revenge. For other adventures see
+	Chapter five.
+
+2.1.2 Main Menu
+		This is the menu that will be used the most.  It allows the
+	  following choices:
+
+	-Fly new mission /Fly next mission - Select this option to
+	  enter the world of the Organobots.  Good luck, you will need it.
+	- Load/save mission - This menu option allows you to save up to
+	  three games. It is wise to save the game when you have completed
+	  a level because the levels do not get easier as you go.  You may
+	  load any of the three saved games and continue to play from where
+	  you left off.
+	- Set game options - The same options available to you at install
+	  time are available anytime by selecting this menu option. See
+	  Install Game Options for more details.
+	- Instructions - On line instructions.  It is a good idea to review
+	  these instructions as needed.
+	- Program credits - Well, we have to get a plug for our selves in
+	  somewhere.
+	- Quit  - By selecting this option you will exit the game and return
+	  to DOS.
+	- D -  By pressing the 'd' key you will see a demo of the game.
+	- H - By pressing the 'h' key you will see the abbreviated help screen.
+
+2.1.2  Set Game Options
+		The following options are available on this menu:
+	- Sound effects card - choose this option to setup your sound card
+	  for the digital sound effects.
+	- Music card - choose this option to setup your sound card for the
+	  stereo music sound track.
+	- set Volume - select this option to adjust the volume for effects
+	  and music.
+	- select Controller - choose this menu option to pick the controller
+	  you prefer to use (and configure the controller).
+	- Game difficulty - this menu option will allow you to switch
+	  between the different difficulty levels.
+	- Exit - return to the Main Menu
+	  See install Game Options Chapter 2.2 for more details.
+
+2.2 Install Game Options
+
+2.2.1  Sound Effects Card
+		This menu option allows you to select your sound card
+	from a list of possible sound cards.
+	Simply move through the list using the up/down arrow keys until you
+	find the desired choice. If you do not want any digital sound
+	effects select the no sound option. Depending on which card you
+	have chosen from the list, another menu may appear requesting
+	more information. It may ask for IRQ, DMA, and address of your
+	sound card. See Sound Card Hoop-La for more details or consult
+	your owners manual. If you are using one of the soundblaster
+	8-bit cards or compatible try using both the SoundBlaster Pro
+	and the compatible driver.  One may work better than the other
+	with your card.
+		Test the card by pressing the return key when the test
+	option is visible. You should hear a short test sound. If you do
+	not hear anything check your settings and your hardware. You may
+	repeat the test as desired. If you hear only one note you probably
+	have a conflict with the IRQ setting. Check that you have the
+	correct IRQ for your card. If you are presented with an error
+	message see Chapter four, Error messages for more details. Once
+	you have completed the test, select exit to return to the Set Game
+	Options Menu Screen. (note: you must run the test or driver will not
+	 be installed correctly)
+
+2.2.2  Music Card
+		This menu option allows you to select your card from a list of
+	music cards to find the one that is present in your computer. Simply
+	move through the list using the up/down arrow keys until you find
+	the desired card. If you do not want the music sound track select
+	the no music option. If no music is selected there will be no music
+	in the game or menu modes. Like the sound effects setup, here too
+	you may be asked for more details about your card. See Sound Card
+	Hoop-La for more details or consult your sound card owners manual.
+	Test the card by pressing the return key when the test option is
+	visible. You should hear a short test sound. If you do not hear
+	anything check your settings and your hardware. You may repeat the
+	test as desired. If you hear only one note you probably have a
+	conflict with another device. Check that you have the correct IRQ
+	for your card. If you are presented with an error message see
+	Chapter four, Error messages for more details. Once you have
+	completed the test select exit to return to the Set Game Options
+	Menu Screen. (note: you must run the test or driver will not
+	be installed correctly)
+
+2.2.3  Set Volume
+		This menu option allows you to set the volume for both the
+	digital sound effects and the music sound track.  Volume varies
+	greatly with the sound card used, so some experimenting may be
+	required to get the exact sound level you desire.  If you find you
+	are setting the volume to zero it is recommended that you select
+	no sound or no music from the Sound Effects Card, Music Card
+	options respectively.  The up/down arrow keys will move you between
+	sound effects and music.  When you have the selected option you
+	wish to change simply use the left/right arrow keys to raise or
+	lower the volume.  You will see the slider move as you adjust the
+	volume.  Once you have completed the adjustment press enter to
+	return to the Set Game options menu.
+
+2.2.4  Select Controller
+		This menu option allows you to choose which controller
+	device you will be using to play the game.  Available are: keyboard,
+	mouse, and joystick.  The mouse selection also allows a sensitivity
+	setting.  The joystick option asks you to calibrate the joystick
+	(see Chapter Three for more details). When we tested the game
+	we used the mouse.
+
+2.2.5  Game difficulty
+		This menu option allows you to switch between difficulty
+	levels.
+	The levels are as follows:
+
+	Preschool   -  This is the easiest level.  As with life you should
+	progress through the game starting with this level and moving up as
+	your skill develops.  The enemy's weapons are just dumb bullets and
+	refueling is a snap.  If you destroy a friendly ship there is only a
+	small loss of points, but don't expect this to continue.
+
+	Elementary   -  Its time to stand alone against the enemy. Refueling
+	now takes a good pilot.  There are no more breaks on points for
+	friendly fire.  It now takes longer to recharge your Berserker gun.
+
+        High School  -  Now is the time to choose. Am I good enough to
+	continue, or do I need more practice.
+
+        University  -  Only a few make it to University and even fewer
+	still make it through. The enemy has smarter weapons now, as they
+	begin to track you down.
+
+	Real World   -  Like the real world this is almost impossible to
+	handle. The enemy's weapons are much more intelligent and will
+	track you down. Some times you may just have to run for your life
+	from overwhelming numbers. But remember, all the levels in the
+	real world have been tested and can be completed.
+
+2.3 Sound Card Hoop-La
+		The following sound cards are supported by this version:
+	ADLIB or compatible
+	General Midi
+	PC Internal Speaker
+	SoundBlaster or compatible
+	SoundBlaster Pro
+	SoundBlaster 16
+	MPU 401
+	Roland Sound Canvas
+
+	See 2.3.2, 2.3.3
+
+2.3.1  Recommendations
+		If you are not sure which sound card setting to choose:
+	for most people, the SoundBlaster Pro setting will work the best
+	for FX if you have an 8 bit sound card. It is best to try all
+	the sound drivers though, because all sound cards are different.
+	Try playing the game, to hear the various FX sounds with each
+	driver that tests in the configuration. The music for the game
+	was professionally scored, and will sound best on an MPU-401
+	(Roland) sound card. Some of the richness of the music will be
+	lost on other cards, especially FM synthesis cards like the
+	SoundBlaster. Wave table cards generally perform much better.
+
+2.3.2  Truth about IRQ
+		The IRQ and DMA of your sound card is important to know.
+	But in the configure screens, simple pressing enter when asked for
+	an IRQ will select a likely default for your sound card. If the
+	test sound does not complete when you run it, it is likely that
+	your sound card is not configured correctly. The game will most
+	likely still run, but there may be unpredictable results, as your
+	selected IRQ or DMA may be used by another device. If you have
+	problems, find out for sure what IRQ you are using. There are
+	several programs like DOS's 'MSD' that can assist you.
+
+2.3.3  Sound Drivers
+		Sound drivers are bulky and require a lot of disk space.
+	For this reason we have limited the number of available sound
+	drivers for the this game. Most sound cards will emulate either the
+	Sound Blaster Pro (preferred) or Adlib. A few other popular choices
+        (including the lowly PC speaker - SLOW) were also thrown in.
+
+2.4 Setup Program
+		The Setup program is supplied to reset your game to default
+	values. If for some reason the game is not working and you do not
+	know how to correct the problem you can run the setup program.
+	Simply change to the game directory and type 'setup'. The setup
+	program will check to see if all the required files are present.
+	If a file or files is missing, instructions will appear on the
+	screen. Follow these instructions. Setup also sets the game to no
+	sound card, and no music card, and keyboard controller. Don't worry
+	about your high scores because they will not be lost by running
+	the setup program. If setup detects a serious problem it will ask
+	you to reinstall the game. At this point all high scores will be
+	lost (See Installation for help on reinstalling the game).
+
+2.5 Using a Boot Disk
+		If you don't have enough memory when you start the game
+	and you don't want to alter your autoexec.bat and config.sys files,
+	a simple alternative is to create a boot disk.
+                In the game directory (usually c:\orbots) there is a file
+	called makeboot.bat. Place a floppy (formatted or unformatted)
+	disk in a: drive and type MAKEBOOT. When the prompt returns
+        press (ctrl alt del) and then run the game.
+		If you want to run the game with a mouse driver installed,
+	locate the directory where your mouse driver is. The file is
+	usually called mouse.com or mouse.exe. Then using an editor
+	such as edit.com or windows notepad, include the file name
+	in the autoexec.bat file on the boot disk. The file would
+	read as below. If the mouse driver is in the root directory
+	of c: , the fourth line would read c:\mouse.
+		Don't forget to select 'mouse' in the options/controller
+	menu when the game is running.
+
+	example: prompt=$p$g
+		 path=c:\;c:\DOS;\c:\windows
+		 c:
+		 [drive:][path]\mouse
+                 cd \orbots
+                 orbots
+
+Chapter Three:
+--------------
+3.1 Using the Keyboard
+		The game may be played, using the keyboard only. You already
+	know the keyboard provides the access to all the menu functions but
+	you can play the game with the keyboard as well. The arrow keys
+	provide the up, down, left, and right movement. Press the Alt key
+	to fire the Yttrium cannon, while the Ctrl key fires the ships
+	regular guns. The fire keys also work with the mouse and joystick.
+
+3.2 Using the Mouse
+		This is the most popular (we use the mouse) method of
+	playing the game.  Moving the mouse controls the movement of your
+	ship. The left mouse button fires your guns. The right mouse button
+	fires the Yttrium cannon. When you select the mouse option from the
+	Select Controller Menu you will be given a mouse sensitivity menu.
+	By using the right/left arrow keys you can change the mouse
+	sensitivity. There is a low, medium, and high setting available.
+	Press the enter key when selection is complete to return to the Set
+	Game Options Menu. On the high setting the mouse will be at the
+	settings set with your mouse driver. See your mouse user manual
+	for more information about your mouse settings. Remember, the
+	settings for your mouse driver are usually much more sensitive
+	than those in the game. So, check your driver!
+
+3.3 Using the Joystick
+		Since all joysticks are different, it is necessary to
+	calibrate your joystick  Once you have selected joystick from the
+	Select Controller Menu you will be asked to perform a few simple
+	instructions with the joystick. If you receive a message 'Joystick
+	not found' check your hardware. Do your best to move the joystick
+	as you normally would. By doing this the software learns where the
+	left, top, bottom, and right limits of your joystick are. If you
+	find the joystick settings to be a little off you can recalibrate
+	them by following this procedure again. If you find that your
+	joystick is not sensitive enough, repeat the calibration procedure,
+	but don't move the stick all the way to the top left and bottom
+	right when asked. Moving the stick only part way, will increase
+	the joysticks sensitivity in the game.
+		Moving the joystick will move your ship. By pressing
+	button 0 you will fire your guns. By pressing button 1 you will
+	fire the Yttrium cannon.
+
+
+3.4 Saving a Game
+		To save a game select the Load/Save option from the Main
+	Menu. Once selected the Load/Save menu will appear.  Choose the
+	Save Current Game option from the Load/Save Menu.  Selecting this
+	option will save the current game. This includes your current
+	score, weapon status, episode, and level. You will be asked to
+	select one of three possible games. This allows you to keep three
+	saved games that you may return to at a later time to continue
+	playing. Once a selection has been made, if that saved game exists
+	it will be over written with the current game. You can only save
+	between levels so save often and wisely.  If you wish to play one
+	level over and over again simply save before you start playing that
+	level and load that level again and again.
+	- Exit - selecting this option from the Load Save Menu will return
+	you to the Main Menu screen.
+	Note: The games are saved in a file called 'sunshw?.sav'. You can
+	copy or rename this file if you want to keep more than 3 saved
+	games. To play this game, simply rename or copy to its original
+	name.
+
+3.5 Loading a Saved Game
+		To load a game select the Load/Save option from the Main
+	Menu. Once selected, the Load/Save menu will appear. Choose the Load
+	Saved Game option from the Load/Save Menu.  Selecting this option
+	will load one of the saved games. You will be asked to select one of
+	three possible games. This allows you to choose which saved game you
+	wish to continue playing  Once a selection has been made, if that
+	saved game exists it will be loaded as the current game. You can
+	only load between levels. You may reload a saved game over and over.
+	Remember By loading a saved game your current game will be lost.
+	- Exit - selecting this option from the Load Save Menu will return
+	you to the Main Menu screen.
+
+3.6 High Score
+		After you Quit the game you will see a high score screen.
+	This screen displays the top ten high scores.  If you achieved a
+	high score while playing, a beep will sound and a flashing arrow
+	will point to the score you obtained.  At this point you may enter
+	three characters, such as your initials.  If you typed the wrong
+	character, don't worry, just press the backspace key and enter the
+	correct character.  Once you are satisfied press the enter key.
+		The high score screen also appears when a demo is run just
+	to show off your great game playing.  The screen will also appear
+	every time you quit the game even if you did not beat that last
+	high score.
+
+3.7  Bonus points, Game speeds, and Cheat mode
+		At the end of each level you will receive bonus points
+	based on the number on enemies destroyed.  The number of
+	points given will be displayed at the end of a successfully
+	completed level.
+		If you are a certified adrenaline junky and you find the
+	game a bit slow, try starting the game by  typing 'orbots q'.
+	This will start the game in quick mode, which is 50 percent
+	faster than standard. (fast machine required)
+		Perhaps you have a slow machine (such as a 386sx-16)
+	or an old VGA graphics card.  In this case run the game in slow
+	mode by typing 'orbots s'.  The game runs faster by disregarding
+	some of the video information.
+		If you have a registered version of the game, and you just
+	can't get through that level, try starting the game by typing:
+	'orbots c'.
+
+Chapter Four:
+-------------
+4.1 Trouble Shooting, Support
+		Please READ through this document for information on
+	configuring and running the game. This will solve most problems.
+		If you find a bug, incompatibility, or need technical
+	support, please contact	us at:
+		Sunshower Systems Inc.
+		2005 10 Ave. S.W.
+		Calgary, Ab., Canada
+		T3C 0K4
+
+		Compuserve: 102673,2435
+		Internet: 102673.2435@Compuserve.COM
+
+		Please include details of the hardware you are using, as well
+	 as your config.sys and autoexec.bat files, and anything else you
+	 can think of. Too much information is better than not enough.
+	 If we can't duplicate the problem, we probably can't fix it.
+
+4.2 Hints
+		See on line help and watch the demo's.
+
+4.3  Running under Windows 3.x
+		Do not use Windows 3.x. Even though the game will run
+	under windows, it will run better under dos. Do not run the
+	game under Windows 3.x.
+
+4.4  Windows 95
+		To run the game with Windows 95, from the start button
+	select Shutdown computer and restart in MS-Dos mode. Run the
+	game normally. Or........
+		Create a shortcut to the game by right clicking on the
+	desktop, and selecting new - shortcut. Select 'orbots.exe' (in the
+	appropriate directory) as the command line. Right click on the
+	new shortcut and select program - advanced. Make sure MS-DOS
+	mode is selected. Your icon should now be made.
+
+4.5  Error Messages
+	- Not Enough Memory  - you do not have the required amount of free
+	  conventional memory to run all the features.  Correct this problem
+	  or turn off the sound effects, music. See sections 2.4 and 2.5.
+	- Error Loading  %%  - This is a fatal error.  Stops program. A
+	  file is missing from the game directory, or a file is corrupt.
+          Download a new copy of the game from Compuserve (GO PIKAPRO).
+          Or visit www.pik.com on the Internet.
+	- Error Loading Sound System - Fatal error. stops program.
+	  Incorrect hardware or missing file in game directory.
+	- Error loading driver - selected sound driver is not compatible
+	  with hardware or file is missing from game directory.
+	- Error init driver - wrong sound driver IRQ,DMA or address
+	  information.
+	- Error opening sound - missing file in game directory.
+	- Mouse driver not detected - You don't have a mouse, your mouse
+	  is not MS compatible, or the controller setting is wrong.
+	- No joystick detected - You don't have a joystick or it is not
+	  connected as joystick 0.
+	- Unknown error! - contact Sunshower Systems and report any numbers
+	  that appear with the error message.
+
+Chapter Five:
+-------------
+5.1 About Shareware
+	Shareware is "try it before you buy it" software.
+	Use the program for 30 days and decide whether you'll ever use it
+	again. Copyright laws apply to both Shareware and commercial
+	software, and the copyright holder retains all rights.
+	Shareware is a distribution method, not a type of software.
+	Orbots the Game is a "shareware program" and is provided at no
+	charge to the user for evaluation.  Feel free to share it with
+	your friends, but please do not give it away altered.
+	If you find this program useful and find that you are using
+	Orbots the Game, you must make a registration payment of $24.95.
+	The $24.95 U.S. registration fee will license one copy for use
+	on any one computer at any one time.  You must treat this software
+	just like a book.  An example is that this software may be used by
+	any number of people and may be freely moved from one computer
+	location to another, so long as there is no possibility of it
+	being used at one location while it's being used at another.
+	Just as a book cannot be read by two different persons at the
+	same time. If you plan to keep the software, please pay the
+	authors. These fees are small, and support some of the brightest
+	programmers working today.
+
+	See order.txt for more information
+
+
+5.2 ASP Ombudsman Statement
+        This program is produced by a member of the Association of
+        Shareware Professionals (ASP). ASP wants to make sure that the
+        shareware principle works for you. If you are unable to resolve
+        a shareware-related problem with an ASP member by contacting
+        the member directly, ASP may be able to help. The ASP Ombudsman
+        can help you resolve a dispute or problem with an ASP member,
+        but does not provide technical support for members' products.
+        Please write to the ASP Ombudsman at 545 Grover Road, Muskegon,
+        MI 49442-9427 USA, FAX 616-788-2765 or send a CompuServe
+        message via CompuServe Mail to ASP Ombudsman 70007,3536.
+
+
+5.3 Further Adventures
+
+-------------------------------------------------------------------------
+|       Sunshower Systems Inc. / Pik A Program Order Form       1/2     |
+-------------------------------------------------------------------------
+
+
+		  THANK YOU FOR REGISTERING YOUR SHAREWARE!
+
+Important: If you are ordering by mail or fax, please completely fill out
+this form and send it in.  If you are sending a check or money order,
+please make sure that payment is made in US funds drawn on a US bank.
+
+
+Technical support is not available from Pik A Program. For any technical
+help only, please contact Sunshower directly online:
+	       CompuServe: 102673,2435
+	       Internet: 102673.2435@Compuserve.COM
+
+
+For registered users of any program which Pik A Program distributes, who do
+not already have access to Compuserve, we can supply a FREE Compuserve
+membership with a $15.00 usage credit. This is much more than enough online
+time to have your technical support questions answered, and still have some
+fun!
+
+
+You may mail, fax, e-mail, or phone in your order.  If you are ordering
+from outside the USA, please first check to see if there is a distributor
+for this program in your country. Please send the completed registration
+form, along with payment to Pik A Program, Inc. at:
+
+  Pik A Program (tm)              TOLL FREE (ORDERS ONLY) 1-800-TOREGISTER
+  13 Saint Marks Place            (where available)             (867-3447)
+  NY, NY  10003
+  USA                             Telephone (212) 598-4939
+				  Fax       (212) 228-5879
+				  Compuserve: 74777,3233
+				  Internet: 74777.3233@CompuServe.COM
+
+
+
+-------------------------------------------------------------------------
+|        SUNSHOWER SYSTEMS INC./PIK A PROGRAM ORDER FORM     2/2        |
+-------------------------------------------------------------------------
+
+__________________________________________________________________________
+(Name)
+
+__________________________________________________________________________
+(Company)
+
+__________________________________________________________________________
+(Street1)
+
+__________________________________________________________________________
+(Street2)
+
+__________________________________________________________________________
+(Town)                                   (State)              (Zip)
+
+__________________________________________________________________________
+(Telephone)                   (Fax)               (Country if outside USA)
+
+You will get a diskette containing the latest full version of Orbots
+the Game, including two all new episodes - "The Plasma People" and
+"Organobots Return".
+
+Shipping within North America is $4.00 for your entire order, whether you
+order 1 or 100 items.
+
+
+ QUANTITY     ITEM                            PRICE EACH          TOTAL
+--------------------------------------------------------------------------
+	 Orbots the Game                      US  $24.95    US$
+--------------------------------------------------------------------------
+	      Shipping (outside N.A. $8.00)   US  $ 4.00    US$   4.00
+--------------------------------------------------------------------------
+	      TAX  (NYS residents only)            ___ %    US$
+--------------------------------------------------------------------------
+						  TOTAL:    US$
+							  ================
+Orders are sent on 3.5" diskettes unless otherwise requested. Prices good
+through 12/96, subject to change thereafter.
+
+I am paying by:
+( ) CHECK     ( ) VISACARD    ( ) MASTERCARD     ( ) AMERICAN EXPRESS
+( ) CASH  (by registered mail only, please)      ( ) DISCOVER CARD
+
+		     Number ______-______-______-______  Exp. date ___-___
+
+________________________________________________      ______-______-______
+(Signature)                                           (Date)
+
+We would appreciate it if you would tell us where you first heard
+about this program.  Thanks for your cooperation.
+[] BBS - which one?______________________________________
+[] Friend    [] retail store package    [] CD-ROM
+[] magazine - which one?_________________________________
+[] other - ______________________________________________
+
+

@@ -1,0 +1,272 @@
++-------------------------------------------ÄÄÄÄÄÄÄÄ-----ÄÄÄÄÄÄÄÄ----+
+| This VENDINFO Product Information File contains both readable text |
+| and tools-accessible data about a product.  See the last text      |
+| section, below, for more information about VENDINFO and its tools. |
++--------------------------------------------------------------------+
+VENDINFO standard v1.04, produced by VendEdit v1.30, 15-Dec-1995
+
+===== Product Information ==============================
+   Product:             ORBOTS the Game
+   Version:             1.10
+   Version Date:        15-Dec-1995
+   Product Type:        Software
+   Basic Distribution Policy (see License, below, for details):
+      Shareware, freely distributable by all channels
+
+   Product Description: ORBOTS THE GAME V1.10 <ASP> - Heart pounding,
+                        shoot em up extravaganza. 256 color graphics,
+                        digital sound. Adrenaline junkies dream! 
+                        Pilot the astro-chopper to defeat an invasion
+                        of half machine, half organo mutants from 
+                        another dimension. Plenty of surprises and 
+                        some nasty tricks for you to figure out. If 
+                        you get through their defenses, you must face
+                        their mother ship! Level 1 of 3. 386+, 640k, 
+                        vga req., mouse, sndcrd, jstick optn.
+   Reason for version:  First release
+
+   Category:            Games; Arcade games
+   Keywords:            ORBOTS GAMES ARCADE ACTION DOS SUNSHOWER
+   Required Packages:   ORBOTS
+   This Package:        ORBOTS
+   Registration Fee:    24.95 (U.S. Dollars)
+
+   Required Configuration
+      Processor Family: Intel 80x86 (minimum 80386)
+        Clock Speed: 12 MHz
+      Minimum OS:       MS-DOS 3.3
+      Standard RAM:     640K
+      Hard Drive Space: 2000K
+      Required:
+         Hard drive
+         Video Graphics Array (VGA)
+      Won't Work With:
+         Floppy only
+         Monochrome Display Adapter (MDA)
+         Hercules Graphics Card
+         Color Graphic Adapter (CGA)
+         Enhanced Graphic Adapter (EGA)
+         Multi-Color Graphics Array (MCGA)
+
+   Orders:
+      Address:          Pik A Program
+                        13 Saint Marks Place
+                        NY, NY 10003
+                        U.S.A.
+      Toll-Free Phone:  1-800-867-3447
+      Phone:            (212) 598-4939
+      FAX:              (212) 228-5879
+      CompuServe:       74777,3233
+      Internet:         74777,3233@compuserve.com
+
+   Support:
+      Address:          Sunshower Systems Inc.
+                        2005a 10 Ave. S.W.
+                        Calgary, Alberta
+                        T3C 0K4
+                        Canada
+      CompuServe:       102673,2435
+      Internet:         102673.2435@compuserve.com
+
+
+===== Information for Users ("READ-ME") ================
+
+This package contains ORBOTS the Game, by Sunshower Systems Inc.
+This document contains only a brief description of the package and its
+features, along with instructions for its installation.  Quite detailed
+documentation is included in the package, but it is in archived form, and
+is more easily read after installation.
+
+To obtain the latest version of ORBOTS Go PIKAPRO on Compuserve or visit
+http:\\www.pik.com\index.html on the internet.
+
+ORBOTS is a shareware program.  This evaluation version includes
+all features of the program, and is not crippled in any way.  You may
+use it for up to 30 days, without charge (see gamehelp.DOC for more
+details).  If you like the program, and wish to continue its use after
+this evaluation period, you are required to pay for the program (see
+ORDER.TXT for more details).  Any fee you may have paid to others
+(disk vendors, dealers, etc.) to obtain this evaluation version was a
+fee for their copying and distribution services, rather than a payment
+for continued use of the program.
+
+
+
+===== Packing List =====================================
+
+As released by the author or publisher, this package contained the
+following files in addition to this VENDINFO.DIZ:
+
+        Filename      Size     Date       Time     CRC32
+       ORBOTS.1    1297674  15-Dec-1995  01:10a   BDBCE5A2
+      FILE_ID.DIZ      453  15-Dec-1995  01:10a   ECFD8FB2
+      INSTALL.EXE    34905  15-Dec-1995  01:10a   9BF7A8AA
+      INSTALL.FIL     3283  15-Dec-1995  01:10a   93DD469D
+
+
+===== Installation =====================================
+
+The installation procedure for ORBOTS is quite simple.  The
+package includes a program, "INSTALL.EXE", which automates the
+entire process.  You will need about 2 meg of available disk space
+on the hard drive on which you plan to install ORBOTS.
+
+The exact steps you need to take will depend on how you received
+ORBOTS the Game.
+
+
+INSTALLING FROM DISKETTES
+
+To install from diskette(s), you need to perform the following steps.
+
+   o  Place ORBOTS distribution diskette "Disk 1" in the
+      appropriate diskette drive.
+
+   o  Execute the "INSTALL.EXE" program on the distribution diskette.
+      For example, if the distribution diskette is on drive A:, type
+      the MS-DOS command, "a:install".
+
+   o  Follow the instructions presented by the installation program.
+      You will have a chance to approve installation before any changes
+      are actually made to the contents of your hard drive.  The
+      program will ask you for a destination directory, and will copy
+      the game files to that directory.
+      It will make no other changes;  specifically, it will not
+      modify your autoexec.bat or config.sys files.
+
+
+INSTALLING FROM A HARD DRIVE
+
+If you downloaded ORBOTS from a BBS (or received it in the form of
+archive files from some other source), you will need to perform the
+following steps.
+
+   o  Extract the contents of the archive file(s) in a temporary
+      directory on your hard drive.  The procedure for doing this
+      varies, depending on the form in which you received the package.
+      In all likelihood, the fact that you are reading this text means
+      that you already have the necessary tools and knowledge to
+      perform this step.  If not, you should be able to obtain
+      directions for this from the same source from which you received
+      the package.
+
+   o  Execute the "INSTALL.EXE" program which you have extracted.  For
+      example, if the temporary directory into which you have extracted
+      the game package is C:\TEMPDIR, you would execute the MS-DOS
+      command, "c:\tempdir\install".
+
+   o  Follow the instructions presented by the installation program.
+      You will have a chance to approve installation before any changes
+      are actually made to the contents of your hard drive.  The
+      program will ask you for a destination directory, and will copy
+      the game files to that directory. It will make
+      no other changes; specifically, it will not modify your
+      autoexec.bat or config.sys files.
+
+When you're satisfied that the installation was successful, you should
+delete the temporary directory FROM which you installed ORBOTS the Game
+(C:\TEMPDIR, in the above discussion), including all its contents.
+
+
+YOU'RE READY TO GO   - type 'orbots' to start the game.
+
+Once you've complete the installation, you should consult the document
+gamehelp.doc, which has been installed. That document will tell you how
+to setup the program, and will give you other information you need to
+properly evaluate ORBOTS.  We hope you enjoy the game.
+
+To remove the game, simply delete all files from the ORBOTS the Game
+directory.
+
+
+===== Warranty =========================================
+
+Terms & Conditions
+
+LIMITED WARRANTY.
+ORBOTS THE GAME IS PROVIDED 'AS IS'.  ALL WARRANTIES, EITHER EXPRESSED OR
+IMPLIED, ARE DISCLAIMED AS TO THE SOFTWARE AND ITS QUALITY, PERFORMANCE,
+MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE. THE ENTIRE RISK
+RELATING TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS ASSUMED BY
+THE USER. IN NO EVENT WILL SUNSHOWER SYSTEMS INC. NOR ANYONE ELSE WHO
+HAS BEEN INVOLVED IN THE CREATION, PRODUCTION, OR DELIVERY OF THIS
+SOFTWARE BE LIABLE FOR DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES RESULTING FROM THE USE, INABILITY TO USE, OR ANY DEFECT IN THE
+SOFTWARE.  IF THE SOFTWARE PROVES TO HAVE DEFECTS, THE USER ASSUMES THE
+COST OF ANY NECESSARY SERVICING OR REPAIRS.
+
+This agreement shall be governed by the laws of the Province of Alberta
+and shall inure to the benefit of Sunshower Systems Inc. and any
+successors, administrators, heirs and assigns. Any action or proceeding
+brought by either party against the other arising out of or related to
+this agreement shall be brought only in a PROVINCIAL or FEDERAL COURT of
+competent jurisdiction located in Alberta, Canada. The parties hereby
+consent to in personam jurisdiction of said courts.
+
+
+
+===== License for Use and Distribution =================
+
+TRIAL USE LICENSE
+
+ORBOTS the Game is NOT a public domain program.  It is copyrighted by
+Sunshower Systems Inc.  This software and accompanying documentation are
+protected by Canadian copyright law and also by international treaty
+provisions.
+
+Sunshower Systems Inc. grants you a limited license to use this software
+for evaluation purposes for a period not to exceed thirty days.  If you
+continue using this software after the thirty-day evaluation period,
+you MUST make a registration payment.
+
+You may not use, copy, rent, lease, sell, modify, decompile,
+disassemble, otherwise reverse engineer, or transfer the licensed
+program except as provided in this agreement.  Any such unauthorized
+use shall result in immediate and automatic termination of this license.
+All rights not expressly granted here are reserved to Sunshower Systems
+Inc.
+
+
+LIMITED DISTRIBUTION LICENSE
+
+To distribute ORBOTS in modified form, you must consult the attached
+VENDINFO data record, which is hereby incorporated by reference.  Any
+distribution satisfying all the distribution requirements expressed in
+that data record is hereby authorized.
+
+Permission to distribute the ORBOTS package is not transferable,
+assignable, saleable, or franchisable.  Each vendor wishing to
+distribute the package must independently satisfy the terms of this
+limited distribution license.
+
+Sunshower Systems Inc. may revoke any permissions granted here, by
+notifying you in writing.  All rights not expressly granted here are
+reserved to Sunshower Systems Inc.
+
+
+===== About VENDINFO Files =============================
+
+Each VENDINFO.DIZ file contains extensive information about a product.
+This "human-readable" section is followed by a compressed data record
+useable by automated tools.  The data record allows BBSes and other
+distributors to automate package handling, and provides users with a
+wealth of product information.  VENDINFO tools (free viewer for users,
+free or inexpensive processors for distributors, editors for authors)
+are available from many sources, including the originators of VENDINFO:
+  Rams' Island Software    Voice: 303-841-2848  CompuServe: 76244,324
+  7644 E. Lakecliff Way      BBS: 303-841-6269     FidoNet: 1:104/333
+  Parker, CO 80134-5904 USA  FAX: 303-841-6269        RIME: 1235
+
+
+===== Compressed Data Record Follows ===================
+
+PK
+   óKö²úU‘  ò$  	   VENDDATA.s'
+	n/	?				&6				G&	?%	$	O/	Ÿ	ÿ¯	O	o	?	??	_ï	¯	?	?'#G]m"W×÷÷cdÄÌÌˆ 	ÄoœÃâ´wòÊıà‚~a*nğÁHxùÁ‡l¨	d€ÏôÈAHOm²>Vïö*jlA· ğ!nô}Æ?ßí¾é:%Rò•¡Ä‚PãNÃåTûÆæ2¢ûƒÜj¦éıß:Æ}Yÿ›×¸¿“”^Äh-¼Ñ-´íîİŸŸ—{,Û2ÀïõÓRZ½_)MûÑ•İrÛ…QD~)M·ûÓËl÷m?´iÜ”ŞÛ77âÁO6«Ë2İJQ©ÜğÏ}ÿå×æW®îÇÄºztˆjô½VUúøÖñ§Ïµ·.á—qúu¸?–uœ—­?Xêôû}óXµ«ªÖ¿`KWï2Ö\?Ü’XºÌHãGk…ãG¤/À¨&í/Kß}­1§é¿•_*ÿÒ8¿ägÚû@ÂbDúƒÆ^ÛGôlUïşVc¾~_ïWZSö;}‘•8ıAÚ¾Á>Cú&•\tT—rùÎ\~ãÖïÿ[ÿ¾&¿‰?“Å«o«ÿÊ;ªœßÓØà8w9ÏKEÌ¯ëÏ¿±Wî:áÙÚv×1ñ+şTšËó>Iô·6µü~%è‰œ™³”-q)A´õ½Všï_JşgÖû—[»lí¼”jU¾vŸ½ê«è÷>Ü.¡ıAı×g­xÔ¦ê^óC½ÉwûmÇŞÚ¸{`Ÿ\{ìràº†¼Š{o?#ó‡PÿKy\íİô™T]—İ²ÿ*¼ş§ò½1®¢sùÑstÑ\šMıŸ*¢¾ªß÷ÊsÚ÷ÕÒRš§Ÿ´ë|½´mšf¼Ò_—ú&Y®o‰:–üíym%]Îûg‚îö0Êÿ»Vßê‘+¥mÜËÛı›B:!¤7¤c]z Õj³Jô=ù
+úzı
+ê£Ä¾zŸH7Ÿ´µƒNëk˜Ü“ïœøËÛK¼ˆı…ß7Ö¿S÷§²<ª²ıªòüWŠ•BÔ¿¡úƒ¤ê‚®«ôƒL+úóËÛäù¸l«*+bZ½‰`[_)eÕjGìxÕW&‚«êohó›géçáNä
+±ºÛ/º7™-UW[Öi{HüzŸYÿr<^ØÓñt™õms^¹b€<l;_…¸k½{yŸ–†'·,‡å}{á…½ª®‘Î·¶O#¢·æ.ä9X-Ú²4şV:RâÀ³X<1‰…$ô7®?@¢’ÀV^é™ö+‰°²Ì$_ITƒq&!…•Gæ–I°Ÿ•kL‚b¹šÜ™ó•¤v:“€}%qFÏ$ÅÀY‰?,q0íÚs
+œşSàôŸ§ÿ™Àg\0Ï%G…Xì°…3l˜ª“qÎ³¨Àªw¨¶'4Ù‡	ÄO`ğ	‹‹‡Ãañ°øÚMã;ÏZ0ç—9¯?)»‡²á´ù[‘³Z1cüVVjfzÆ™ŞüÍHÍ¨é!Çˆ¬Ñ@4K«=ç$4ú›æßÊô3×£5•_X˜÷¾3É­dÂ›İ‘&f½­öæÄŞomáï<>½™ÔNÖ/ŒÒV(\Ö[_ã™ú}µ]Ø	ıç·ÛEívn‡l5™r
+œŒ‚ÂüÜœN/¿İÉCÙE¼A£,í3§xÁ&ä8?Å¤"mOù­Ÿ6/#†*èüæÛEIåÍJ”§mÀTóÌeDèıŒÜ>R·Ùmu)y@qEÙ……EÙ¹9Ev;G•×ü‚üĞ^ìì¢vìNl“Ùüüì¢¼ìœØJNHN;''§×ÉïtÏ 4Ù3éˆöì<'m‹‡¸›µ?æ²moP–@†I ™€œçÊšƒædçRMNüA˜aPå±½TáEÿge6ÎŒÒJ‹œ®2CŠ>`rÉè)p€Óet2® ÿáTm)£|ü?ğñ>˜Cè+oŞÍAÔlı ıİûñTØøA…MŞ$ağç¶ã°ÄR… öE&l¢ÉfÂ¦·XHÄ©ÉHF #5ƒJuPK
+ 
+   óKö²úU‘  ò$  	                VENDDATA.PK      *   ¸    

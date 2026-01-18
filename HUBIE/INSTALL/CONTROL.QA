@@ -1,0 +1,30 @@
+^014@Serendipity Tech Support 1-500-67HUBIE simmer@crl.com
+
+^011@Overview
+
+  Hubie supports both Keyboard and Joystick controls.
+
+  The Keyboard controls consist of the numeric keypad
+in combination with the Shift and Control keys.  The
+Arrow keys will typically not function and should not
+be used for controlling Hubie.  Custom Keyboard settings
+can be defined through the 'Choose Control Keys' option
+under the Control Preferences Menu.  These settings
+will be used until reset or the 'Restore Default
+Preferences' option is invoked.
+
+  If using a Gamepad, the Red and Blue buttons will serve
+as the Push/Blow and Crush buttons.  Your joystick must
+be calibrated in order to utilize it from within the
+game.  Use the Preferences menu from either the Main
+Menu or from within the game: turn ON the Joystick
+Preference setting, and the calibration screen will
+appear.  Follow the instructions.
+\\Page
+
+  Note that if Hubie is configured to use the Joystick
+the keyboard may not respond correctly until the KEYS
+control setting is restored from the Control
+Preferences Menu.
+
+\\Page

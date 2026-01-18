@@ -1,0 +1,22 @@
+TRUGG v1.0
+A superb DOS arcade puzzle game featuring stunning fully-rendered 
+3D graphics throughout, extensive in-game animation and a heart 
+pumping soundtrack. Guide Trugg through 20 cavernous conundrums 
+collecting treasures while avoiding boulders, guns, forcefields 
+and guardians. 
+
+Registered version includes 60 more levels spread across three 
+new zones with three new sets of stunning graphics. PLUS a WYSIWYG 
+level editor you can use to create and distribute your own 
+collections of puzzles. 
+
+Requires 386 or above, VGA, 560kb free memory. Music and sound 
+effects require Soundblaster or compatible.
+
+Also Available:
+   Trugg Junior, a collection of levels for younger Trugg fans, 
+including a completely new set of cartoon graphics.
+
+   New collections of levels will be available from 
+Digital Workshop in the future.
+

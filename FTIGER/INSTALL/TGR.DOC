@@ -1,0 +1,179 @@
+******************************************************************************
+******************************************************************************
+****************************                        **************************
+*************************                             ************************
+*************************       Flying Tigers         ************************
+************************* Copyright 1994 Jay Kramer   ************************
+*************************                             ************************
+***************************                         **************************
+******************************************************************************
+******************************************************************************
+
+------------------------------------------------------------------------------
+			       Description
+------------------------------------------------------------------------------
+
+
+    Flying Tigers is designed to be a fast pace shoot-em game with
+multiple weapons, power ups, enemies and bosses. The object is simple:
+survive and see how far you can get, while racking up a few points in
+the process. But, seriously your objective is to destroy the bosses who
+are attempting to take over the world, this won't be easy each boss has
+it own way of attack!
+    In scenario 1(sharware version) you will be thrown into the middle
+of 1942, the techno bosses are starting transfering technology to the
+Japanese Empire. It is your job to stop these bosses at all cost!
+    In scenario 2 and 3(registered version) you will be in 1972 and 2012
+fighting the techno bosses.  Beware, these bosses are not like the first,
+they are much smarter and tougher.
+
+
+
+------------------------------------------------------------------------------
+		    What is needed to run Flying Tigers
+------------------------------------------------------------------------------
+
+
+   * 386 minimum, 486 and above recomended
+   * at least 4 Meg of memory, 3 Meg may work without sound
+   * fast video card, some video cards really slow things down
+   * sound card recomended
+   * joystick, Gravis pad recommended
+
+
+
+------------------------------------------------------------------------------
+			     Getting Started
+------------------------------------------------------------------------------
+
+
+   To get started running Flying Tigers type: TGR, this is the main program.
+If it is your first time running the program it will ask you information
+about which language you would like to use, I assume you would press 'E' for
+English since your reading this. It will then ask if you want to auto-detect
+for sound. After all this you will see the sound settings and language. If
+everything is ok, hit 'y' to start the game.
+
+
+
+------------------------------------------------------------------------------
+			       Control
+------------------------------------------------------------------------------
+
+
+   The default keys for Flying Tigers are as follows:
+
+   Arrow keys for player 1 -- move plane
+   <enter> ------------------ fire weapon 1
+   <"> ---------------------- fire weapon 2
+   A,W,X,D for player 2 ----- move plane
+   F ------------------------ fire weapon 1
+   G ------------------------ fire weapon 2
+
+   *These keys can be re defined within the game.
+
+   It is recommended that players use joysticks or game pads, this greatly
+increases playability.
+
+   There are several commands that a user can use during game
+play in order to enhance game play.
+
+   TAB ------- pause game
+   ESC ------- game playing option menu
+   F1 -------- slow down game
+   F2 -------- speed up game
+   F5 -------- decrease music volume (includes digital drums)
+   F6 -------- increase music volume (includes digital drums)
+   F7 -------- decrease digital drum volume
+   F8 -------- increase digital drum volume
+   F9 -------- decrease sound effects volume    
+   F10 ------- increase sound effects volume    
+
+
+------------------------------------------------------------------------------
+				Sound
+------------------------------------------------------------------------------
+
+
+   The first thing to do is run the setup program to determine what type
+of sound system you have, or you can run the program and let the program
+auto-detect your system.
+
+   During auto-detect Flying Tigers will scan first for environmental
+variables for the setting "BLASTER= A220 I5 D1 T4". These settings will be
+used first before a autodetect.
+   What do these settings mean?
+      - A220 Sound Blaster card is at the address 220h
+      - I5   Sound Blaster is using interrupt 5
+      - D1   Sound Blaster is using DMA channel 1
+      - T4   Sound Blaster is of type 4, there are several
+	     different types you can put here, however Flying
+	     Tigers recognizes only three. These are T2,T3 this
+	     will be Sound Blaster 8 bit mono, T4 Sound Blaster
+	     8 Stereo, T5 Sound Blaster micro channel and T6
+	     Sound Blaster 16/AWE 32.
+
+   It is always a good idea to use the setup program to configure your
+sound card, unless you are running the program directly from CD-ROM.
+
+   For those with Gravis cards you will need to run the batch file
+called "gravis.bat" this will load a general midi patch into the sound
+card so the music will map to the right sounds. We added Gravis support
+late in devlopement, because of this there might be a slight delay of
+sounds on some Gravis cards.
+
+------------------------------------------------------------------------------
+		 Hints for faster game play (if needed)
+------------------------------------------------------------------------------
+
+
+    Flying Tigers was designed to run as fast as possible on the PC's.
+However, the speed of the game is ultimately decided by what type of
+video card and how fast memory is copied to the card. The methods used
+might also cause some type of snow effect on some cards.
+
+    Try playing a harder skill level, planes and your ship move faster
+the harder the skill level.
+
+    Using a joystick or game pad also slows things down a bit, try using
+keyboard if extra speed is needed.
+
+    Sounds take up a good deal of time to process, it would be a good
+idea to delete the setup.cfg file and when starting the game answer no
+to auto-detection. This will disable sounds completly.
+
+    There are some game arguments for speed optimizations, they
+are: TGR [1,2,3]. Optimazation 1 reduces the number of sprites drawn,
+optimization 2 reduces smoothing checking and optimazation 3 turns off
+sounds. Try these as a last resort, they can greatly detract from the games
+apperence.
+
+------------------------------------------------------------------------------
+		    Some problems we have encountered
+------------------------------------------------------------------------------
+
+
+    Flying Tigers was not designed to run under windows, so don't try it.
+It shouldn't work.
+
+    Flying Tigers has conflicts with QEMM, and older version of Novell EMS
+these conflicts are mainly because of sounds, either remove the sounds from
+Flying Tigers or run Flying Tigers directly from DOS.
+
+
+------------------------------------------------------------------------------
+			     Disclaimer
+------------------------------------------------------------------------------
+
+
+  This program  is not to be gaurenteed to be virus free, we have checked it
+for known viruses at the time of publication, however new viruses are always
+in the works.
+
+   THE PROGRAM IS PROVIDED "AS-IS". NO WARRANTIES OF ANY KIND, EXPRESS OR
+IMPLIED, ARE MADE AS TO IT OR ANY MEDIUM IT MAY BE ON. I WILL PROVIDE NO
+REMEDY FOR INDIRECT, CONSEQUENTIAL, PUNITICE OR INCIDENTAL DAMAGES ARISING
+FROM THIS SOFTWARE, INCLUDING SUCH FROM NEGLIGENCE, STRICT LIABILITY, OR
+BREACH OF WARRANTY OR CONTRACT, EVEN AFTER NOTICE OF THE POSSIBILITY OF
+SUCH DAMAGES.
+

@@ -1,0 +1,351 @@
+^014@HUBIE for DOS
+^011@QUICK CONTROL REFERENCE:
+
+#015^063              Pushing:
+	Shift + Direction when next to something
+	(arrow on the number key pad)
+
+#025^063              Crushing:
+	Ctrl + Direction (arrow on the number key
+	pad)
+
+#043^063              Coptering:
+	7 for left or 9 for right (on the number
+	key pad)
+
+#056^063              Climbing:
+	7 for left or 9 for right when next to
+	something (on the number key pad)
+
+#031^063              Blowing:
+	Shift + Direction (arrow on the number key
+	pad)
+\\Page
+^014OBJECTIVE:
+
+    To navigate Hubie to the Exit Door.  Hubie must
+manipulate and interact with the various objects on the
+board to reach the exit.
+
+    Hubie is primarily a Pushing game.  Ordinarily, objects
+are moved by Pushing rather than pulling.  Learning
+Hubie's abilities and the properties of the objects are
+important for success.
+
+    A WORD OF ADVICE:  You should study each board
+before moving or destroying objects.  Without
+forethought, you may inadvertently change a board and
+not be able to complete it.
+
+    All boards included in the official Serendipity
+Software Shareware and Registered versions ARE
+solvable.
+\\Page
+^014ENVIRONMENT:
+
+
+^010The Game Board:
+
+    The board is broken down into invisible rectangular
+units.  Everything, including Hubie, will always come to
+rest within these units.  The edge of the screen is the 
+edge of the board. 
+
+
+^010The Properties:
+
+    Gravity is simulated.  Objects rise and fall at the same 
+speed.  Objects move at the same speed vertically as well
+as horizontally.
+
+    If two objects should come to rest next to each other,
+they will remain together until pulled apart, destroyed, or
+one is moved vertically.  Be careful, as only Magnets can
+pull.
+\\Page
+^012THE CHARACTER:
+
+#009             Hubie is the creature you control.  Hubie
+	has two feet and two antennae on top of its head.
+	Hubie can move to the left, right, copter, and
+	climb.
+^009      Hubie's abilities detailed:
+
+#015^063              Pushing:
+	      Hubie can push most objects, but only one at a
+	      time.  This causes the object to move one unit
+	      away from Hubie. Hubie is incapable of moving
+	      more than one object.  Only objects outlined in
+	      black can be pushed or turned in place.
+
+^009                   Keyboard Default:
+		   Shift + Direction when next to something
+		   (arrow on the number key pad)
+
+
+^002@* * * *  ABILITIES are continued  * * * *
+\\Page
+^002       Hubie's abilities (continued):
+
+#025^063              Crushing:
+	      Hubie can crush cracked objects with its head.
+#038              Crushing objects will disintegrate them. 
+	      Some objects cannot be crushed, instead they 
+	      will rotate within their space.
+
+^009                   Keyboard Default:
+		   Ctrl + Direction (arrow on the number key
+		   pad)
+       
+#043^063              Coptering:
+	      Hubie can use its antennae to copter over a
+	      space or a gap.  Hubie will fly over one unit.
+^009                   Keyboard Default:
+		   7 for left or 9 for right (on the number
+		   key pad)
+
+
+^002@* * * *  ABILITIES are continued  * * * *
+\\Page
+^002         Hubie's abilities (continued):
+
+#056^063              Climbing:
+	     ONLY Green Vines and Dead Vines can be 
+	     climbed more than one unit up.
+^009                   Keyboard Default:
+		   7 for left or 9 for right when next to
+		   something (on the number key pad)
+
+#031^063              Blowing:
+	      Hubie can exhale a puff of air that moves
+	      floating objects away one unit.  Hubie can blow
+	      objects any distance.
+^009                   Keyboard Default:
+		   Shift + Direction (arrow on the number key
+		   pad)
+
+#021         Hubie can push, not pull, objects. When falling,
+	 Hubie cannot be controlled but, can perform any
+	 ability when springing up.  Hubie will die if an object
+	 falls on Hubie, or Hubie falls on Spikes or Fire.
+\\Page
+^014       The Objects & Events:
+
+&017^103              Exit Door:
+	      When Hubie reaches the Exit Door, the board is
+	      complete.  The Exit Door is a background object
+	      and can be covered or hidden.
+
+&018^103              Exit Sign:
+	      A neon sign that identifies the Exit Door.  This
+	      is also a background object.
+
+&003^103              Bricks:
+	      Relatively indestructible stationary objects
+	      that support all objects.
+
+&004^103              Cracked Bricks:
+	      Bricks that Hubie can Crush.
+\\Page
+&012^103              Icy Bricks:
+	      Stationary light blue Bricks with a slippery
+	      surface.  If an object or Hubie moves
+	      horizontally on these bricks, it will slide to the
+	      end of the bricks.  But, if an object falls onto
+	      these bricks it will rest until pushed or pulled.
+	      Fire, Lightning, Focused Light Beams, and the
+              One Ton Weight defrost Icy Bricks.
+
+&044^103              Soil:
+	      Similar to the Bricks, but indestructible.
+
+&060^103              Wooden Paneling:
+	      Just as the Bricks but flammable.
+
+&032^103              Spring:
+	      Anything that falls onto this metal spring will
+	      bounce indefinitely on the Spring.
+
+&002^103              Bouncy Ball:
+	      Anything that falls onto this Ball will bounce up 
+	      with it. It is hard to stop this Ball from bouncing.
+\\Page
+&011^103              Green Vines:
+	      One inseparable unmovable object.  Hubie always
+	      climbs the length of Vines.
+
+&010^103              Dead Vines:
+	      Are only one unit each, usually they are
+	      stacked.  Any part may be Pushed out.  Gravity
+	      can affect these vines.  Hubie always climbs
+	      the length of Vines.
+
+&013^103              Wooden Log:
+	      A solid piece of wood.
+
+&033^103              Charcoal:
+	      A fragile, non-flammable object.
+
+&035^103              Cork:
+	      A wooden cork that plugs gaps one unit wide.
+              If the Cork comes between two objects that
+              are one unit apart, the Cork becomes stuck.
+              The gap is then filled by the Cork.
+\\Page
+&015^103              TNT:
+	      An explodable metal canister that can
+	      disintegrate almost anything directly
+	      surrounding it.
+
+&014^103              Plunger:
+	      A metal box with a pressure sensitive button
+	      that when pressed will detonate all TNT.
+
+&021^103              Metal Block:
+	      Solid, cannot be disintegrated.
+
+&046^103              One Ton Weight:
+	      An object so heavy that it either cracks or
+	      disintegrates almost anything it falls onto.
+
+&007^103              Boulder:
+	      A big rock.
+
+&008^103              Cracked Boulder:
+	      A big rock that Hubie can Crush.
+\\Page
+&095&103^103              Tread Gears:
+	      Rotating wheels that force anything on top
+	      them to move in their direction.
+
+&099^103              Tread:
+	      A ribbon that moves between a pair of Gears.
+	      Treads move everything on top along its length.
+	      If something falls onto a series of treads all
+	      items on the treads are bounced upward.  In
+	      this regard, Treads act like Springs.
+\\Page
+&047&051^103              Straight Pipe:
+	      Magical metal pipe that transports anything.
+
+&040&049^103              Curved Pipe:
+	      Just like the Straight Pipe but Hubie can 
+	      change the direction of the Pipe by Crushing it.  
+	      Curved Pipes can be rotated to face any 
+	      direction.
+ 
+&077&079^103              Turning Pipe:
+	      Just like the Curved Pipe but, it will change 
+	      direction whenever anything passes through it.
+
+&024^103              Magnet:
+	      Pull metal objects toward it.  Hubie can rotate a
+	      Magnet's direction by Crushing it.  Magnets can 
+&025              only rotate horizontally.  Magnets pull objects
+	      the width of the screen.  Magnets are the only 
+	      object that will pull other objects.
+\\Page
+&016^103              Glass Block:
+	      A fragile object.  A Glass Block shatters if it
+	      falls or if a One Ton Weight falls on it.
+
+&009^103              Ice Cube:
+	      A block of ice that once moved, slides along 
+	      any surface until blocked.  Hubie cannot climb
+	      an Ice Cube.  Heat melts Ice Cubes.
+
+&034^095              Fan:     [Registered version only]
+	      The complement of Magnets.  A Fan pushes any 
+	      non-metal object.  Hubie can rotate a Fan by
+&043              Crushing it.  A Fan can only rotate horizontally.
+	      A Fan pushes an object the width of the
+	      screen.
+\\Page
+&019^103              Balloon:
+	      Rises until blocked.  One Balloon supports one
+	      object.  Two Balloons lift one object upward.
+	      Three Balloons lift two objects upward, etc.
+	      Hubie or a Fan can blow Balloons the width of
+	      the screen.
+
+&005&006^103              Spikes:
+	      Stationary bricks that will kill Hubie or destroy
+	      Balloons.
+\\Page
+^095              Black Cloud:     [Registered version only]
+&042
+^207                Support:
+		This cloud can support objects.  If Hubie or a
+		Fan blow the cloud, it can move carrying an
+		object on top of it one unit.
+
+^207                Lightning:
+&137                Shoots out of the Black Cloud if Hubie 
+		crushes this cloud.  The Lightning will shoot
+&080                out away from Hubie.  If Lightning hits 
+		anything mechanical that object either stops 
+		or starts.  Lightning can create Fire.  Mirrors 
+		can change the direction of Lightning.
+\\Page
+^095              White Cloud:     [Registered version only]
+&041
+^207                Support:
+		This cloud can support objects.  If Hubie or a
+		Fan blow the cloud, it can move carrying an
+		object on top of it one unit.
+
+&153^207                Rainbow:
+		If Hubie crushes a white cloud, it dissolves
+&036                into a Rainbow.  The Rainbow will beam away
+		from Hubie.  Rainbows are magical "tubes," if
+&036                an object is placed in the Rainbow's entrance,
+		the bright mass of pulsing colors, the object
+		moves to the end of the Rainbow.  A Rainbow,
+		unlike a Pipe, will send objects only in one
+		direction.   Mirrors and Pipes can change the
+&061                path of a Rainbow.  If the Rainbow passes
+		through a Diamond, the Rainbow becomes a
+		Focused Light Beam.  Any object traveling
+		inside of a Rainbow may be lost if it goes
+                into a Diamond, Pipe or Mirror and can't exit.
+^002@* * * *   The White Cloud is continued  * * * *
+\\Page
+&041^002         White Cloud continued:
+
+
+&039&027^207                Focused Light Beam:
+		High intensity light that starts Fire and melts
+		frozen objects.  If a Focused Light Beam
+		goes into a Diamond it will become a Rainbow.
+		Focused light won't kill Hubie.
+
+
+
+@-----------------------------------------
+
+
+
+&023&031^095              Mirror:     [Registered version only]
+	      Metal reflecting dishes.  A Mirror reflects all
+	      light: Rainbows, Focused Light Beams, and
+&022&030              Lightning.  A Mirror can be rotated.  Hubie can
+	      rotate a Mirror to face any direction by 
+	      Crushing it. 
+\\Page
+&039^095              Diamond:    [Registered version only]
+	      Extremely hard objects.  They cannot be
+	      disintegrated.  If a Rainbow or a Focused Light 
+	      Beam go into a Diamond it will become the other.
+
+&029^103              Fire:
+	      Ignites anything organically based, i.e. Green
+	      Vines, Dead Vines, Wooden Paneling, Corks, and
+	      Wooden Logs. Fire will spread.  It disintegrates
+	      some objects and transforms others.  If it is
+	      not present at the start of the board, Lightning
+	      and Focused Light Beams can create Fire.  If 
+	      Fire is on an object, it will burn out.  Fire 
+	      will kill Hubie.  An open flame is extinguished
+              if covered with an object.  Burning objects
+              cannot be extinguished.
+\\Page

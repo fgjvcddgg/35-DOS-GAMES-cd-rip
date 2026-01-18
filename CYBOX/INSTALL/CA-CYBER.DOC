@@ -1,0 +1,1564 @@
+
+
+
+            T H E   C O N T I N U I N G    A D V E N T U R E S   O F
+
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±²²²²²²²±±±²²±±±²²±±±²²²²²²±±±±²²²²²²²±±±²²²²²²²±±±²²²²²²±±±±²²²²²²²±±±²²±±±²²±
+±²²°°°²²°±±²²±±±²²°±±²²°°°²²°±±²²°°°°°°±±²²°°°²²°±±²²°°°²²°±±²²°°°²²°±±±²²°²²°±
+±²²°±±°°°±±²²²²²²²°±±²²°±±²²°±±²²°±±±±±±±²²°±±²²°±±²²°±±²²°±±²²°±±²²°±±±±²²²°±±
+±²²°±±±±±±±±°°²²°°°±±²²²²²²°±±±²²²²²²±±±±²²²²²²²°±±²²²²²²°±±±²²°±±²²°±±±±±²°±±±
+±²²°±±±±±±±±±±²²°±±±±²²°°°²²°±±²²°°°°°±±±²²²²²°±±±±²²°°°²²°±±²²°±±²²°±±±±²²²°±±
+±²²°±±²²±±±±±±²²°±±±±²²°±±²²°±±²²°±±±±±±±²²°°²²°±±±²²°±±²²°±±²²°±±²²°±±±²²°²²°±
+±²²²²²²²°±±±±±²²°±±±±²²²²²²°°±±²²²²²²²±±±²²°±°²²°±±²²²²²²°°±±²²²²²²²°±±²²°±°²²°
+±±°°°°°°°±±±±±±°°±±±±±°°°°°°±±±±°°°°°°°±±±°±±±±°°±±±°°°°°°±±±±°°°°°°°±±±°±±±°°°
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+
+                                 version 4.43
+
+                             Copyright (c) 1995 by
+                               Edward D. Collins
+
+                      (original concept by Doug Beeferman)
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²   INTRODUCTION   ²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     Welcome to THE CONTINUING ADVENTURES of CYBERBOX  -  a game of
+     planning, strategy, and thinking ahead!  Your objective is simple:
+
+                      Escape from each of the 15 rooms
+                      using as few moves as possible !
+
+     Note that The Continuing Adventures of CyberBox is not an "arcade"
+     game.  No manual dexterity is required.  You are not timed in any
+     way nor is "speed" reflected in the scoring.  So slow down!  You can
+     afford to relax!
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²   REQUIREMENTS   ²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     ş  An IBM 286 (or better) with approximately 392K of available
+            memory.
+     ş  A VGA graphics card and color monitor.
+     ş  A little bit of patience and a sharp mind!
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²   PROGRAM FILES   ²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     Files Required
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş  CA-CYBER.EXE  -  the executable file
+     ş  VOL-001.DAT   -  the data file for rooms 1 thru 15
+     ş  IMAGES01.DAT  -  the data file for the cursor-images 1 thru 9
+     ş  CA-CYBER.DOC  -  this documentation file
+
+
+     Other Files Used Or Included
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş  CA-CYBER.CFG -  the configuration file
+     ş  VOL-001.SCR  -  the high-score file for rooms 1 thru 15
+     ş  VOL-001.SOL  -  the solution file for rooms 1 thru 15
+
+              (the above three files will be created by
+              the program if they don't already exist.)
+
+     ş  CA-CYBER.ICN -  a custom icon for those who may wish to launch
+                           this program from WINDOWS.
+     ş  FILE_ID.DIZ  -  the customary description file for BBS's.
+
+
+
+     (Note that the configuration, high-score, and solution files
+     listed above are all "hidden files", i.e. you won't see these with
+     the normal DOS "dir" command.)
+
+     If you've purchased additional rooms, then your disk or directory
+     will have additional .DAT files (for example, vol-002.dat),
+     additional .SCR files (for example, vol-002.scr), and additional .SOL
+     files (for example, vol-002.sol).
+
+     Note that each volume of rooms contains its own seperate high-score
+     file!  Which simply means that if you are attempting to exit from the
+     rooms in the vol-002.dat file, you will be competing against scores
+     from the vol-002.scr file and not the vol-001.scr file!
+
+     Also, there are currently two other cursor-image data files
+     available (images02.dat and images03.dat).  These will be sent to
+     you free of charge if you purchase the deluxe game.
+
+
+     For those of you who may wish to launch this game from WINDOWS, I've
+     included a custom icon for it.  When setting up the program's
+     properties, click on "change icon" and then simply point to the file
+     CA-CYBER.ICN wherever it may reside on your hard disk and you'll see
+     my little icon pop up.
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²   LOADING THE PROGRAM  -  NON-DELUXE VERSION   ²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     There are no command-line parameters with the non-deluxe version.
+     To run the program from the DOS prompt, simply type
+
+                                ca-cyber
+
+     Please make sure that the room-volume data file, the cursor-image
+     file, and the documentation file are all located in the directory
+     that the program is launched from.
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²   LOADING THE PROGRAM - DELUXE VERSION   ²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     If you've purchased the deluxe version you can, if you wish, specify
+     which room-volume and which cursor-image file that you wish to use,
+     right on the command line.  The format is...
+
+           ca-cyber   "room-volume filename"   "cursor-image filename"
+      or   ca-cyber   "cursor-image filename"  "room-volume filename"
+
+     where "room-volume filename" is the name of the data file of the
+     rooms that you wish to load and "cursor-image filename" is the name
+     of the image file of the cursor-images that you wish to use.
+
+
+     If you don't specify a room-volume file or a cursor-image file on the
+     command line, the program will automatically load the files that you
+     were using the last time you played.
+
+     A few examples:
+
+     To load the second set of 15 rooms (vol-002.dat) using the cursor
+     images from the third set (images03.dat) you could type either...
+
+                    ca-cyber   vol-002.dat   images03.dat
+                                     or
+                    ca-cyber   images03.dat   vol-002.dat
+
+     If you wanted to load this same second set of rooms using the cursor
+     images from the first set (images01.dat) you could type either
+
+                    ca-cyber   vol-002.dat   images01.dat
+                                     or
+                    ca-cyber   images01.dat   vol-002.dat
+
+     As you can see, the actual ORDER of the above two parameters is
+     irrelevant!  You may type the image file FIRST and THEN the
+     room-volume file or vice-versa.  The program logic is "smart enough"
+     to know which is which.  Just be sure to include one or more spaces
+     in between each filename.  Here are a few more VALID examples:
+
+          ş   ca-cyber vol-003.dat images02.dat
+              (note: one space between filenames)
+
+          ş   ca-cyber     images02.dat vol-003.dat
+              (note: several spaces prior to the first filename)
+
+          ş   ca-cyber    vol-003.dat    images02.dat
+              (note: several spaces between filenames)
+
+
+     ÚÄ  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  -  Ä¿
+         Please note that it is now (starting with version 4.0) NOT    
+     ³   necessary to use the above command-line options to load         ³
+         additional files.  The program is now able to load other       
+     ³   room-volume files and/or cursor-image files from right inside   ³
+         the program.  (See ALT-R and ALT-I below under MENU KEYS.)     
+     ÀÄ  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ÄÙ
+
+
+     With this deluxe version, the program will first read the
+     configuration file before loading the room-volume and cursor-image
+     files.  The default data files to load are now whatever files you
+     had loaded when you last exited the program!  So basically, if you
+     were working on the rooms in the vol-003.dat file and using the
+     cursor-images from the images02.dat file the last time you were
+     playing the game, you can just type "ca-cyber" and the vol-003.dat
+     file and images02.dat file will now be loaded for you automatically!
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²²   HOW TO PLAY   ²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     You are represented in this game by your choice of several different
+     cursors (a tree, an flag, a snake, a man, etc.).  Your objective is
+     simply to get to the EXIT of each room, ideally using as few moves as
+     possible!  The exit is always located in the same spot; at the top of
+     the screen in the middle of the room.  Once you reach this exit, you
+     will immediately find yourself in the next room.  Each volume
+     contains 15 rooms to escape from.
+
+     Note that each room is a seperate puzzle all its own.  You will never
+     have to "pick up an object in one room", for example, to help you
+     exit from another.
+
+     You can move your cursor in any of four possible directions:
+
+             ş  up     (the UP arrow key or the HOME key)
+             ş  down   (the DOWN arrow key or the END key)
+             ş  left   (the LEFT arrow key or the DELETE key)
+             ş  right  (the RIGHT arrow key or the PAGE DOWN key)
+
+     (Note that you may also use the numbers 2, 4, 6, and 8 on the numeric
+     keypad which will move you down, left, right, and up, respectively.
+     If you DO wish to use this keypad, note that your NUMLOCK key may be
+     either on OR off.)
+
+     Moving diagonally is not possible.
+
+     To hinder your attempt to escape, "boxes" have been strategically
+     placed throughout each room.  There are several different types of
+     boxes, which are all described below.
+
+     Every room has a solution!  However if you're not careful you may
+     trap yourself and may not be able to get to the exit or may render
+     the exit unaccessable.  In either case, you must hit the "R" key to
+     retry this room from the beginning.  The good news is that all those
+     moves that you made for this room do not count against you -  you are
+     starting this room over from scratch.  The bad news is that each
+     "retry" costs you one of your men.  You only have 5 attempts in all.
+
+     Upon
+               exiting the program
+               finishing all 15 rooms
+               hitting <P>lay again after using up your last attempt
+          or   choosing to load a different room-volume
+
+     the program will check to see if your level of progress is good
+     enough for the CyberBox Hall of Fame.  If so, you will be asked to
+     enter your name.  (You may enter as many as 25 characters.)
+
+     If you currently don't have the program loaded, do so now!  This
+     entire documentation file is available to read from inside the
+     program!  The remaining documentation will probably make much more
+     sense to you if you've already seen the game.
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²   BOX DESCRIPTIONS   ²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     SLIDERS
+     ÄÄÄÄÄÄÄ
+     SLIDERS are probably the easiest type of box to understand.  They
+     simply slide in the direction of their arrowheads.  These boxes can
+     be pushed by you if their is nothing in their path to prevent this
+     from happening.  All together, their are 11 different types of
+     SLIDERS.  Some SLIDERS can only slide "left", some can only slide
+     "right", some only "left" and "down" etc.
+
+     SLIDERS can not only be pushed by you, they can also be pushed by
+     PUSHERS.  (see PUSHERS, below.)
+
+     SLIDERS are represented by arrows which point in the direction that
+     they move or "slide."
+
+
+
+     BLOCKERS
+     ÄÄÄÄÄÄÄÄ
+     Ok, so I was wrong.  BLOCKERS have got to be the easiest type of box
+     to understand.  BLOCKERS never move at all.  Period.  They act as a
+     "blocker" or wall, since they cannot be pushed and nothing can ever
+     be pushed into them.
+
+     You have three choices of how you want the BLOCKERS to be
+     represented.  Either a big red "X" (as in the original game), a
+     criss-cross type of a pattern or my personal favorite, a pattern
+     resembling "bricks."
+
+
+
+     ZAPPERS
+     ÄÄÄÄÄÄÄ
+     Since we've just mentioned BLOCKERS, let's next describe ZAPPERS,
+     since these 2 boxes have one thing in common:  ZAPPERS also never
+     move at all.  Ever.  What these boxes do though, is "zap" you forward
+     when you "push" these from behind.   There must be an empty space in
+     the front of the ZAPPER to be zapped.  You must be careful with
+     ZAPPERS because they act like a one-way street.  Once you are zapped
+     forward, you can't retreat the same way.
+
+     ZAPPERS are represented by a solid purple triangle with a hole in the
+     middle, pointing in the direction that one is "zapped".
+
+
+
+     PULLERS
+     ÄÄÄÄÄÄÄ
+     Unlike SLIDERS, these boxes cannot be "pushed" at all.   However
+     they can be "pulled" but only in the direction of their "handles."
+     Like SLIDERS, there are 11 different types of PULLERS.  Some which
+     can be pulled just to the right, some just to the left, etc.  PULLERS
+     may be annoying because, at times, you may not wish to pull them!
+     For example, let's say that you've just walked up to a PULLER.  If
+     you now reverse your direction and walk back the way you came, this
+     PULLER will in effect, follow you!  Without realizing it, you are
+     "pulling it!"  To quit pulling this box, you will have to either
+
+                change your direction by 90 degrees,
+                get zapped forward by a ZAPPER,
+            or  walk through an open SELECTOR (see SELECTORS, below)
+
+     The only way EVER for a PULLER to move is for you to pull it.
+     PUSHERS cannot push or pull these boxes nor can any other box be
+     pushed into them.
+
+     PULLERS are represented simply by a rather funny shaped box (you'll
+     see what I mean) with the rectangular "handle" on the side of the
+     box in which it can be pulled.
+
+
+
+     PUSHERS
+     ÄÄÄÄÄÄÄ
+     These boxes are great.  PUSHERS are always exerting a constant force
+     in the direction that they point.  These boxes are the only boxes
+     that can move themselves.   As soon as a situation exists in which a
+     PUSHER can move, it will do so.   There are four different types of
+     PUSHERS:  PUSHERS which push up, down, left, and right.  PUSHERS are
+     able to push SLIDERS or SELECTORS by never PULLERS (which can only be
+     pulled) nor BLOCKERS or ZAPPERS (which never move at all).
+
+     Note that PUSHERS can never push "you."  (You're too heavy!)  So you
+     don't have to ever worry about getting squashed by a PUSHER.
+
+     PUSHERS are represented by a solid blue triangle, which points in the
+     direction that they exert force and move.
+
+
+
+     SELECTORS
+     ÄÄÄÄÄÄÄÄÄ
+     And last but certainly not least are the SELECTORS.  These boxes
+     cannot be pushed directly by you.  They can only be pushed by other
+     boxes.  So if you wish to move a SELECTOR, you will have to either
+     push a SLIDER against it or force a PUSHER to push it.  It should be
+     obvious that you can't push SELECTORS because, if you look at them,
+     this type of box does not have a full, solid wall for your cursor to
+     push up against.  However, it does have a partial wall at the edges
+     which the SLIDERS and PUSHERS use to push it.
+
+     There are 2 different types of SELECTORS.  The first type is "open"
+     and you can walk right through it.  (Pretend you're just small enough
+     to squeeze through!)  The second type is represented by an "X" and
+     walking through it is not possible.
+
+     Note that more than one box can be moved at the same time ONLY IF
+     EVERY OTHER BOX IN THAT SERIES OF BOXES CAN BE LEGALLY MOVED.   As
+     Doug said, "Experiment.  You'll get the idea."
+
+     No boxes can ever be pushed through the exit passageway.
+
+     Note: I mentioned above that an open space must be in front of the
+     ZAPPERS if you wish to be zapped.  This isn't entirely accurate.  You
+     may also be zapped if an open SELECTOR is in front of the ZAPPER,
+     since an open SELECTOR is a valid box that you can "step in."
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²²²²   SCORING   ²²²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     Your final score is figured this way:  Take the number of ROOMS that
+     you successfully completed and multiply that by 5000.  Then take the
+     number of ATTEMPTS you had left and multiply that by 25.  Add these
+     figures together and then subtract the number of total MOVES that it
+     took you to exit every room.  This is your final score.  So the
+     formula is simply:
+
+      rooms completed  +  attempts remaining  -  total moves   =  total
+          x 5000                 x 25           for all rooms     score
+
+
+     Only the moves that it took you to find a solution are counted
+     against you in the scoring!  An example will help clarify.  Let's
+     say that you solved Room 0001 and Room 0002 and that it took you
+     exactly 200 moves to solve each one.  Then you spent all of your
+     remaining men and several hundred moves in your attempt to solve Room
+     0003 which you never could quite solve.  All the moves that it took
+     you on this third room are NOT counted against you.  So in this
+     example, your final score would be 9,600 as shown below.
+
+                  2 rooms completed x 5000 ......... 10,000
+                  0 attempts remaining x 25 ........      0
+                  400 total moves used ............. -  400
+                                                      -----
+                                                      9,600
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²²²   MENU KEYS   ²²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     <A>bout CyberBox
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     This screen gives you some general information about the game, which
+     data files are currently loaded, etc.  You can, now with version
+     4.15, read the documentation file from right inside the program.
+     To do so, from within this screen simply hit the <R> key.
+
+
+
+     <B>ox Review
+     ÄÄÄÄÄÄÄÄÄÄÄÄ
+     This screen is really just to help you get going the first couple of
+     times that you play.  It is just a quick review of each box, its name
+     and how it moves.
+
+
+
+     <H>igh Scores
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     The top 15 high-scores are saved to disk.  This menu key allows you
+     to view these scores at any time.
+
+
+
+     <I>nstant Replay
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Every valid move that you make is saved and recorded in memory.  At
+     any time while inside a room, hit this key to see a "replay" of all
+     the moves you've currently made for this room, in the order that
+     you've made them!
+
+     After hitting this key, the room will be temporarily set back to the
+     way it originally was when you first entered.  You will then be
+     prompted to hit any other key to begin the "replay animation."
+
+     You can then sit back and watch the program replay all the moves that
+     you made for this room!  When finished, you will be right back where
+     you were a moment ago, both in terms of the way the room looked and
+     number of moves made!
+
+     This feature does not "cost" you anything.  It does not add nor
+     subtract to the number of moves you've made for this room, nor does
+     it cost you any of your remaining men.
+
+     The speed at which the cursor moves is set by you, in the Option
+     Screen.  For convenience, you can also change the speed while the
+     animation is in progress.  The "+" key will speed up the animation
+     while the "-" key will slow it down.  For a good chuckle, set the
+     speed on "very fast" and watch the cursor fly!
+
+     While the animation is in progress, if you wish to pause it
+     completely, simply hit the spacebar.  The program will pause until
+     another key is pressed and then the animation will resume.
+
+
+
+     <J>ump Screen
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     This option, allows you to "skip" a room if you so desire.  If you're
+     having problems with a certain room, you can "jump" to another and
+     come back to this room later.  There is a price to pay, however.  If
+     you "jump" to another room, it will cost you one of your remaining
+     men.
+
+     Note that after solving a room, you are immediately presented with
+     the NEXT lowest room number that is yet unsolved.  (For example, if
+     you've solved the first three rooms and are having problems exiting
+     the fourth room, you can "jump" to Room 5 and after solving that, you
+     will find yourself next in Room 6, which is the NEXT lowest room that
+     is yet unsolved.)
+
+     For your convenience, when inside the Jump Screen the rooms that you
+     have already completed will be highlighted.
+
+     You are not allowed to jump to a room that you've already completed.
+
+     In addition to the title of each room, note that this jump screen
+     also displays the the number of moves it takes for the current
+     shortest known solution.
+
+     If you enter this jump screen and decide you do not wish to jump
+     anywhere, (you may simply wish to see the number of moves that it
+     takes to exit) just hit the ESCAPE Key to exit back to the room that
+     you are currently in.
+
+
+
+     <M>enu Toggle
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     This toggle will display your choice of...
+
+         1)  all of these non-ALT menu key options
+     or
+         2)  The four ALT-key combinations currently available
+                  ALT-D for the DOS shell
+                  ALT-I to load a different cursor-image file
+                  ALT-R to load a different room-volume
+                  ALT-S to see the solution
+     or
+         3)  the number of men you have remaining
+             the number of moves you've made for the room you're in
+             the number of moves you've made for all rooms combined
+
+
+     Please note that ALT-I and ALT-R are only available in the DELUXE
+     version.
+
+     ALL of these menu key options are available at any time, regardless
+     of which of these three toggles are currently showing!
+
+     For convenience, the spacebar or ENTER key will also toggle the
+     three menus.  Also note that the TAB key will highlight each of
+     these MENU KEY options.  Simply hit the ENTER key to execute the
+     option once it is highlighted.  The TAB key will highlight the
+     option to the RIGHT of the one that is currently highlighted while
+     SHIFT-TAB will highlight the option to its LEFT.
+
+
+
+     <O>ptions
+     ÄÄÄÄÄÄÄÄÄ
+     This screen allows you to set your own game colors, animation speed,
+     blocker appearance, cursor appearance and other game options.  These
+     settings are saved to disk in the CA-CYBER.CFG file which is read
+     when the program is first loaded.  (This way you do not have to reset
+     your favorite game options each time you play.)   All of the options
+     inside the Option Screen should be self-explanatory.
+
+
+
+     <R>etry
+     ÄÄÄÄÄÄÄ
+     You will probably be using this key often!  When you find that
+     you've trapped yourself, made the exit unaccessible, or simply wish
+     to start over the room that you are currently in, hit the "R" key.
+     You will find yourself in the same room, the way it looked when you
+     first started.  As mentioned above, when you use this key, the number
+     of moves that you used before you "screwed up" is reset to zero - you
+     are starting this room over from scratch.  However, each retry costs
+     you one of your men.
+
+     Because you probably WILL be using this key more than any other, it
+     doesn't make any sense to have a prompt come up each time to confirm
+     that you really DO wish to start over.  So don't hit this key
+     unnecessarily!
+
+
+
+     <P>lay Again
+     ÄÄÄÄÄÄÄÄÄÄÄÄ
+     This option takes the place of <R>etry as soon as you have no more
+     men remaining.
+
+
+
+     e<X>it to DOS
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     This (along with the ESCAPE key) will exit the program.  The
+     customary "Do you really want to quit?" message will appear, in case
+     you hit this key without actually wishing to.
+
+
+
+     ALT-D
+     ÄÄÄÄÄ
+     The key combination ALT-D will temporarily exit the program and shell
+     out to DOS.  This can be useful if you are playing this game at work
+     and see or hear your boss approaching!  (Or if YOU are the boss and
+     don't want your employees to see YOU playing games!)
+
+     After shelling, simply type EXIT to re-enter the program.  You will
+     find yourself back in the room, the way that you left it just a
+     moment ago.
+
+     The program currently takes up approximately 392K of available
+     memory.  The amount of memory that you will have available after
+     shelling will depend upon your own system.  For example, on my system
+     here at home, I currently have 620K available before I load the
+     program.  After loading it and then after shelling out to DOS, I
+     notice that I still have 228K free.
+
+     Before typing EXIT and returning to the game, make sure that you are
+     back in the directory that the program is launched from.  (Assuming
+     that you happened to change directories in the first place.)
+
+
+
+     ALT-I
+     ÄÄÄÄÄ
+     If you've purchased the deluxe version, you can load a different
+     cursor-image data file from right inside the program.  The key
+     combination ALT-I will prompt you to enter the number of the image
+     file that you wish to load.  The only restriction is that this
+     cursor-image data file must be in the current directory.
+
+     Simply hit ESCAPE if you decide that you do not wish to load another
+     cursor-image file after executing ALT-I.
+
+
+
+     ALT-R
+     ÄÄÄÄÄ
+     If you've purchased the deluxe version, you can load another
+     room-volume from right inside the program.  The key combination ALT-R
+     will prompt you to enter the number of the room volume that you wish
+     load.  The only restriction is that this room-volume file must be
+     located in the current directory.
+
+     Before loading a new file, the program will first...
+
+          ş  Ask you to enter your name for the high-score file,
+             assuming that your last performance was good enough
+             for the CyberBox Hall of Fame.
+
+          ş  Save this high-score file.
+
+          ş  Save any of your solutions to all the rooms that you
+             have exited, assuming that you were able to better a
+             previous solution.
+
+     Simply hit ESCAPE if you decide that you do not wish to load another
+     room-volume file after executing ALT-R.
+
+
+
+     ALT-S
+     ÄÄÄÄÄ
+     Every single time you exit a room, the program logic checks to see if
+     the number of moves you made is lower than the previous known
+     solution for that room!  If so, THIS solution immediately becomes
+     "the one to beat."
+
+     Once a room has been solved, you can "see" the solution again by
+     hitting the key combination ALT-S.  The room will be temporarily set
+     back to its starting arrangement, and you will be prompted to hit a
+     key to begin.  You will then see your cursor do what is necessary to
+     exit this room.
+
+     The speed that the cursor moves is set in the Option Screen.
+     However, you can also change it the animation speed simply by hitting
+     the "+" and "-" keys.   To pause the animation while it is progress,
+     hit the spacebar just like you would while "<i>nstant replaying."
+
+     When the animation is finished, you are again prompted to hit a key.
+     The room is THEN set back to what it was before you hit ALT-S.  So
+     you can SEE the solution, but you will still have to exit the room
+     yourself!
+
+     Note that this feature, like the instant replay feature, does not
+     cost you any moves nor any of your remaining men.
+
+     I included this feature for a couple of reasons.  One, because I
+     myself enjoy not only simply EXITING each room but trying to do so IN
+     THE FEWEST MOVES POSSIBLE.  Now my efforts are rewarded by recording
+     my "record solutions" for posterity!   Two, if anyone is able to
+     BETTER any of MY solutions, you would be able to prove it by simply
+     sending me your solution file.  This would sure beat proving it by
+     recording each of your moves by hand.  ("I went left - left - up -
+     then right - then up - left - left," etc.)
+
+     IMPORTANT NOTE!  If you decide to purchase additional rooms
+     (remember, the deluxe game is required to load these) I will send
+     you, free of charge, MY solution file to all room volumes!!  So if
+     you simply cannot figure out how to exit a particular room, the
+     answer IS available.
+
+     When you exit the program, the solution file will be re-written if
+     any rooms have new record-lows.
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²   DIFFERENCES FROM THE ORIGINAL CYBERBOX   ²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     ş  The most noticeable difference is probably the room itself.  The
+        original CyberBox game consisted of a room with an area only 15 by
+        10 in size.  I chose to increase this playing area slightly, from
+        15 by 10 to 19 by 13.  To do this I made the boxes slightly
+        smaller and used a little bit more of the video screen.  This
+        increase in area, from 150 "square feet" to 247 "square feet",
+        allows for much more intricate and complex room designs!
+
+     ş  I've introduced a brand new type of box - PULLERS which can only
+        be "pulled".
+
+     ş  I added a couple of different types of SLIDERS.
+
+     ş  Your original starting point in each room is not necessarily in
+        the same spot.  In the original game you always started at the
+        bottom of the screen directly in the middle of the room.  In this
+        game, you could start anywhere!
+
+     ş  I changed the scoring slightly.  (There was a reason for it.)
+        The original game used the following formula to determine ones
+        final score:
+
+          rooms completed  +  attempts remaining  -  total  =  total
+              x 200                  x 50            moves     score
+
+        It is very possible to construct a room that requires more than
+        200 moves to solve.  (Many of my rooms require much more than
+        that!)
+
+        If I kept the above, original formula, you would GAIN 200 points
+        for completing the room, yet would have 200 or more points
+        SUBTRACTED from your score for the moves that it took you to find
+        the solution.  The net result would be a LOWER score after
+        completing this room than what you had before you started it!   I
+        didn't feel this was a good thing, so I decided to multiply 5000,
+        not 200, for each room completed.  (Originally, I was only
+        multipling 500 for each room, until I created a room which
+        required 500+ moves to solve.  So then I increased this number to
+        1000, until I created a room that required nearly 1300!  AAGGHH!
+        Right back to the same problem!   So I finally said the heck with
+        it and decided to multiply a full 5000.  Now, if anyone can create
+        a room that requires more than 5000 moves to solve, I'd like to
+        see it!!)
+
+     ş  In the original CyberBox game, if you accidentally walked into a
+        wall or attempted to move a box incorrectly, this was considered a
+        "move" even though your man didn't actually "move" anywhere.  I
+        didn't care for this feature only because, to me a move should be
+        "a move."  At times I found myself fumbling with the cursor keys
+        and didn't even mean to move my man anywhere in the first place!
+        BOOM!  Points deducted!  Remember, this is a STRATEGY game, not
+        one of manual dexterity!  In "The Continuing Adventures of
+        CyberBox" only if your man MOVES is this considered a move.
+
+     ş  The original game did not have a "jump screen" or an "instant
+        replay" feature.
+
+     ş  The original game did not allow you to set your own animation
+        speed, text and background colors, sound pitch, etc.
+
+     ş  The original game did not save your high scores.
+
+     ş  The original game did not save your solution to each room.
+
+     ş  This game allows you to view, at any time, the number of moves
+        that you've currently made for each particular room you're in as
+        well as the total number of moves you've made for all rooms
+        combined.
+
+     ş  The data for my rooms are read in from a data file and are not
+        hard-coded in the program.  This ensures that this program will
+        always have "replay" value.  This also means that others can
+        create rooms for ME to solve.  I like playing CyberBox too!
+
+     ş  Upon using up your final attempt, the program does not end and
+        you are not immediately sent back to DOS.  You are simply asked
+        if you wish to play again.  This way, if you DO wish to play
+        again, you do not have to restart and reload the program into
+        memory each time.
+
+     ş  The PUSHERS are represented as a SOLID blue triangle.  (I think
+        it looks better.)
+
+     ş  The ZAPPERS are represented as a SOLID purple triangle.  (Ditto.)
+
+     ş  One has a choice on how he or she wishes to have the BLOCKERS and
+        cursor represented.
+
+     ş  The original program did not allow you to read the documentation
+        file from inside the program.
+
+
+     In a nutshell, any enhancement or improvement that I felt was needed,
+     I incorporated!
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²   CREATING YOUR OWN ROOMS   ²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     If you purchase the deluxe version (which allows you to load and play
+     additional rooms) I will send you, free of charge, my CyberBox Room
+     Editor program.  This is the program that I use to create all of my
+     rooms.
+
+     That program comes with its own documentation file, so I won't bother
+     describing it here.
+
+     Note: Creating a half-way decent room it not as easy as you might
+     think!
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²²   BUG REPORTS   ²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     If you feel that the game can use improvements in any area, or more
+     importantly, if you find any programming bugs, I would appreciate it
+     very much if you would let me know.  With a program of this size and
+     complexity, there is always the possibility for a bug or two.   I
+     apologize in advance if there ARE any.  But I had many different
+     people play and test it on many different types of systems and THEY
+     had no problems so I'm guessing that you won't either.  So if you DO
+     find a bug, you can blame my beta-testers!!!   <grin>
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²   REGISTRATION   ²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     None!  This game is free.  There is no registration fee or "trial
+     period" whatsoever.  Keep it for as long as you want.  Feel free to
+     make copies for friends, upload it to computer bulletin boards, etc.
+     However, when archiving the game or when giving it away, PLEASE make
+     sure that the following six files...
+
+        ş  vol-001.dat    (the DATa file for the rooms 1 thru 15)
+        ş  images01.dat   (the DATa file for the cursor-images 1 thru 9)
+        ş  ca-cyber.doc   (this DOCumentation file)
+        ş  ca-cyber.exe   (the EXEcutable file)
+        ş  ca-cyber.icn   (the ICoN file for WINDOWS users)
+        ş  file_id.diz    (the customary description file used by BBS's)
+
+     ...are all included.
+
+     The high-score, configuration, and solution files will all be created
+     if they don't already exist and do not need to be archived.
+
+     Note that this program will only load the room-volume data file
+     "vol-001.dat" (rooms 1 thru 15)  and the cursor-image data file
+     "images01.dat".  If you wish to attempt to solve additional rooms,
+     or load additional cursor-images, you will have to purchase, from me,
+     the "deluxe" game.
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²   THE DELUXE GAME   ²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+         ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+      ÉÍÍ¼                                                           ÈÍÍ»
+      º              The deluxe game will allow you to...               º
+      º                                                                 º
+      º   ş load and play vol-002.dat, vol-003.dat, and vol-004.dat     º
+      º        (rooms 16 - 60)!                                         º
+      º   ş  load any and all ADDITIONAL rooms that become available!   º
+      º   ş  load different cursor-image data files!                    º
+      º   ş  avoid the annoying delay screens which appear at the end   º
+      º        of the program.                                          º
+      º   ş  allow you to "cheat" (if you so desire) by being able      º
+      º        to...                                                    º
+      º           ...jump to any room without it costing you            º
+      º                  any of your remaining men!                     º
+      º           ..."<R>etry" to your hearts content!                  º
+      º                  (each retry will also not cost you any of      º
+      º                  your remaining men.                            º
+      ÈÍÍ»                                                           ÉÍÍ¼
+         ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+     Note that the deluxe game and any room volumes other than vol-001.dat
+     are NOT free and may not be distributed, uploaded to computer
+     bulletin boards, or sold in any way.
+
+     If you enjoy the game, I'd like you to become part of the CyberBox
+     Team!  There are many more rooms to escape from!  And with the
+     CyberBox Room Editor, many more rooms will be created by others all
+     the time.
+
+     The cost of the deluxe game is $ 5.00.  (Which is about the price to
+     see an average movie nowadays!)  This is very inexpensive compared to
+     the cost of many "store bought" or commercial games.  Because the
+     data for the rooms are read in from a data file, this game will
+     always have "replay" value, which is not the case with many
+     commercial games.
+
+     (With many commercial games once you find the solution or "win", the
+     game is no longer fun to play.  That's why these rooms are read in
+     from a data file and not hard-coded in the program.  There can
+     ALWAYS be more rooms to solve.)
+
+
+     Each volume contains 15 rooms and are currently only $ 2.50 each.
+
+              cost to receive the deluxe game.......   $  5.00
+
+              vol-002.dat  (rooms 16 thru 30).......   $  2.50
+              vol-003.dat  (rooms 31 thru 45).......   $  2.50
+              vol-004.dat  (rooms 46 thru 60).......   $  2.50
+
+              postage and materials (disks).........   $  2.50
+                                                       ÄÄÄÄÄÄÄ
+              total.................................   $ 15.00
+
+
+     And don't forget, with every order I will also include, free of
+     charge...
+
+     ş   my CyberBox Room Editor Program
+     ş   any and all other cursor-image files that I create
+            (I currently have two more files. (18 more cursor-images!))
+     ş   all of MY solution files for the volumes that you order
+            (including my solution file to vol-001.dat)
+     ş   information on how to "cheat" if you so desire
+
+     Additional rooms, as they become available, will probably cost even
+     less!  (Since others will be creating many of them, I won't have to
+     do all the work myself!)
+     
+     Please mail all checks or money orders to the following address:
+
+                    ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+                    º    Edward D. Collins             º
+                    º    151 East First Street  #315   º
+                    º    Mesa, Arizona                 º
+                    º                     85201-6769   º
+                    ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+     All disks sent will be 3« inch in size unless you specify otherwise.
+     And be sure to include your return address!!!
+
+     Since I just moved to Mesa recently, (mid '93) the above address 
+     should be valid for years and years to come.  (I don't plan on moving
+     again for quite awhile!)  However, if you would feel more comfortable
+     in dropping me a postcard to verify that I'm in still here, by all 
+     means do so.  Include your return address and I'll drop you a quick 
+     reply.
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²  HOW THIS GAME CAME TO BE   ²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     When I first played the original CyberBox by Doug Beeferman, I
+     quickly fell in love with it.  I thought it was a lot of fun.  It was
+     original.  It was simple and yet at the same time, challenging, etc.
+     It didn't require fast reflexes, and was the type of game that could
+     appeal to both male & female as well as players of all ages.
+
+     At the same time, I HATED it because it was over too quickly!!!  I
+     easily solved all 17 of Doug's rooms within the first DAY and wished
+     that there were more.  Even then, I thought that it wouldn't be too
+     hard to write my OWN CyberBox game (being the master programmer that
+     I am! <grin>) but I was probably working on some other program or
+     project at the time and never followed up on it.
+
+     Several months later I noticed a note on one of the bulletin boards
+     on PRODIGY, from a member who was looking for some strategy type
+     games.  He mentioned that he enjoyed playing CyberBox II.  CyberBox
+     II ???  I wasn't even aware that a sequel existed!  I quickly made
+     arrangements to get a copy of it.  However after receiving it, I was
+     very disapppointed.  Granted, the game was well done but the format
+     had changed from the original version and I kinda preferred it the
+     way that it was.  So that right there gave me the incentive to write
+     my OWN CyberBox game... and to go back to something closer to the
+     original format.  So, the finished product of my endeavors is what
+     you now see before you.
+
+     I started writing this game during the fall of '92.  I worked on it
+     for almost 4 months straight... every single day, night, weekends,
+     etc.  Many weekends I found myself working on it all night long.  In
+     fact around January of '93 I was so BURNED OUT over this project that
+     I just had to put it up for awhile.  Well, that turned out to be a
+     mistake because after putting it away I didn't pick it up again for
+     more than six months!
+
+     Also, once I finally did pick it up again, it took me a few days just
+     to figure out what some of my coded modules were doing!   Granted, I
+     try to write well documented, structured code, but most programmers
+     do tend to get a little "sloppy" in their coding from time to time.
+
+     Then I moved from Royal Oak, Michigan to my current address here in
+     Mesa, Arizona.  Well, that took time (packing, renting and loading my
+     U-Haul Truck, moving, unpacking, etc.) so I was once again forced to
+     put the program on hold for awhile.  I picked it up again a few weeks
+     later and once again worked on for it off and on for several months
+     straight.  Well, the same thing happened again!  I got so burned out
+     over this silly game that I just had to put it away.  And again, once
+     I put it up, I didn't pick it up again for almost another 6 months.
+     I finally started working on it again and then finally, as I saw that
+     the program was nearing its completion, I was able to finish it.
+
+     I've estimated the number of hours that I've spent on this game and
+     there is no point in even mentioning it since no one would believe me
+     anyhow.  
+
+     I still enjoy creating new rooms and I'm currently working on my
+     fifth room-volume now.  Eventually I hope to have at least 10
+     different volumes - 150 rooms to solve!  I'm hoping that others,
+     maybe with more imagination than I, can also help to contribute to
+     the "room making process."
+
+     I had a tough time deciding on what to call this game.  Ed's
+     CyberBox?  Deluxe CyberBox?  MORE CyberBox?  A friend suggested the
+     games actual title and although it's a bit long, the more I thought
+     about it the more I liked it.  Especially after I wrote the Room
+     Editor Program so that rooms can now be created with ease.  So it
+     really will be...
+
+                        ...The CONTINUING Adventures!
+                               ÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²  WHAT IS A 'CYBERBOX?'  ²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     Is CyberBox the name of the game?  Is it the name of your little man?
+     Wait!  It's gotta be the name of the boxes that you push and pull,
+     right?  Or is it the name of the ROOM that you are trapped in?  What
+     the heck is a "CyberBox?"
+
+     I've decided that it is... all of the above!  And more!  In a game of
+     logic, planning, and strategy, this may be the only "illogical" thing
+     about it!  AAGGHH!  Mr. Spock would have a fit if he heard this!
+     (Actually, since Vulcans don't have "fits", maybe he wouldn't!)
+
+     CyberBox can be used as a noun... "Let's play CyberBox!"
+     or... "I hope CyberBox can make it out of this room safely!"
+
+     Or as an adjective...  "That is one CyberBox of a room!"
+
+     Or as a verb.........  "Ahhh!  I've been CyberBoxed!"
+     or.........  "Don't CyberBox me!"
+
+     or... well, you get the idea!!
+
+
+     Please note that CyberBox is always spelled as one word, with the
+     letter "B" in "box" capitalized.  This is the way that Doug spelled
+     it on his opening screen in HIS CyberBox game and... well, I kinda
+     liked it that way.  So now it's official!
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²   HINTS AND TIPS   ²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     Generally, in each volume of rooms the LOWER the room number the
+     EASIER it should be to solve.  Of course, what one might consider
+     easy, another may consider quite difficult, so don't take this too
+     literally.  But in general you should find this to be true.
+
+     Usually when first presented with a room, it's often easier to solve
+     if you mentally work BACKWARD.  Figure out what needs to be done
+     around the EXIT and then work your way backward from there.
+
+     Remember you high score is partly based upon the number of moves that
+     you make so try to exit each room as efficiently (not "quickly") as
+     you can!
+
+     Note that when travelling across the entire screen, you can hold your
+     cursor keys continiously down if you so desire.  This can be faster
+     than making each move one "square" at a time.
+
+     Don't forget to read the name of each room in the upper right hand
+     corner of the screen.  Sometimes the name of the room will actually
+     provide a small clue to help you in your goal of exiting it.
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²   MISCELLANEOUS   ²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     You will note that the authors name whose designed each room is
+     displayed vertically on the right hand side of the screen.  If you
+     send me a room that YOU yourself design, please let me know how you
+     want YOUR name to be displayed.  If it's good enough I'll include it
+     in my next room-volume.
+
+     Note that all disk access has been kept to a bare minimun!  All data
+     files are read just once, when the game is first loaded, and are never
+     opened or read again!  Only when you exit the program are all files,
+     if necessary, updated.
+
+     Thr program now takes up a rather large amount of memory (this
+     wasn't always the case, but with each subsequent version, I added
+     more and more code) but it's still not too bad.  Remember, I'm
+     keeping in memory such things as:
+
+                 ş  the data for all 15 rooms
+                 ş  the image for all 9 cursor-images
+                 ş  the image for all boxes
+                 ş  the 15 current high-scores
+                 ş  the solution to every room
+                      (a possible 5000 keystrokes x 15 rooms!)
+                 ş  this entire documentation file
+
+     If you feel that you do not have enough memory to load and run the
+     program, try removing such things as your mouse driver, any TSR
+     programs that you may be installed (such as DOSKEY, SMARTDRIVE.EXE,
+     etc.)
+
+     When the program is run for the first time, the configuration file,
+     high-score file and solution files are all initially created.  I
+     decided to make these three files "hidden" files.  (That is, with an
+     attribute byte of "hidden."  You won't see them with the normal DOS
+     "dir" command.)  I did this because...
+
+         these are the three files that do not necessarily need to be
+         included when giving the game away to family or friends or when
+         uploading the game to computer bulletin boards.  By making
+         them hidden files, one would be less likely to include them.
+
+     and...
+
+         these files are all random-access (non-text) files and they
+         look like gibberish if you attempted to view them.  Since they
+         are not meant to be updated or modified by anything but the
+         CyberBox program anyway, I thought it best to simply make them
+         hidden files.
+
+     You can, if you wish, simply change the attribute byte yourself
+     back to normal but the next time you run the program, it will change
+     the attribute byte right back to a hidden file again anyway.
+
+     The vol-001.dat file (and other room volumes), the images01.dat file
+     (and other cursor-image files) and the documentation file all have a
+     attribute byte of "read only."  These files are normal DOS text files
+     and you can view them if you wish to, but please don't attempt to
+     modify them in any way.
+
+     So to recap, here is a list of the files used and their attribute
+     byte:
+
+
+        FILE             ATTRIBUTE     DESCRIPTION
+        ÄÄÄÄ             ÄÄÄÄÄÄÄÄÄ     ÄÄÄÄÄÄÄÄÄÄÄ
+        ca-cyber.exe     normal        the executable file
+        ca-cyber.icn     normal        the icon file  (not actually used
+                                             by the program in any way.)
+        file_id.diz      normal        the description file  (also not
+                                             used by the program.)
+
+        ca-cyber.doc     read only     the documentation file
+        vol-001.dat      read only     the first room-volume data file
+        images01.dat     read only     the first cursor-image data file
+
+        ca-cyber.cfg     hidden        the configuration file
+        vol-001.scr      hidden        the high-score file to vol-001.dat
+        vol-001.sol      hidden        the solution file to vol-001.dat
+
+
+     I suppose that this documentation wouldn't be complete if I didn't
+     list the number of moves that it takes ME to solve each of my rooms
+     in the first four volumes.  So here they are!  I think all of the
+     solutions in the first room volume cannot be bettered but I'm sure
+     that several of the solutions in the other volumes probably can.
+
+
+        ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+        º  ROOM                                         SHORTEST     º
+        º  NMBR    ROOM NAME  (vol-001.dat)          KNOWN SOLUTION  º
+        º  ÄÄÄÄ    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ  º
+        º    1     Welcome to CyberBox.                 141 moves    º
+        º    2     Easy does it.                        123   "      º
+        º    3     Don't worry, be happy!                73   "      º
+        º    4     No room for error, here.             117   "      º
+        º    5     Even my G'ma could do this!           97   "      º
+        º    6     71 moves and you're outta here!       71   "      º
+        º    7     Just push 'em out of the way.        217   "      º
+        º    8     Hey you, quit following me!          119   "      º
+        º    9     So close and yet so far...           100   "      º
+        º   10     Clearing a path thru the snow.       116   "      º
+        º   11     Two steps to this one.               258   "      º
+        º   12     Zapperland II.                        31   "      º
+        º   13     The Storage Shed.                    402   "      º
+        º   14     Those dang Pullers!                  301   "      º
+        º   15     But Ma, this looks so easy!          162   "      º
+        ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+        ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+        º  ROOM                                         SHORTEST     º
+        º  NMBR    ROOM NAME  (vol-002.dat)          KNOWN SOLUTION  º
+        º  ÄÄÄÄ    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ  º
+        º   16     Tic-Tac-Toe.                          33 moves    º
+        º   17     Piece of cake.                       146   "      º
+        º   18     The Lawn Mower.                       25   "      º
+        º   19     Give up one and bring back two.      136   "      º
+        º   20     Once, twice, three times a lady.     137   "      º
+        º   21     Do Wa Diddy-Diddy Dum Diddy-Do.      153   "      º
+        º   22     Move it or lose it II.               292   "      º
+        º   23     Don't be fooled!                     142   "      º
+        º   24     Mirror image?  Not quite!             62   "      º
+        º   25     The Spider.                          109   "      º
+        º   26     The Mine Field.                      132   "      º
+        º   27     Follow the yellow brick road.         76   "      º
+        º   28     Back and forth.                      119   "      º
+        º   29     The Active Hallway.                  260   "      º
+        º   30     Simple, but effective.               515   "      º
+        ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+        ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+        º  ROOM                                         SHORTEST     º
+        º  NMBR    ROOM NAME  (vol-003.dat)          KNOWN SOLUTION  º
+        º  ÄÄÄÄ    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ  º
+        º   31     Let's not get zapped!                 58 moves    º
+        º   32     Advance and retreat.                 108   "      º
+        º   33     It's not as hard as you think!       155   "      º
+        º   34     99 Boxes - 99 Moves.                  99   "      º
+        º   35     Slow and steady wins this race.      118   "      º
+        º   36     Either way is fine.                   75   "      º
+        º   37     One-Way Street.                       60   "      º
+        º   38     Three ZAPS should do the trick!      169   "      º
+        º   39     Five hundred miles away from home.   500   "      º
+        º   40     The Face.                            631   "      º
+        º   41     MacGyver could do it!                351   "      º
+        º   42     These boots were made for walkin...  747   "      º
+        º   43     Which SLIDER holds the key?          298   "      º
+        º   44     A temporary setback.                 214   "      º
+        º   45     ...and to all a good night.          148   "      º
+        ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+        ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+        º  ROOM                                         SHORTEST     º
+        º  NMBR    ROOM NAME  (vol-004.dat)          KNOWN SOLUTION  º
+        º  ÄÄÄÄ    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ  º
+        º   46     You can retire at 60!                 60 moves    º
+        º   47     Eeeny meeny miny moe.                 98   "      º
+        º   48     Look before you leap.                162   "      º
+        º   49     The Unfinished Tunnel.               182   "      º
+        º   50     The Three Stooges.                   158   "      º
+        º   51     The Staircase.                       201   "      º
+        º   52     Around the World.                    632   "      º
+        º   53     Temper Tantrum.                      420   "      º
+        º   54     Come'on, how hard can it be?         219   "      º
+        º   55     ZAPPERS & PULLERS.                   128   "      º
+        º   56     Left, right, left, right.            253   "      º
+        º   57     Clearing a path...II                 194   "      º
+        º   58     Make room for those SLIDERS!         307   "      º
+        º   59     The Four Musketeers.                 205   "      º
+        º   60     Mission: IMPOSSIBLE.                1337   "      º
+        ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+
+     This program was written and compiled using Spectra Publishing's
+     PowerBASIC version 3.00c.  Doug wrote his program in "C" but I don't
+     know C (yet) so I decided writing it in BASIC was better than COBOL,
+     since COBOL and BASIC are the only two languages that I'm currently
+     proficient in.
+
+     A friend of mine (a non-programmer) couldn't believe that I could
+     create and write this game without ever looking at the original
+     "source code."  Well Craig, believe it.  Even if I HAD seen the code,
+     it wouldn't have helped me much anyway since I don't know "C".  Nope,
+     the entire code, every line, is all my own.
+
+     For those of you who are curious, the source code for this program
+     contains more than 5,595 lines of code!  To print out the entire
+     listing, at 60 lines per page, requires over 93 pages!
+
+     When I compiled the program, I generated code to specifically check
+     for the presence of the 80286 (or better) CPU.  My PowerBASIC manual
+     says that this is supposed to improve the program's performance.  I'm
+     sorry to the few of you remaining who may still have an old 8086/8088
+     processor since the program won't run (it shouldn't run!) but it
+     would probably run too slowly to be enjoyable anyway.  Shoot, I've
+     been writing and testing it on my 486 (with 33 MHz) and when I first
+     saw it on a 286 (with only 12 MHz) I was surprised and disappointed
+     on how slowly it ran (i.e. some of the screen writes).  In fact, I
+     decided that I just HAD to go back into the program and re-write the
+     portions of my code that ran too slowly.  I can't even IMAGINE what
+     it would look like on an old XT!  And since it requires a VGA
+     graphics card and monitor anyway, I don't think I'm keeping too many
+     people from seeing it by compiling it with the "286 code generation."
+     I mean, how many people have a color VGA monitor hooked up to an XT??
+
+     On the other hand, I also happened to test this program on a few of
+     our laptops at work.  On these particular machines, the screens were
+     being drawn instantly.  INSTANTLY!   Obviously, I was very pleased
+     with this!
+
+     I've tested this program on as many different types of systems as I
+     could find and I've experienced no problems.  If it doesn't work on
+     YOUR system, I'd be interested in knowing what type of setup you
+     have. (The name of the VGA graphics card & monitor, computer brand,
+     operating system and version number, etc.)
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²²²²   THANKS   ²²²²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     I'd like to thank the following people for helping me test the game
+     before I released it into the public domain:
+
+                  Brian Kurth of Gilbert, Arizona
+                  Kelly Collins of Santa Ana, California
+                  Judy Collins of Placentia, California
+                  Bill Collins of Durango, Colorado
+                  Lyle Engle of Mesa, Arizona
+                  Brent Bowers of Phoenix, Arizona
+                  Daen Hendrickson of Apache Junction, Arizona
+                  "PJ" Salley of Phoenix, Arizona
+                  Jerry Giacinto of Mesa, Arizona
+                  Gary Spitzer of Phoenix, Arizona
+
+
+     I'd also like like to thank Terry Donn for coming up with the name of
+     this program.
+
+     A special thanks goes out to William G. Hall of Springfield,
+     Illinois for being the first person to purchase the deluxe game.
+
+     A hearty "Congratulations" goes out to Ernie Longway of Parker,
+     Colorado who discovered shorter solutions to SEVERAL rooms in the
+     first volume!!   Good work, Ernie!
+
+     And last but certainly not least, I'd also like to give a big "thank
+     you" to Doug Beeferman, who wrote the original CyberBox game.
+     Obviously, if it weren't for him I would never have written this
+     program in the first place.  Thanks, Doug!
+
+
+     Happy CyberBoxing to you all!  And drop me a line!  I really would
+     like to hear your comments.
+
+
+                                               Edward D. Collins
+                                               April 10, 1995
+
+
+
+
+
+     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+     ³²²²²²²²²²²²²²²²²²²²²²²²²²²   REVISIONS   ²²²²²²²²²²²²²²²²²²²²²²²²²³
+     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     Updates in Version 4.43
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   Corrected a minor programming bug in the Deluxe Version.
+         If a user attempted to load a non-existent room-volume via the
+         ALT-R key combination and then exited the program, the
+         programming logic would update the configuration file with this
+         invalid room-volume name.  The next time that the program was
+         loaded, an error message would appear stating that it was
+         attempting to load this file and could not find it.  (The
+         configuration file saves the last room-volume that has been
+         played.  It was saving a filename BEFORE checking to make sure
+         that it was valid.)  This bug has now been fixed.  Thanks to Lyle
+         Engle of Mesa, Arizona for discovering this.
+         
+     ş   After exiting the program and returning to DOS, the screen is
+         restored to the way it looked before the program was executed.
+
+     ş   Added some undocumented features for my own benefit.
+
+
+
+     Updates in Version 4.35
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   Corrected a minor flaw in the way that I was drawing a few of my
+         letters for one of my fonts.
+
+     ş   Added program logic to verify that the rooms in the vol-xxx.dat
+         data files are in the correct order.  (Previously, one could go
+         in and edit these data files and, for example, swap rooms 1 and
+         2.)  I didn't have a problem with anyone doing this (although I'm
+         not sure why anyone would ever WANT to) but the vol-xxx.sol files
+         contain the SOLUTION to these rooms and if one swapped any of
+         the rooms in the data files then one would HAVE to swap these two
+         solutions in the solution file as well (to keep the program from
+         doing strange things).  And my solution files, being non-text
+         files, would be extremely difficult (if not impossible) for the
+         average user to manipulate anyway.
+
+     ş   Since the documentation file is now REQUIRED to run the program,
+         (along with the vol-xxx.dat and imagesxx.dat files) I added a
+         "read-only" attribute byte on this documentation file, to lessen
+         the chance that it will be deleted accidentally.
+
+     ş   Allowed the user to select any of the menu key options via the
+         TAB and/or the CTRL-arrow keys.
+
+     ş   Made a minor change to the program logic when the cursor exits a
+         room and actually enters the hallway.  (If the cursor-movement
+         sound was active for any pitch, a slight pause occurred before
+         the sound was heard.)
+
+
+
+     Updates in Version 4.23
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   Changed the order of the options of the <M>enu Toggle so that the
+         ALT-key options appears second rather than third.
+
+     ş   Changed the logic so that if the user is reading the
+         documentation file and then returns to the game, the same page
+         that the user was reading is automatically brought up again if
+         and when the user decides to read the doc file a second time.
+
+     ş   Allowed the user to change the foreground and background colors
+         while reading my documentation file.
+
+
+
+     Updates in Version 4.15
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   Deluxe version - changed the configuration file so that it would
+         save the last cursor-image data file that you were using as well
+         as the last room-volume data file that you were working on.
+
+     ş   Changed the program logic so that this configuration file is now
+         read first.  The program will now no longer default to loading
+         the vol-001.dat file and images01.dat file.  The default now
+         becomes the files you previously had loaded.
+
+     ş   Deluxe version - added code so that the player can load
+         additional room-volumes and cursor-image files from right inside
+         the program.
+
+     ş   If the player's efforts are good enough for the CyberBox Hall
+         of Fame, for convenience, the program will now automatically
+         display the last name that was previously entered in this screen.
+         If the player wishes to use this same name, now all he or she has
+         to do is hit ENTER.
+
+     ş   Allowed the user to read my documentation file from right inside
+         the program.
+
+
+
+     Updates in Version 4.0
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   Added the DOS shell.
+
+     ş   Added the entire solution-file logic.  The program now saves your
+         shortest solution to disk.
+
+     ş   Swapped a couple of rooms in the vol-001.dat file that were a
+         little too difficult to solve for first-time players, with some
+         rooms in my vol-002.dat file.
+
+     ş   Added logic so that the player can break out of the "victory
+         song" if so desired, by hitting the ESCAPE key.
+
+     ş   Increased the number of <I>nstant Replay keystrokes saved in
+         memory from 2000 to 5000.
+
+
+
+     Updates in Version 3.0
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   Renamed my cursor-image data files to IMAGESxx.DAT (where "x"
+         indicates the file number) instead of CACYBERx.IMG
+
+     ş   Added the entire <I>nstant Replay logic.
+
+     ş   Added the "About CyberBox" screen.
+
+     ş   The program now puts a read-only attribute byte on both the
+         room-volume and cursor-image files.
+
+     ş   Changed the appearance of one of the BLOCKER options from a
+         sorry looking solid-red block to a neat little criss-cross type
+         pattern.
+
+     ş   When entering a room for the first time, the NAME of each room is
+         animated from right to left until it is centered in the right
+         hand portion of the screen.
+
+     ş   Removed my LINE INPUT statement for accepting the user's name
+         in my Hall of Fame screen and replaced it with my own editor.
+         (Which allows for the user to utilize the HOME key, the END key,
+         etc.)
+
+
+
+     Updates in Version 2.0
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   The program now puts a hidden attribute byte on the high-score
+         and configuration files.
+
+     ş   Re-wrote the logic for drawing all boxes.  (The screen-writes on
+         slower PC's was a little too slow for my taste.  It is now
+         noticeably faster only at the cost of the program now requiring
+         slightly more RAM to load and run.)
+
+     ş   The ESCAPE key will now bring up the "Do you really want to
+         quit?" message, in addition to the "X" (e<x>it program) key.
+
+     ş   If the replay animation speed is set on "very fast," the program
+         will now replay the solution WITHOUT the "cursor sound."
+         (Assuming the cursor movement sound was active for any pitch in
+         the first place.)  The sound could not keep up with the cursor
+         movement and the result was the cursor running around with one
+         big beeeeeeeeeeeeeeep.)
+
+     ş   Changed all references of "non-registered game" to "non-deluxe
+         game."
+
+     ş   When entering a room for the first time, your cursor now blinks
+         a few times to make it easier to find.
+
+     ş   Added the <B>ox Review screen to help out first-time players.
+
+
+
+     Updates in Version 1.14
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ş   Changed the default text color from white to brown and the
+         default highlight color from bright white to yellow.
+
+     ş   The program will now only re-write the configuration file if
+         anything has changed since initially loading it.
+
+     ş   Changed the opening screen to display the message "Hit any key to
+         continue..." at the bottom.
+
+     ş   Slightly altered the way that the PULLERS are represented.
+
+
+
+
+                       ( Documentation Version 4.43a )
+
+
+                    The Continuing Adventures of CyberBox
+                  is Copyright (c) 1995 by Edward D. Collins
+                            All Rights Reserved
+
+
+                           ÄÄÄÄ end of file ÄÄÄÄ

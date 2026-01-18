@@ -1,0 +1,47 @@
+^014@Serendipity Tech Support 1-500-67HUBIE simmer@crl.com
+
+^011@Overview:
+
+  Hubie contains background music to add to the
+playing experience.  To hear music within the game,
+you must:
+
+^010@Have Adlib compatible music chip (OPL2 or OPL3)
+^010@or a MPU-401 Compatible General Midi device
+
+^007@and
+
+^010@Set it up correctly within the Config program.
+
+  Hubie has been tested on a variety of computer and
+soundcard combinations to ensure compatibility for the
+maximum number of users, however there are a few clone
+cards which will fail to function properly.Hubie utilizes 
+a MIDI music engine incorporating standard Adlib and 
+MPU-401 functionality. If your card fails to work, it is 
+NOT 100% compatible.
+
+^009@Following is a list of supported cards :
+
+
+^010@Successfully Tested MIDI Music Cards:
+
+^013  SB 2.0 (OPL2)
+
+^013  SB Pro 1.0 & 2.0 (OPL2)
+
+^013  SB 16 (OPL2)
+
+^013  PAS 16 (OPL2)
+^007  ( in SB Compatibility Mode )
+
+^013  Ensoniq Soundscape (OPL2)
+^007  ( in SB Compatibility Mode,
+^007    with latest 2.0 drivers  )
+
+^013  Roland SCC-1 (MPU-401)
+\\Page
+@Note that the Sound Blaster 32 & AWE-32 from Creative
+@Labs are NOT MPU-401 Compatible at the Hardware level.
+@They utilize software emulation that will NOT currently
+@ work with Hubie.

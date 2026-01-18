@@ -1,0 +1,41 @@
+; Weapons.txt
+;  This file controls the attributes of the weapons used in
+; the game engine.  The order of appearance here determines which
+; keyboard key selects each weapon.
+;  The attrib says whether the weapon is deadly or just knockout.
+;  The handle is the handle number of the animation file as per weapdef.txt
+;  The range is range in cm
+;  Distoff is added to the range before calculations start.
+;  Rangedenom controls the effectiveness falloff over distance.
+;  Luck has to do with randomness of out of range hits.
+;  Force is how many hitpoints are dished out when enemy hit.
+;  Maxhit puts a max limit on hitpoints in all cases.
+;  aimacc determines how accurately the weapon must be pointed to attain a hit
+;  weapsnd is 0 (no sound) or a sound number from sounds.txt.
+;  weapinv is which inventory item a weapon is.
+;  Picture name is the name of the .VGA file that is put up in the Current 
+;    Weapon icon.
+;
+;struct	weapontype {
+;	int attrib,handle,range,distoff,
+;                  rangedenom,luck,force,maxhit,aimacc,weapsnd,weapinv;
+;		  char *picturename; };
+;
+; a    h  r     d     r  l    f  m      a w  i            P
+; t    a  a     i     a  u    o  a      i e  n            i
+; t    n  n     s     n  c    r  x      m a  v            c
+; r    d  g     t     g  k    c           p  e            
+; i    l  e           e       e  h      a    n            n
+; b    e        o                i      c s  t            a
+;      #     f     d          t      c n               m
+;            f     .                   d  #            e
+  9 3600 100  -400    50  1  400  4    50 -1 0  kickfat.vga  ; Karate kick
+  9 3600 100  -600    50  1  800 16   100 -1 0  kickfat.vga  ; Karate jump Kick
+  4 3607 1500 -500   500 65  500 16  6450  2 26 stickfat.vga ; Goo Gun
+  0 3603 500   200 16000  1    0  1  3122 -1 1 grenfat.vga  ; Grenade toss
+  0 3604 1500 -500   500 65  500 16 32075  0 15 gunfat.vga   ; Machine gun
+  0 3603 500   200 16000  1    0  1  3122 -1 28 grenfat.vga   ; Gas Gren toss
+  0 3606 500   200 16000  1    0  1  3122  3 25 rockfat.vga  ; Rocket Launcher
+  0 3601 2500 -100    20  7 2100 23 12950  7 16 pistfat.vga  ; Shotgun
+;  0 3601 500   200 16000  1    0  1    50 -1 46 peelfat.vga  ; Potatoe Peeler
+

@@ -1,0 +1,176 @@
+                      CHINESE CHECKERS
+                        Version 2.3
+                       April 1, 1995
+
+            Copyright (c) 1995, ImagiSOFT, Inc.
+                    All rights reserved.
+
+
+                     WHAT IS SHAREWARE?
+
+Shareware is a beautiful concept that gives you a chance  to
+"try"  Chinese Checkers and other programs before you  "buy"
+them.   If you try Chinese Checkers and continue to use  it,
+please send us the $16.95 registration fee and we will  send
+you the latest Deluxe Version of Chinese Checkers.
+
+
+            BONUS FEATURES IN THE DELUXE VERSION
+
+The  Deluxe Version has the following bonus  features  which
+are not available in the Shareware Version:
+   * Save Game Option
+   * Undo Last Move
+   * Animated Icons On/Off
+   * Sound Blaster / Adlib Music
+                      HOW TO REGISTER
+
+To  order Deluxe Chinese Checkers, please send $16.95  (plus
+$4.00 shipping and handling) to:
+
+     ImagiSOFT, Inc.
+     Computer Games Division
+     P.O. Box 13208
+     Albuquerque, NM  87192-3208
+
+Press the F1 key to print an order form, or send your  check
+along with:
+
+    - Your Name
+    - Mailing Address
+    - Disk Size (We send 3.5" unless you state otherwise)
+
+You can order by credit card by calling (800) 767-1978 or by
+faxing your order form to (505) 275-9697.
+
+Please  give  a  copy  of this  shareware  copy  of  Chinese
+Checkers  to your friends so they can evaluate it  too,  but
+encourage  them to register their copy if they  continue  to
+use it.  Thanks for helping us let people know about Chinese
+Checkers!
+
+                HOW TO REACH US FOR SUPPORT
+
+We  have made Chinese Checkers as easy to use  as  possible.
+However,  if  have  a  problem, or  find  our  on-line  help
+inadequate,  we would like to hear from you.  You can  reach
+us via U.S. Mail at:
+
+     ImagiSOFT, Inc.
+     Computer Games Division
+     P.O. Box 13208
+     Albuquerque, NM   87192-3208
+
+You will get faster service from us via electronic mail:
+CompuServe: 70632,1177   Internet: 70632.1177@CompuServe.Com
+Prodigy:       FSWM11A   America Online:           ImagiSOFT
+
+
+                  SHAREWARE COPYRIGHT LAWS
+
+Copyright  laws  apply  to  both  shareware  and  commercial
+software, and ImagiSOFT, Inc. retains all rights to  Chinese
+Checkers.   We specifically grant you the right to copy  and
+distribute  this  software,  under the  limitations  of  the
+license agreement.
+
+Shareware  is  a marketing method, not a type  of  software.
+You  should  look  for software that suits  your  needs  and
+pocketbook,  whether  it's  commercial  or  shareware.   The
+shareware  system makes fitting your needs  easier,  because
+you can "try" before you "buy".  SHAREWARE HAS THE  ULTIMATE
+MONEY-BACK  GUARANTEE -- IF YOU DON'T USE THE  PRODUCT,  YOU
+DON'T PAY FOR IT!
+
+Chinese Checkers is a "shareware program" and is provided at
+no charge to you for evaluation.  Feel free to share it with
+your  friends!
+
+
+                     LICENSE AGREEMENT
+
+The  Chinese  Checkers  program and  its  documentation  are
+copyrighted  works  protected  by  U.S.  and   international
+copyright law. You are granted a license to use your copy of
+Chinese  Checkers  only  under  the  terms  and   conditions
+specified in this license agreement.
+
+Chinese  Checkers is a commercial software product.   It  is
+not   free,  nor  is  it  in  the  public  domain.   It   is
+distributed  as shareware, which means that you may try  the
+software  before  you pay for it.  However,  you  must  stop
+using  Chinese Checkers and remove it from your computer  if
+you decide not to pay the license fee.
+
+You  may  freely  copy  the  Shareware  Version  of  Chinese
+Checkers  for personal use, and you may also give copies  of
+Chinese  Checkers to others if they also agree to the  terms
+of this agreement.
+
+Users  of  Chinese Checkers must accept this  disclaimer  of
+warranty:
+   CHINESE  CHECKERS IS PROVIDED AS IS, WITHOUT WARRANTY  OF
+   ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT  LIMITED
+   TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND  FITNESS
+   FOR  A  PARTICULAR  PURPOSE. THE ENTIRE RISK  AS  TO  THE
+   QUALITY  AND PERFORMANCE IS WITH YOU.  IMAGISOFT  ASSUMES
+   NO LIABILITY FOR DAMAGES, DIRECT OR CONSEQUENTIAL,  WHICH
+   MAY RESULT FROM THE USE OF CHINESE CHECKERS.
+
+
+
+
+
+
+
+
+                         THANK YOU!
+
+We  at ImagiSOFT enjoyed creating Chinese Checkers.   David,
+is primarily responsible for Chinese Checkers.  He spent six
+tedious  months working in assembly language developing  the
+user  interface, and another four weeks  developing  Chinese
+Checkers itself.  One year later, David spent another  month
+implementing  the most often requested suggestions  for  our
+Deluxe Version 2.0.  Russ spent a week on the artwork --  we
+have  received  hundreds of letters applauding  his  talent!
+The  newest member of our team, Robert Allen,  composed  the
+music.   Our quality control people, Kathy, and Dorine  gave
+this  program  a thorough work out before they  signed  off.
+Mike coordinated this project and wrote the documentation.
+
+In  June  of  1992,  Chinese  Checkers  was  nominated   for
+"BEST NEW PRODUCT" and "BEST ENTERTAINMENT SOFTWARE" at  the
+Shareware Industry Awards in Indianapolis.  We would like to
+thank  Michael E. Callahan,  Randy MacLean,   Bob Ostrander,
+Jim Perkins,  and other members of the nominating  committee
+for helping to make ImagiSOFT famous!
+
+Of  course, it is the financial support of our  hundreds  of
+loyal  customers  which has Chinese Checkers  possible.   We
+appreciate you most of all.
+
+
+     ASSOCIATION OF SHAREWARE PROFESSIONALS MEMBERSHIP
+
+ImagiSOFT, Inc. is a member of the Association of  Shareware
+Professionals  (ASP).  ASP  wants  to  make  sure  that  the
+shareware  principle  works for you. If you  are  unable  to
+resolve  a shareware-related problem with an ASP  member  by
+contacting  the  member directly, ASP may be able  to  help.
+The   ASP   Ombudsman  can help you  resolve  a  dispute  or
+problem  with an ASP member, but does not provide  technical
+support  for  members' products.  Please write  to  the  ASP
+Ombudsman   at   545 Grover Road,  Muskegon,  MI   49442  or
+send  a  CompuServe message via via CompuServe Mail  to  ASP
+Ombudsman 70007,3536.
+
+         _______
+    ____|__     |               (r)
+ --|       |    |-------------------
+   |   ____|__  |  Association of
+   |  |       |_|  Shareware
+   |__|   o   |    Professionals
+ -----|   |   |---------------------
+      |___|___|
+
