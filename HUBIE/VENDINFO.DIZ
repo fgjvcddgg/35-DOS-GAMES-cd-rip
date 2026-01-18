@@ -1,314 +1,0 @@
-+-------------------------------------------ƒƒƒƒƒƒƒƒ-----ƒƒƒƒƒƒƒƒ----+
-| This VENDINFO Product Information File contains both readable text |
-| and tools-accessible data about a product.  See the last text      |
-| section, below, for more information about VENDINFO and its tools. |
-+--------------------------------------------------------------------+
-VENDINFO standard v1.04, produced by VendEdit v1.30, 12-Mar-1996
-
-===== Product Information ==============================
-   Product:             Hubie A Realtime, Animated Puzzle/Arcade Game
-   Version:             1.00
-   Version Date:        12-Mar-1996
-   Product Type:        Software
-   Basic Distribution Policy (see License, below, for details):
-      Shareware, subject to distribution restrictions
-
-   Product Description: HUBIE! <ASP> A Shareware Puzzle/Arcade Game 
-                        by Serendipity Software. Guide Hubie through 
-                        increasingly challenging boards filled with 
-                        Balloons, Boulders, Springs, Fire, Pipes, 
-                        Vines, Magnets, Ice Cubes, and More! Hubie 
-                        features 256-color Animation, Multi-Channel 
-                        Sound Blaster Sound FX, Adlib & GM Music. * 
-                        Registered Version includes Board Editor, 
-                        100+ Boards, New Objects and Music! v1.0 Req:
-                        286+, 2mb, VGA. Optional: SB, Joy
-   Reason for version:  Initial Shareware Release
-
-   Category:            Games; Arcade games
-   Keywords:            GAME PUZZLE ARCADE HUBIE
-   Required Packages:   HUBIE_S1
-   This Package:        HUBIE_S1
-   Registration Fee:    24.95 (US)
-
-   Required Configuration
-      Processor Family: Intel 80x86 (minimum 80286 (AT))
-        Clock Speed: 16 MHz
-      Minimum OS:       MS-DOS 5.0
-      Standard RAM:     2048K
-      XMS Memory:       0K
-      Hard Drive Space: 2048K
-      Required:
-         Hard drive
-      Won't Work With:
-         Monochrome Display Adapter (MDA)
-         Hercules Graphics Card
-         Tandy Display Adapter
-         Color Graphic Adapter (CGA)
-         Enhanced Graphic Adapter (EGA)
-         Multi-Color Graphics Array (MCGA)
-         Covox sound card
-
-   Orders:
-      Address:          Serendipity Software
-                        2828 Kennedy Blvd.
-                        Box 269
-                        Jersey City, NJ 07306
-      Toll-Free Phone:  1-800-242-4775
-      Phone:            1-713-524-6394
-      CompuServe:       71355,470
-      Internet:         71355.470@compuserve.com
-
-   Support:
-      Address:          Serendipity Software
-                        2828 Kennedy Blvd.
-                        Box 269
-                        Jersey City, NJ 07306
-      Phone:            500-67-HUBIE
-      CompuServe:       103601,722
-      Internet:         simmer@crl.com
-      Other E-mail:     103601.722@compuserve.com
-
-
-===== Information for Users ("READ-ME") ================
-
-Install Hubie by typing :
-
-INSTALL [Enter]
-
-The installer will prompt you for a directory for Hubie.
-It will then copy and set up the files necessary to play.
-The installer will allow you to set up your sound card,
-music card and joystick.
-
-Next, the installer will give instructions on how to
-start the game.
-
-Later, If you wish to change your configuration of your
-sound card, music card or joystick in the future,
-type :
-
-CONFIG [Enter]
-
-from the Hubie directory.
-
-If you have technical problems you can type :
-
-HELP [Enter]
-
-from the Hubie directory for a list of common questions and
-answers, as well as where to reach Serendipity Software for
-Technical Support.
-
-
-===== Packing List =====================================
-
-As released by the author or publisher, this package contained the
-following files in addition to this VENDINFO.DIZ:
-
-        Filename      Size     Date       Time     CRC32
-       README.ASP      633  11-Jan-1996  01:01p   42F6873C
-        SETUP.BAT       20  15-Oct-1995  08:49a   3B5C5377
-        ABOUT.CTR     1384   8-Mar-1996  04:53p   440339EA
-        CHECK.CTR      683   7-Feb-1996  08:16a   811E7F3D
-     COMPUSRV.CTR      679   7-Feb-1996  08:17a   32AAE881
-        HINTS.CTR      787   1-Oct-1995  09:54a   BC2A901C
-     INSTRUCT.CTR    12168   7-Jan-1996  10:59p   7CE561ED
-        LEAVE.CTR      637   7-Feb-1996  08:25a   FC557BF2
-        ORDER.CTR     1235   7-Feb-1996  08:25a   43E1A9C5
-          PSL.CTR      630   7-Feb-1996  08:15a   D620A8C8
-     REGISTER.CTR      760   7-Feb-1996  08:25a   A80BDFA3
-     SHARWARE.CTR      934   7-Jan-1996  11:17p   DC2E86FE
-      ATTRACT.DAT    16384  23-Oct-1995  08:40p   268779AD
-        DEMOS.DAT    16384  23-Oct-1995  10:02p   4CBCD17F
-     PROPERTY.DAT     7936   8-Feb-1996  07:55a   D77C3F73
-       STATES.DAT    12288   8-Feb-1996  07:55a   8CBC3A90
-      FILE_ID.DIZ      446  12-Mar-1996  01:00a   F062A5A6
-          000.DMO     9210   4-Mar-1996  09:25a   576C8FDA
-          001.DMO     9054  24-Nov-1995  09:17a   B8040C39
-          002.DMO     5648  25-Oct-1995  11:20p   7FFBD341
-          003.DMO    10142  26-Nov-1995  09:27p   82D604A3
-      INSTALL.EXE   114319  11-Mar-1996  09:02p   76F24327
-          RTM.EXE   108846   9-Mar-1993  07:01a   2E89F6E4
-        ORDER.FRM     2140   7-Jan-1996  11:37p   68E1456B
-      RELEASE.LST      902  12-Feb-1996  08:36a   9035E47E
-     DPMI16BI.OVL    65376   9-Mar-1993  07:01a   04C478A9
-       HUBIE2.PAL      768   4-Jan-1995  09:36p   9039E848
-     REGISTER.PLS      686   5-Jan-1996  07:23a   AC630D46
-      DEFAULT.PRF      257  11-Jan-1996  12:51p   7257DF70
-        HUBIE.PRF      257  11-Jan-1996  12:51p   7257DF70
-     NEW_FONT.PRP      801  21-Aug-1995  07:19a   B79A154D
-      CONTROL.QA      1113   4-Jan-1996  09:06p   452CC835
-      INSTALL.QA      3812  17-Feb-1996  09:32a   1A3F2DB3
-         MISC.QA      1141   4-Jan-1996  09:06p   04CE033E
-        MUSIC.QA      1301   4-Jan-1996  09:11p   3E07DB93
-        SOUND.QA      1015   4-Jan-1996  09:07p   D9B90A7F
-        BONUS.SER    16384   7-Jan-1996  04:35p   621920E9
-         EASY.SER    16384  20-Jan-1996  10:34a   C805C4A4
-         HARD.SER    16384  10-Jan-1996  07:04a   85A1FE82
-       MEDIUM.SER    16384  10-Jan-1996  07:04a   CF770916
-     NEW_FONT.SET     1536  21-Aug-1995  07:19a   680626FE
-         BANG.SFX     3092  28-Aug-1995  07:13a   C29B76D8
-        BOING.SFX     4924  23-Apr-1995  07:24p   BFCA9380
-     BOINGTRD.SFX     4374   5-Jul-1995  09:51p   6A009FD3
-        CLINK.SFX     6997  22-Apr-1995  10:20p   AFDFE9A6
-       COPTER.SFX    12494  16-Sep-1995  10:40p   A3ED33E9
-      CORKPOP.SFX     1572  11-Sep-1995  10:34p   3F96E3C8
-     CRUSHING.SFX     3294   3-Oct-1995  07:29a   7595D54E
-      ENDING1.SFX    49956   3-Oct-1995  07:33a   CD191D20
-          FAN.SFX     9038  27-Jul-1995  08:30p   FCEC08C2
-         FIRE.SFX     9344   3-Oct-1995  07:33a   705771F4
-     GATESTRT.SFX     6726  16-Sep-1995  10:00p   56C528E9
-        GLASS.SFX     5686   3-Oct-1995  09:43p   D3CA1D65
-      HUBSQSH.SFX    10704   3-Oct-1995  07:42a   27724D96
-       INHALE.SFX     8022  16-Sep-1995  10:19p   2388CE2C
-      LT_LAND.SFX     3146   3-Oct-1995  07:42a   1E0A49C9
-       MAGNET.SFX     7552  23-Oct-1995  10:17p   413A7BB2
-      NEWPIPE.SFX     9360  17-Sep-1995  07:44p   048DAF21
-     OBJ_TRN2.SFX     8300   3-Oct-1995  09:34p   01B94780
-           OW.SFX     4154  22-Apr-1995  10:27p   589DC3B2
-      PLUNGER.SFX     2118   3-Oct-1995  07:44a   77248E20
-         PUSH.SFX     2286  23-Apr-1995  08:02p   9A08B8D0
-     RAINMOVE.SFX    20726  23-Apr-1995  08:10p   84B3F2B6
-     SCRAPING.SFX     7966  28-Aug-1995  07:49a   78F8FEB5
-       SQUEAK.SFX    11850   3-Oct-1995  08:04p   81DF9653
-      THUNDR2.SFX    11958  23-Apr-1995  08:40p   7400AB4C
-      TNT_EXP.SFX     7974  16-Sep-1995  09:29p   50A63CC3
-     VINECLMB.SFX     8056  12-Feb-1996  08:25a   6EC9324B
-      GUITAR2.TUN     6508  11-Jan-1996  07:39a   925B0045
-        HUBIE.TUN     2622   7-Jan-1996  01:41a   8A3AB139
-     NEWTITLE.VGA    64002  24-Jan-1996  07:56a   73D9D611
-       ARROWS.VSH    49152   9-Jan-1996  09:14a   B9A5B7CF
-       HUBNEW.VSH    49152   5-Feb-1996  07:52a   8F05DAD1
-        JUST3.VSH    49152  20-Oct-1995  01:23a   0DB72D0E
-       CONFIG.___    95004  22-Jan-1996  08:47p   D554FCB7
-         HELP.___    74860  12-Feb-1996  12:43a   3FC48A4D
-        HUBIE.___   296876  11-Mar-1996  09:05p   C1A3F331
-
-
-===== Installation =====================================
-
-Install Hubie by typing :
-
-INSTALL [Enter]
-
-The installer will prompt you for a directory for Hubie.
-It will then copy and set up the files necessary to play.
-The installer will allow you to set up your sound card,
-music card and joystick.
-
-Next, the installer will give instructions on how to
-start the game.
-
-Later, If you wish to change your configuration of your
-sound card, music card or joystick in the future,
-type :
-
-CONFIG [Enter]
-
-from the Hubie directory.
-
-If you have technical problems you can type :
-
-HELP [Enter]
-
-from the Hubie directory for a list of common questions and
-answers, as well as where to reach Serendipity Software for
-Technical Support.
-
-
-===== Warranty =========================================
-
-LIMITED WARRANTY
-
-THIS SOFTWARE AND MANUAL ARE PROVIDED FOR EVALUATION ONLY, ON AN "AS
-IS" BASIS.  Serendipity Software DISCLAIMS ALL WARRANTIES RELATING
-TO THIS SOFTWARE, WHETHER EXPRESSED  OR IMPLIED, INCLUDING BUT NOT
-LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR
-A PARTICULAR PURPOSE. NEITHER Serendipity Software NOR ANYONE ELSE
-WHO HAS BEEN INVOLVED IN THE CREATION, PRODUCTION, OR DELIVERY OF
-THIS SOFTWARE SHALL BE LIABLE FOR ANY INDIRECT, CONSEQUENTIAL, OR
-INCIDENTAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE SUCH
-SOFTWARE, EVEN IF Serendipity Software HAS BEEN ADVISED OF THE
-POSSIBILITY OF SUCH DAMAGES OR CLAIMS.  THE PERSON USING THE SOFTWARE
-BEARS ALL RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE.
-
-This agreement shall be governed by the laws of the State of Georgia
-and shall inure to the benefit of Serendipity Software and any
-successors, administrators, heirs and assigns. Any action or proceeding
-brought by either party against the other arising out of or related to
-this agreement shall be brought only in a STATE or FEDERAL COURT of
-competent jurisdiction located in Gwinett County, Ga. The parties
-hereby consent to in personam jurisdiction of said courts.
-
-
-
-===== License for Use and Distribution =================
-
-TRIAL USE LICENSE
-
-Hubie is NOT a public domain program.  It is copyrighted by
-Serendipity Software.  This software and accompanying documentation are
-protected by United States copyright law and also by international
-treaty provisions.
-
-You may not use, copy, rent, lease, sell, modify, decompile,
-disassemble, otherwise reverse engineer, or transfer the licensed
-program except as provided in this agreement.  Any such unauthorized
-use shall result in immediate and automatic termination of this license.
-All rights not expressly granted here are reserved to <company>.
-
-
-LIMITED DISTRIBUTION LICENSE
-
-The following may distribute <product>, completely unaltered, without
-further permission ASP approved distributors; for other cases or to
-distribute in modified form, you must consult the attached data record,
-which is hereby incorporated by reference.  Any distribution satisfying
-all the distribution requirements expressed in that data record is hereby
-authorized.
-
-Permission to distribute the Hubie package is not transferable,
-assignable, saleable, or franchisable.  Each vendor wishing to
-distribute the package must independently satisfy the terms of this
-limited distribution license.
-
-U.S. Government Information:  Use, duplication, or disclosure by the
-U.S. Government of the computer software and documentation in this
-package shall be subject to the restricted rights applicable to
-commercial computer software as set forth in subdivision (b)(3)(ii) of
-the Rights in Technical Data and Computer Software clause at
-252.227-7013 (DFARS 52.227-7013).  The Contractor/manufacturer is
-<company name and address>.
-
-Serendipity Software may revoke any permissions granted here, by
-notifying you in writing.  All rights not expressly granted here are
-reserved to Serendipity Software.
-
-
-===== About VENDINFO Files =============================
-
-Each VENDINFO.DIZ file contains extensive information about a product.
-This "human-readable" section is followed by a compressed data record
-useable by automated tools.  The data record allows BBSes and other
-distributors to automate package handling, and provides users with a
-wealth of product information.  VENDINFO tools (free viewer for users,
-free or inexpensive processors for distributors, editors for authors)
-are available from many sources, including the originators of VENDINFO:
-  Rams' Island Software    Voice: 303-841-2848  CompuServe: 76244,324
-  7644 E. Lakecliff Way      BBS: 303-841-6269     FidoNet: 1:104/333
-  Parker, CO 80134-5904 USA  FAX: 303-841-6269        RIME: 1235
-
-
-===== Compressed Data Record Follows ===================
-
-PK
-   NYl ê⁄;  ú#  	   VENDDATA."&,'¨\ á˜˜Á≠uJ4©S£O$Xê,¿ÄlAj•A˘¥ëa“‰<‚@{ûùjt¿·?íÓŸÍÿƒ¥"≠+6mk‡AAJ-ñ-›¥mÀ≤‘ç·√“-K$‘∫zı≤-˚2®‹±a…ñy4lÂ∆t	&Ä˙'Î`r*⁄∞rÀﬁÃoTvnô_GëVö¥Ë◊©1D¸%“i„b8≈ÍP¨ ©&5
-R)‘#\˛∑‡KCA≠…Ciß…„»$œ†S°˙¶è·Û˛÷Õ0>H´GÇzô5m∂˚ñÌ[π Â,ï∏°B8∞<»≥a∞Íwfz¥ €÷—,ú…N}[◊-Y£XYDvn⁄± √0n0y5ÌÜ‘Ä5HZÒêF;øÿ<†/≥π·iè|ã}kñŒ™ª|›4§	ô˛ÀôˇY4≠OÎvå»©ø€≥lV?˚lúß∏∆Ç˚ÜˆdÁÇ4õ&≤d^ÊX/ƒ≥o$˛î/§˜lò/'±S· qbç¶ïÉu°‘ø„ToÖráŸ4Ïô√”Al“1Ù¢øIÛ⁄õh¯/ìµaAoE¡0√z3ün»œë)~=è`8!ıñC6æÂ≥a›I9ÄœÜÊMX.ß¶,õzP≤l”äi¬Ï7âMPÎBı*
-,azß&t≠∏úíX‹e[ó{ÖÑÌ ãú¯ßÛæò”AÇå°ìØ∏dNÆì1ˇ üäU[Ü+ü33SÌ!P√n\.ßÕßóŸV,∏Xòˇßpb6ôü*DÚJﬂÊ’ ‰Èüêß• •Œ-˙Á˝(ˇ Â@†6¯$C êA!O‡∞	®íCTs€±≠A W€Ä
- …$H –7iÖâ◊£@âaÑ0≥`É‘Ω L©n&°Ìﬂ¥Hû˛Uµjeb¯†Rá%b8á#á'¬·L#√‹É$‚ûéò;gOÜÀuÅäëÊP¢ëTÙ<»•eÑ‹íÕ√„÷.ôe¨9˝ÒÈo3«√êïÏ∏-s˚!Êπp´$Ãõ3a⁄†qAÇÛ[ÉŒ}Kõ7[ƒ¯Xì(ß» •°A˜ô6a∆dyS¶b@3∫∑©P_.ê2ÕŸ∫»“æç»™ËB‰ÈŒo%ﬁÂ⁄-ÉÆ	]f]d.§¥®Cã€«P*ì¶Ãñ4oﬁ¨1Ix3ÊÃñ5(∑ïœÃIïhí
- P‹[≥&äÉX ]G!™ê}’!≠àUKËZGB¸ù¿Ã÷àÉ
-‡‹*^$*‰ É,VÉË µÎŒ¨<9é`49˙◊&
-…9f„ZG ?Ä@ΩÙ¡"}©»•&xîä Æè$WG‡˙»2 Å†ı\h8'¥>1â>¢‰¸$êyÚ¥@í	ZPK
- 
-   NYl ê⁄;  ú#  	                VENDDATA.PK      *   b    

@@ -1,1 +1,0 @@
-pallete configure

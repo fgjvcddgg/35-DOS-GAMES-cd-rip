@@ -1,1 +1,0 @@
-f pdata c x s1 t  

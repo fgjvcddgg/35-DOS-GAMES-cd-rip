@@ -1,2 +1,0 @@
-loadpats -ipatches.ini
-

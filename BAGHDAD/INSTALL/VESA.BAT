@@ -1,2 +1,0 @@
-sbwave
-opl2
