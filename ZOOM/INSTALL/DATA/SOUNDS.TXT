@@ -1,0 +1,85 @@
+; required sounds in sounds.txt
+;  the maximum number of sounds definable is 64
+;  All .wav files must be 8 bit mono
+;  All .wav files must be smaller than 65536 bytes
+;  sounds marked optional are not used by the engine directly, but
+;  are defined for your convienence.
+;  There may be a weirdness if your file is close to 16000 bytes in length
+;   May your file longer or shorter to stay away from this boundary by
+;  at least 2k.  Also potential glitches at 32700 and 49000
+;
+;  You may replace any of these sounds below with your own sounds,
+; but there must be a sound definition for each of these sounds.
+;
+;0 ; machine gun sound 15 gunfat.vga
+;1 ; regular guard's gun
+;2 ; googun sound  26 stickfat.vga
+;3 ; rocket launcher25 rockfat.vga
+;5 ; /* play the 'ouch' sound */
+;6 ;   explosion from fluid file with bit 1 set
+;7 ; pistol (shotgun) sound 16 pistfat.vga
+;8 ; optional glass breaking sound
+;9 ; optional water splashing sound splashb.wav	; splash i the water
+;10  ; /* a door sound, maybe sliding door? ,ivolume,nodoorsnd);	
+;11  ; /* door busted open*/ hmm.
+;13  ;  /* kick the wall sound */
+;14  ; door sound */
+;15  ; another door sound
+;16  ; ?s till anothter door sound? ,ivolume,nodoorsnd);
+;17  ; optional helicoptor noise
+;18  ; optional boat motor noise
+;19  ; optional generator noise
+;20  ; guard yelling
+;21  ; guard yelling
+;22  ; guard yelling
+;23  ; guard yelling hey?
+;24  ; guard dying
+;25  ; guard dying
+;26  ; guard dying
+;27  ; guard dieing?
+;29  ; playsound  ( play sound of hovercraft or armored guard exploding )
+;28  ; armored guys gun
+;30  ; cocking of shotgun
+;31  ; kick sound
+
+
+0 2 mgunb6.wav  ; machine gun  mgun2b.wav
+1 3 pist3c.wav ; guard shot
+2 2 goop1.wav ; goo gun goop2b.wav
+3 1 rocketb.wav	; rocket gun
+4 1 fextb.wav	; fireextingusiher
+5 0 orch1b.wav  ; got hit
+6 2 boom1b.wav
+7 2 shtgun9c.wav  ; shtgunb.wav
+; 8 1 glass1b.wav
+; 9 2 splashb.wav	; splash i the water
+10 5 slide4b.wav
+11 2 kick1b.wav
+12 2 pow1c.wav
+13 2 orch1b.wav
+14 5 slide3b.wav
+15 5 creak1b.wav
+16 5 doorcl1b.wav
+; 17 5 heli1b.wav
+; 18 2 btmtr2b.wav
+; 19 5 motor2b.wav
+20 2 hey1.wav
+21 2 hey2.wav
+22 2 hey3.wav
+23 2 hey4.wav
+24 2 die1.wav
+25 2 die2.wav
+26 2 die3.wav
+27 2 die4.wav
+28 3 m67b.wav		; sound of hovercraft's guns
+29 2 crackupb.wav
+30 2 cock6c.wav		; cock the shot gun
+31 2 hieya.wav		; cock the shot gun
+
+; Substitute these sounds for the 'hey' noises, dieing noises, and guard
+;  shooting noises if you have beasts instead of human enemies
+;roar.wav
+;roar3.wav
+;roar2.wav
+;roar.wav
+

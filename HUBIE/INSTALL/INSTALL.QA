@@ -1,0 +1,117 @@
+^014@Serendipity Tech Support 1-500-67HUBIE simmer@crl.com
+
+^011@Overview:
+
+   To begin the Hubie install program, type:
+
+^014@INSTALL [Enter]
+   The Hubie install program copies all necessary
+files to your computer.  You can install Hubie to any
+directory you choose by backspacing over the default
+installation directory :
+
+^007@C:\HUBIE
+
+   And replacing it with your own, like :
+
+^007@E:\COOL\GAMES\HUBIE
+
+   After installation, the Config program is run to
+set up your sound, music and video preferences.
+\\Page
+^011@Operation System Overview:
+
+  Hubie is a DOS program.  It has, however, been
+designed to be a 'well-behaved' program which
+can run under other Operating Environments, like
+Windows, or Operating Systems, like OS/2 or Win95.
+
+  Our policy is to put a fair effort into making
+our games 'well-behaved' to help our users, and we
+encourage our users to remember :
+
+^012@We can only offer technical assistance to those
+^012@users running Hubie from a standard DOS prompt.
+
+\\Page
+^009@OS/2:
+
+  Hubie was developed under OS/2 2.1 & OS/2 Warp,
+so it has always been a priority to keep it stable
+under OS/2.  Hubie will run in a window in the PM
+Workplace Shell, or as a full-screen application.
+Note, however, that in a window, or while switching
+between a window and full-screen, the sound may become
+scratchy or garbled, due to OS/2 not servicing the
+Sound Blaster interrupts in a timely fashion.  The
+only workarounds are to keep Hubie in a full-screen
+session, or to disable sound effects.
+
+  To create an icon for Hubie, drag the 'Program' icon
+from the Templates program into the folder you want
+Hubie to reside in (or onto the WorkPlace Shell).  From
+the properties notebook, choose Session, click DOS Full
+Screen, and type in '*' for the command line.  For the
+parameters, type in :
+
+^007@/C C:\HUBIE\HUBIE.EXE
+
+
+where C:\HUBIE is the directory where Hubie is
+installed.  Now, choose DOS Settings.  Most can be
+left at their default value, but you should change
+the following:
+
+^012    DOS_DPMI_API > Enabled
+
+^012    SESSION_PRIORITY > 32
+
+^012    XGA_REGS_IO_TRAP > Disabled
+
+^012    INT_DURING_IO > Enabled
+
+Next, close the settings notebook, and
+Hubie is ready to use from OS/2.
+
+\\Page
+
+^009@Windows 3.1-3.11:
+
+  Hubie should run under Windows 3.1-3.11, however,
+the sound & music will probably NOT work.
+Some users have been able to run Hubie from Windows
+3.1-3.11 by using the latest Sound Blaster
+Drivers.  Note that if you have a 'clone' sound card
+which requires you to run a DOS based setup program
+or TSR in your AUTOEXEC.BAT file, it will almost
+definitely NOT work.  Windows does not like to share
+the sound card between itself and DOS programs, so
+if you attempt to run Hubie with sound under
+Windows 3.1-3.11, you may receive a message from
+Windows regarding this.
+
+
+\\Page
+^009@Windows 95:
+
+  Hubie SHOULD work under Windows 95.  Windows 95 does
+a much better job than Windows 3.1 with DOS compatibility,
+so users should have little trouble running Hubie.  Note
+that the same issue applies with sound cards: If your
+sound card requires a special TSR or program to reset it
+before use, make sure that your DOS prompt is set up to
+run it in the AUTOEXEC.BAT.
+
+  Hubie will run in a window, but the visible frame rate
+will be about half of what it should be.  This is due to
+Windows 95 slowly polling the VGA display memory.  To
+get the proper frame rate with Hubie, we recommend
+running Hubie in a full screen.
+
+  Norton Utilities for Windows 95 may cause Hubie to
+freeze or hang.  The conflict appears to be related
+to the Norton Utilities Protected Recycle Bin.
+Serendipity recommends disabling the Protected
+Recycling Bin or, booting to DOS before play.
+
+

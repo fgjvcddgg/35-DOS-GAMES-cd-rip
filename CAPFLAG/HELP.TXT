@@ -1,0 +1,596 @@
+The following is a copy of the online HELP menu.  It's included on
+this disk for those who wnt to print it.
+
+
+                        QUICK START
+
+     Beginners should just read this QUICK START section
+before playing the game.
+     Capture the Flag is based on the popular out-door game
+by the same name.  The goal of the game is to find and
+grab the other side's flag before they grab yours.
+     It is played on a large field divided into two equal zones,
+one for each side.  The zones contain a variety of terrains
+that impact the visibility and movement of the team
+members.  At the start of each game your opponent's zone
+is black, concealing his terrain, players, and flag.  The
+details are revealed as your team explores his zone.
+     Capture the Flag is a "turn based" game.  During each
+turn you can move some or all of your team up to their
+movement point allowances.  Unused movement points are
+not carried over to the next turn.  You can end your turn
+whenever you want by pressing the END TURN button. 
+Then your opponent begins his turn and moves his players. 
+When he is done, it becomes your turn again.
+     A good starting strategy is to keep 50% of your (blue)
+team on your side to defend your flag.  Send the rest to
+explore your opponent's (red) side to find and grab his flag.
+     To find your opponent's flag, explore his side of the
+field.  When black squares are uncovered they will reveal
+the terrain and whether or not the flag is there.  To capture
+your opponent's flag, move your person onto it's square.
+     Defend your flag by trying to find and capture your
+opponent's persons that are on your side of the field before
+they find and grab your flag.  To make a capture attempt,
+move your person onto the opponent's person.  You can
+capture your opponent only on your side of the field.
+     You have now finished Quick Start.  We recommend
+that you either start playing now (help screens will popup
+during the game) or watch the demo (very helpful to learn
+the game fast).  We recommend that you read the rest of
+the instructions AFTER you have played for awhile.
+
+
+                      MOVEMENT
+  
+     During each turn you may move as many of your people
+as you desire.  At the beginning of each turn each member
+of your team is allocated their MOVEMENT POINTS.  It
+costs one movement point each time you change your
+player's STANCE.  Whenever you move a player, you use
+up movement points.  The movement cost per unit move
+varies with the STANCE and the character of the local
+terrain.
+
+THE FOUR STANCES
+     A person can either be standing, crawling, walking, or
+running.  Each STANCE effects how far a person can move
+in one turn (the movement point cost per square), how well
+they can see, and how well they can be seen.  Here is how
+the four STANCES rank by three categories.
+
+                                      Stand   Crawl   Walk   Run
+How far they can move       --      3rd     2nd    1st
+How far they can see         1st      4th     2nd    3rd
+How well they can hide       2nd     1st      3rd    4th
+
+
+                     MOUSE COMMANDS
+
+RIGHT BUTTON (anytime)
+     Pressing the right button once will bring up the GLOBAL
+MAP that represents the whole playing field.  Moving the
+mouse causes the SELECTION FRAME to move, and
+pressing the right mouse button again will cause that
+portion of the map covered by the rectangle box to be
+displayed in the PLAYING AREA, and the GLOBAL MAP to
+be removed.  THIS IS THE MOST CONVENIENT WAY TO
+NAVIGATE.
+
+LEFT BUTTON:  ON THE PLAYING AREA
+     SELECTING A PERSON:  Place the cursor over a person
+and click it, and a white square will appear around the
+person signifying this person is SELECTED.
+     MOVING A PERSON:  Place the cursor at the desired
+destination and hold down the left button until the selected
+person arrives (or depletes movement points).  The person
+and the desired destination have to both be on the
+PLAYING AREA.
+     SELECTING STANCE:  Press the left mouse button
+when the cursor is on the selected person and the STANCE
+bar will appear.  Then press the desired STANCE icon.
+
+LEFT BUTTON:  ON CONTROL PANEL
+     SELECTING A PERSON:  Place cursor over the person
+you want to become the SELECTED person.  Then press
+left mouse button.
+     SELECTING STANCE:  Place cursor over desired
+STANCE icon and press left mouse button.
+
+LEFT BUTTON:  ON GLOBAL MAP
+     DISPLAYING STATUS:  Toggles displaying the
+remaining movement points with each person's first letter. 
+A background of grey signifies that person has no more
+movement points.  Every other time this information is
+displayed, the display order is reversed so that those that
+are covered up are visible.  This is a quick way to check on
+the status of your team members and plan your tactics.
+
+
+                       MODEM 
+
+There are two ways of two people playing each other.
+
+LOCAL - SAME COMPUTER
+     The first way is for them to share the same computer. 
+While one is moving his team the other person is in another
+room.  When the first person is done, he ends his turn and
+then trades places with the other person.
+
+MODEM/NETWORK - DIFFERENT COMPUTERS
+     The first player starts playing the game as the BLUE
+team.  At the end of his turn the game will be saved in a
+special format.  The first player then sends this little saved
+game file to his opponent.  The four most common ways
+are:
+     1) Call up the person with your modem and upload the
+          saved game.
+     2) Call up a BBS (computer bulletin board) and upload
+         the saved game to it.  On most BBS's you can
+         send an E-MAIL message to your opponent and
+         include (attach) the saved game as a binary file. 
+         That way when he reads your message he gets your
+         file also.
+     3) If you are both on the same network, send him a
+         E-MAIL message with the saved game included as a
+         binary file.
+     4) Give or mail, a disk, with your saved game to your
+         opponent.
+
+HOW TO START A MODEM GAME
+     To start a modem game, you select NEW GAME from
+the FILE menu.  At the first popup choose HUMAN VS
+HUMAN.  At the second popup select MODEM/NETWORK
+and then enter your name and password.
+     Play your turn, and when finished, press the END TURN
+button, then enter the filename that you wish to use for
+this particular game.  Since there will be a number of game
+turns occurring, and since both the blue and red players will
+be saving files, you might use a logical way of naming the
+saved files.  The program automatically adds the .md1
+(.md2 for commercial version) extension and then stores it
+in the directory where you have Capture the Flag.  The
+player then can quit the game and then send this .md1 file
+to his opponent.
+     When the red player receives the file, he places it into
+the FLAG directory, and then starts CTF.  He then chooses
+LOAD PBEM GAME from the FILE menu and begins his
+turn.  When he has finished his turn, he presses the END
+TURN button, names his file, quits the game, and then
+sends his turn file to the blue player.
+     
+ADVANTAGES OF PBEM
+     Capture the Flag is a "turn based" game.  One person
+moves and then the second person moves.  For "turn
+based" games PBEM (Play by E-MAIL) has two main
+advantages over the direct connect modem method.
+     First, you can make your move whenever you want.
+You don't have to wait until your opponent can play.  For
+example, one person could move and upload his saved
+game to a BBS by 7 PM.  His opponent, at his leisure, could
+download it at any time and upload it by midnight.  That
+way you can complete one turn per day without the hassle
+of trying to match up your free time with his.
+     Second, it frees up your phone.  Instead of tieing up
+your phone for the duration of the game you use your
+phone only to send and receive the saved games. By
+keeping your phone bills to a minimum you can now play
+your friends who live far away.
+     I enjoy playing several games at the same time with a
+friend.  This reduces the time I spend on the modem.  After
+making my move in each game I then zip them together in
+one file (using a data compression program like PKZIP) and
+then send the single file to my friend.
+
+INTERNET
+     Since INTERNET runs on UNIX you MAY need to
+"uuencoded" and "uudecoded" to successfully transfer files
+across the Internet.  Look at the INTERNET.TXT file on how
+to do this.
+
+
+                  KEYBOARD COMMANDS
+        (Needed only if you don't have a mouse)
+
+KEYBOARD NORMAL MODE 
+RETURN:   Toggles the GLOBAL MAP on and off.  This is
+               the EASIEST way to move around the screen.
+ARROW KEYS:  Moves selected person in chosen direction
+Home,PgUp,End,PgDn keys:  Moves selected person
+                                        diagonally
+CTRL ARROW KEYS:  Moves screen 8 squares in the
+                           desired direction
+ALT KEY:   First step in pulling down menus (2nd step is to
+               press the first letter of the desired menu)
+1:   Change selected person to the walking position
+2:   Change selected person to the crawling position
+3:   Change selected person to the standing position
+4:   Change selected person to the running position
+9:   Increase movement points to 99 (commercial games only)
+C:   Center PLAYING AREA on selected person
+E:   End current turn
+G:   Toggle grid on/off
+H:   Help
+I:   Gives name of person (either side) under mouse cursor
+L:   Select person by typing the first letter of name
+N:   Select next person
+O:   Option popup menu
+P:   Select previous person
+S:   Save game
+V:   Turn Vision mode on
+
+KEYBOARD GLOBAL MAP MODE
+ARROW KEYS:  Moves SELECTION FRAME in that direction
+CTRL ARROW KEYS:  Moves SELECTION FRAME 8 squares
+                            in that direction
+RETURN:   Toggles the GLOBAL MAP on and off.
+SPACE BAR:  Toggles display info of your team.
+
+     When the GLOBAL MAP is closed, the PLAYING AREA
+will be at the SELECTION FRAME location.
+
+
+                     MAPS
+
+     The large playing field is represented by two maps and
+the full detail PLAYING AREA. The LOCAL MAP is always
+shown in the top right corner of the screen, and the
+GLOBAL MAP appears in a superimposed window
+whenever you push the right mouse button.  The LOCAL
+MAP (71 x 71 squares) is a portion of the GLOBAL MAP
+(200 x 100 squares) centered on the selected person
+(white dot in middle).
+     The GLOBAL MAP represents the complete playing
+field.  The blue on the edges represents the out of bounds
+area.  The yellow dots represent the visible flags.  The
+white dot represents your selected person.  The blue and
+red dots represent visible blue and red team people.
+     The blue and red hollow squares represent question
+marks.  Question marks are placed in the last square you
+saw an opponent during either their last turn or your
+current turn.
+     The GLOBAL MAP SELECTION FRAME is 20 squares
+wide (horizontal) and 19 squares tall (vertical), and is used
+to select the portion of the GLOBAL MAP to be shown in
+the PLAYING AREA.
+
+
+                         MISC
+
+     When you play against the computer, you are playing
+against an artificial intelligence program (it took months to
+develop) that plays the game under the same ground rules
+as you do. It cannot see your people or flag unless it
+searches just like you have to do. It has no access to any
+data that you don't have, and it DOES NOT CHEAT.  In
+normal difficulty mode, you face 8 people with the identical
+attributes of your 8.  In easy mode you face 6 people with
+the same identical attributes of the first 6 people on your
+side.  The computer's names are randomized each game.
+
+PLAYBACK MODE
+     The members of the opposition team are normally not
+visible to you, and are only displayed when they are seen
+by one or more of your players.  Your players may observe
+them during your turn (when they are not moving), or
+during your opponent's turn (when you are not moving).
+     After your opponent moves, the game enters the
+PLAYBACK mode.  PLAYBACK mode is like playing a VCR
+tape of all the moves your opponent made during his last
+turn that were visible to one or more of your people.  If the
+playback shows only a few or no moves, it either means
+your opponent didn't move much or that his moves were
+out of your sight.  If a person seems to skip a square, that
+means you were able to see him in the previous and current
+square, but not in the square that he seemed to skip.
+
+THE FOUR ATTRIBUTES
+     Each person has four ATTRIBUTES.  The attribute levels
+for each person is shown by the four color bar graphs on
+the right hand side of the screen.  A tall bar is an excellent
+rating, a medium height bar is an average rating, and a
+short bar is a poor rating.  The four attributes determine
+how skilled a person is at:
+     AGILITY:  Determines how well the person is at
+                  capturing and escaping capture.  First bar
+                  (color is red).
+     MOVEMENT:  How far a person can move in one turn.
+                        Second bar (color is yellow).
+     STEALTH:  How well the person is at being hard to
+                   see.  Third bar (color is dark brown).
+     VISION:  How well the person is at being able to see
+                others.  Fourth bar (color is tan)
+
+QUESTION MARKS
+     Question marks are place holders.  They mark the
+last square where you saw an opponent.  They come either
+from playback mode or from your current turn.  A question
+mark from playback most likely means your opponent isn't
+there now.  It's just where you lost track of him.  A
+question mark that appeared during your turn means there
+IS an opponent in the square but you can no longer see him
+because you moved away or changed to a STANCE with a
+poorer vision capability.
+
+CAPTURED PEOPLE
+     The shareware version of Capture the Flag has no
+prison.  The person who is captured is sent back to his own
+side.  During the few turns it takes for him to reach his side
+he is temporarily removed from the game (he is shown
+behind bars on the CONTROL PANEL). The number of turns
+he is out of the game is computed by how long it would
+take for him to run back to his side.
+
+
+                    CONTROL PANEL
+
+     The control panel is the right most quarter of the
+screen.  It is comprised of the following four sections.
+
+LOCAL MAP
+     In the top right corner is the LOCAL MAP.  It is centered
+around your selected player.  It displays a large portion (71
+x 71 squares) of the GLOBAL MAP.
+
+SELECTED PERSON SECTION
+     Right below the LOCAL MAP.  Only one person at a
+time can be selected, and all the information about the
+selected person is shown in this section.  It shows the
+name of the person, their current stance, amount of
+movement points left for this turn, and a bar chart showing
+their four attribute ratings (A = Agility, M = Movement
+points, S = Stealth, V = Vision).  For each attribute they
+can either be excellent, average, or poor.
+     To the right of the bar chart is eight numbers
+surrounding the square that shows what terrain the
+selected person is on.  These eight numbers show the cost,
+in movement points, to move in the eight possible
+directions in the current STANCE (crawling, walking, or
+running).
+
+ICON MOVEMENT BAR
+     Right below the Selected Person section.  Press the
+desired icon to choose the STANCE for the selected person.
+(Note: most of the time it'll be quicker just to press the left
+button when the mouse cursor is on top of the selected
+person on the PLAYING AREA.)  This will bring up a special
+STANCE icon selection popup.
+
+TEAM SECTION
+     Right below the Icon Bar.  All members of your team is
+shown here.  Their icon depicts the player's STANCE, and
+the small bar charts displays their four attribute ratings. 
+The number below displays how many movement points
+they have left for this turn.
+     You can select any person by clicking the left mouse
+button on them.
+
+
+                       HINTS
+
+     Watching the demo to learn strategy and tactics is one
+of the quickest ways to improve your score.
+     It is crucial to take into account each person's strengths
+and weaknesses because there is such a GREAT difference
+between an excellent rating and a poor rating.
+     You must prevent your opponent from moving his
+people within one turn's movement of your flag.  If Aaron,
+for example, gets 30 movement points a turn and starts out
+his turn within 30 movement points of your flag, then you'll
+lose.  That's because he'll be able to bypass all your people
+and grab your flag before you can do anything about it.
+     Therefore, you must make sure that you capture Aaron
+during your turn before he gets to make his winning move. 
+In other words, you have to prevent your opponent from
+starting his turn within 30 movement points of your flag (if
+the terrain is clear, that means 30 squares).  One helpful
+fact is that each unsuccessful capture attempt reduces your
+opponent's next turn movement points by 10% to 25%.
+     Use the vision mode (v key) to learn how far people (in
+different stances and terrain) can see and be seen.
+     Moving diagonally takes less movement points than first
+moving horizontally and then vertically.
+     In most cases it's best to end a person's movement
+standing up.  That way he has the best view during the
+other side's movement.  Also, he is somewhat harder to
+see.
+     Using the 'I' key will help you keep track of your
+opponent's movement by allowing you to identify who is
+who.
+     Read the entire help section, especially studying detail
+information section.
+
+
+                     VISION MODE
+
+     The purpose of vision mode is to allow you an
+opportunity to see how far away you can see your
+opponent's men.  This is especially helpful in deciding
+where to place your defensive men.
+     For example, if you want to make sure no opponent's
+men who are running can slip by a defensive line then
+select the stance of running and stealth ability of excellent. 
+Vision mode will then show you the field of sight for all of
+your team.  This shows you how far you can see your
+opponent's men who are running and have excellent
+stealth.  You can then try positioning your men to close the
+gaps and then use vision mode again to make sure there
+are no gaps.
+     Hint, after moving make sure all your men are standing. 
+This gives them the best vision.  To add uncertainty, vision
+mode is slightly optimistic on who can be seen at the max
+distance.
+
+
+                 DETAIL INFORMATION
+
+VISION DETAIL
+      Capture the Flag uses realistic line of sight rules.  Black
+(undiscovered) squares change to colored terrain squares as
+you move or change to a movement position with a better
+vision ability.
+     Even though you can see what terrain is in a square,
+that doesn't mean you are close enough to see if an
+opposing player is located there.  The ability to see your
+opponent's people is determined by six factors:
+     1) Distance from your person to his person
+     2) Vision level of your person
+     3) Stealth level of your opponent's person
+     4) STANCE of your person
+     5) STANCE position of your opponent's person
+     6) Amount of medium & heavy terrain in the line of
+         sight
+     The terrain in the square the person occupies does not
+affect how he can see, but it does affect how he can be
+seen.  The following table illustrates how far (in squares) a
+standing person of average vision ability can see an
+opponent of average stealth ability:
+
+         Opponent's stance position
+Standing   Crawling   Walking   Running
+     18            9             21          35    
+
+     Multiply the above figures by 70%, 40%, or 30% to
+obtain the numbers on how far you can see your opponents
+when your person is in the walking, running, and crawling
+positions.  This assumes there is no terrain between the
+two people.  Otherwise reduce the distances by 7 (except
+for cabbages and rough dirt) for each medium terrain in the
+way and by 12 for each heavy terrain (except for streams
+and canals) in the way.
+
+ABILITIES DETAIL
+     An average rating is twice as good/powerful as a
+poor rating.  An excellent rating is three times as good as
+a poor rating.  For example, an excellent stealth person
+would be three times more difficult to see than a poor
+stealth person.  The only exception is that the maximum
+vision distance is 35.  
+
+CAPTURE DETAIL
+     The initial probability is determined by the movement
+points remaining for the person who is trying to make the
+capture:
+
+Movement
+   Points  1-3  4-6  7-9  10-12  13-15  16-18  19-21  22-24  25+
+Probability 10% 20% 30%  40%   50%     60%    70%    80%  90%
+
+     The agility probability is added to movement
+probability and then the result is divided by 2.  The agility
+probability is 25% if the defender is two agility levels
+better, 33% if defender is one agility level better, 50% if
+defender has same agility level, 66% if defender is one
+agility level below, and 75% if defender is two agility levels
+below.  For example, if attacker has 10 movement points
+left and has excellent agility and the defender has average
+agility then the odds would be (40 + 66) / 2 = 53%.
+     Finally, the probability is increased by 40% for each
+capture attempt already made this turn on the same person.
+
+MOVEMENT DETAIL
+     Movement points used to move into a square in the
+following STANCES:
+                         Crawling    Walking    Running
+Light terrain            3              2             1
+Medium terrain        6              4             2
+Heavy terrain          9              6             3
+
+SCORING DETAIL
+1) 20 points for each clear square on opponent's side, ie.,
+    each square you uncovered.
+2) Add 20 points for each black square on your side, ie.,
+    each square you prevent your opponent from uncovering.
+3) Add 400,000 if you found your opponent's flag.
+4) Add 400,000 if your opponent did not find your flag.
+5) If you won:
+    a) add 200,000 points.
+    b) If it took less than 40 turns, then add
+        (40 - number of turns) * 10,000 points
+6) Reduce score by 40% if easy mode is used.
+
+
+               COMMERCIAL GAME OPTIONS 
+
+DARKNESS
+     At the beginning of each turn, your opponent's side
+becomes solid black except for what you can currently see.
+Therefore you will need to remember the areas that your
+team has already explored.
+
+DUSK
+     Vision is 40%, 60%, or 80% of normal.
+
+NIGHT
+     Only 20% of normal vision!  Takes forever to explore.
+
+MAKE OPPONENT'S FLAG VISIBLE
+     The opponent's flag will show up on the global and
+local maps, so you do not have to search for it.
+
+MAKE OPPONENT'S PEOPLE VISIBLE
+     The opponent's people will show up on the global and
+local maps.
+
+PRISON
+     When a person is caught they go to their opponent's
+prison, with a delay corresponding to the time it would
+normally take to travel there.  They can only return to their
+side after they have been rescued, which is done whenever
+one of their team mates successfully dashes into the prison
+and stops on top of any prisoner.  At this point, all of the
+prisoners (and the person who rescued them) are  returned
+back to their side, delayed by as many turns as it takes to
+run back.
+     Prisons are represented as yellow rectangles on the
+GLOBAL MAP.  You can always see your own prison.  You
+can see your opponent's prison when the first person from
+your side arrives as a prisoner.
+     Also, you'll be able to see your captured people in your
+opponent's prison if they are not on black squares.
+      
+PRISONLESS
+     When a person is caught, they are returned to their own
+side after a delay corresponding to the number of turns it
+takes for them to run back (same as shareware version).
+
+MULTIPLE FLAG CAPTURES
+     How many times a team's flag must be captured before
+they lose.
+
+CHEAT
+     By pressing the 9 key, the current selected person will
+be given 99 movement points.  This can be done as often
+as one wishes, even after a failed captured attempt.  This
+is very useful for experimenting!
+
+CUSTOMIZER
+     Each side can modify their probability of a successful
+capture from 20% to 200%.  They can also modify the
+amount of movement points they receive each turn from
+20% to 200%.
+
+MAPS
+    Permits one to select, load, and commence playing on
+any of the 30 maps provided in the directory (or any maps
+that you create using the great MAPBUILDER program
+provided with this commercial version!)
+
+OPPONENTS
+     Select one of the eight computer opponents
+provided.  Each one has a different playing strategy.
+  
+PLACEMENT
+     Allows one to place their own flag and people.  
+However, only in this mode, the flag not permitted to be
+placed near (a 20 by 20 square) to the corners.   When the
+computer places the flag, (automatic placement) there is a
+small chance it will place it in a corner.
+
+SCENARIOS
+     This permits you to select any of the 50 different
+scenarios provided. Each scenario varies the number of
+people on each team and their skill levels.  The averages
+shown are the averages for the whole team and are based
+on 100% for excellent, 70% for average, and 40% for
+poor.

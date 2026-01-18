@@ -1,0 +1,41 @@
+Shareware Version 3.1 Improvements
+
+   1) List of 60+ Play by Email opponents in the pbem.txt file.
+
+
+Shareware Version 3.0 Improvements
+
+   1) Play by E-Mail added!!!  Also, passwords are now required for any
+      human vs. human game.
+
+   2) Can now change drive and directories - great for being able to
+      play from a CD or over a network.
+
+   3) The map builder is now included.
+
+   4) RAM requirements reduced from 520,000 bytes to 499,000 bytes.
+
+   5) Commercial version scenario's have been increased from 100 to 200.
+
+
+Shareware Version 2.0 Improvements
+
+   1) Average attributes are now 2 times better than poor attributes.
+      Excellent attributes are now 3 times better than poor attributes.
+      This adds more depth to the games since there is now more difference
+      between the people.  For example, now there are some people who can
+      move really fast or see really far and some others that move really
+      slow or can hardly see at all.
+
+   2) Agility and remaining movement points are now equal factors in
+      determining combat results.  In previous versions the movement points
+      remaining normally had greater weight.  The net effect of this change
+      is to make agility more important.
+
+   3) Walking visibility is now half way between running and crawling.
+      Walking is now harder to see.
+
+   4) Crawling is now a 3 movement point cost instead of 4.
+
+   5) Becky and Dave have one better attribute in the shareware game.
+

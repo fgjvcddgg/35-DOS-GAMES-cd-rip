@@ -1,0 +1,92 @@
+
+
+
+
+
+  !!!SUPPORT   SHAREWARE!!!
+
+     !!PLEASE REGISTER!!
+       (see Order.txt)
+
+
+
+
+
+
+
+NUM LOCK OFF!
+
+[F1] for HELP, or pause.
+[F1] also for FUNCTIONS
+(Joystick toggle, Save
+game, Load game, sound, ect,)
+
+Keypad or arrow keys to move.
+[W] to shoot up.
+[A] to shoot left.
+[S] to shoot down.
+[D] to shoot right.
+[F2] for character status.
+[P] to pick up Keycard.
+[ESC] exits.
+{In the event of a system
+crash, hold down Escape}
+
+Pick up items for bonus.
+ Heart = 10 Hitpoints
+ Green Jewel - 1 Dollar
+ Red Jewel --- 2 Dollars
+ Coin -------- 3 Dollars           
+ Gold Bar ---- 5 Dollars
+ Gas can - 10 Fire shots in 
+ each direction.
+ (Some items kill Blarnys 
+ when they run into them.)
+Use money to buy Hitpoints at
+Vending Machines. Go into 
+houses with open doors to find
+Vending Machines. To make fast 
+money,touch a MINI-VEGAS. You 
+can win $10, lose $10, or 
+break even.
+
+The object of each stage is to
+pick up the keycard at the end
+(To pick up a key step over 
+the key and press [P])
+
+Stages, Key colour:
+[1] Apartment Building(Blue)
+[2] Haunted House     (Green)
+[3] Skating Rink      (Red)
+[4] T.V. Game Studio  (Yellow)
+
+After you have cleared the 4 
+stages, you can enter the 
+Blarney factory. When you are
+inside,destroy the machines by
+shooting the vulnerable parts. 
+(A machine takes several hits 
+to destroy.)
+After all the machines stop 
+making Blarneys, enter the 
+back room and destroy the 
+Incredible Machine by pulling 
+the self destruct lever after 
+the Incredible Machine is 
+disabled.
+
+      DIFFERENT BLARNEYS
+
+Blue eyes ----- Normal Blarney
+  (One hit usually kills it)
+
+Red eyes --------- Demoblarney
+(Very hard to kill, some can
+only be destroyed by fire)
+
+White eyes ---- Invinciblarney
+       (Can't kill it)
+
+
+

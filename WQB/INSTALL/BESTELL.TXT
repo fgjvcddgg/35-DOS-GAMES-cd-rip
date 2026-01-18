@@ -1,0 +1,96 @@
+         Herr/Frau
+      Name/Vorname : _____________________________________________
+
+      Str.: ______________________________________________________
+
+      PLZ  _________      Ort: ___________________________________
+
+
+                  bei Kunden von JEC bitte Kunden Nr. ____________
+
+
+      Juergen Egeling Computer
+      Werderstr. 41
+
+     76137 Karlsruhe
+
+
+
+___
+                                    Bestellung
+                                    ----------
+      Hiermit bestelle ich:
+      WQ USA                                    Anzahl     Preis      Summe
+
+  ( ) Argo Checkers                             ______     48.-- DM   _____
+  ( ) BRIX 2 Deluxe (dt., mit dt. Kurzanleitung)______     48.-- DM   _____
+  ( ) Baron Baldric (dt., mit dt. Kurzanleitung)______     48.-- DM   _____
+  ( ) DSCHUMP (dt., mit dt. Kurzanleitung)      ______     48.-- DM   _____
+  ( ) Editor E! Windows (mit dt. Handbuch)      ______    199.00 DM   _____
+  ( ) GateWorld (dt., mit dt. Kurzanleitung)    ______     59.-- DM   _____
+  ( ) Hexxagon                                  ______     48.-- DM   _____
+  ( ) JetPack (dt., mit dt. Kurzanleitung)      ______     48.-- DM   _____
+  ( ) MegaTron (dt., mit dt. Kurzanleitung)     ______     48.-- DM   _____
+  ( ) Micro Man (dt., mit dt. Kurzanleitung)    ______     48.-- DM   _____
+  ( ) Night Raid                                ______     48.-- DM   _____
+  ( ) OverKill (dt., mit dt. Kurzanleitung)     ______     48.-- DM   _____
+  ( ) PHYLOX (dt., mit dt. Kurzanleitung)       ______     55.-- DM   _____
+  ( ) Picture Puzzle                            ______     48.-- DM   _____
+  ( ) PrefClub (dt., mit dt. Kurzanleitung)     ______     48.-- DM   _____
+  ( ) Redhook (dt., mit dt. Kurzanleitung)      ______     48.-- DM   _____
+  ( ) SQUAREZ DELUXE                            ______     48.-- DM   _____
+  ( ) StarHammer (dt., mit dt. Kurzanleitung)   ______     48.-- DM   _____
+  ( ) Starfire (dt., mit dt. Kurzanleitung)     ______     48.-- DM   _____
+  ( ) The Finishing Touch (dt., mit dt. Handb.) ______    179.00 DM   _____
+  ( ) WorldQuest dlx(dt., mit dt. Kurzanleitung)______     48.-- DM   _____
+
+  ( ) 2 Bonusdisketten (2.88MB) mit Spielen     __1___      0.00 DM   _0.00
+
+      Porto+Verpackung                          __1___      8.05 DM    8.05
+
+      Zwischensumme : ........................................... _________ DM
+
+      Zahlungsart:
+      ( )   EuropÑisches Ausland: Nur Vorauskasse!!!! Als
+            Postanweisung oder Euroscheck(!) in DM                 +   5.75 DM
+      ( )...Verrechnungsscheck/Euroscheck (liegt bei)..............+   0.00 DM
+            (wird 4 Tage nach Versand eingelîst.)
+      ( )   Nachnahme (nur Deutschland!)                           +   6.45 DM
+
+      Gesamtsumme                                                 _________ DM
+                                                                  ---------
+      Unterschrift: ___________________________________
+      (bei Jugendlichen unter 18 Unterschrift des
+      Erziehungsberechtigten.)
+                       Bitte ausfÅllen
+
+Meine Systemkonfiguration:
+
+AT 286    386    486  Pentium       Coprozessor: Ja/Nein
+
+Musikkarte: _____________________________________
+
+Grafikkarte: EGA   VGA       Typ:  _____________________________
+             [ ] 256kB  [ ] 512 kB   [ ] 1024 kB
+Ich habe das Spiel von:
+
+Freund [ ]     HÑndler [ ]  Name des HÑndlers _________________________
+
+                            Str.  _____________________________________
+
+                            PLZ Ort  __________________________________
+
+CD ROM [ ]   Name der CD ______________________________________________
+
+BBS []  Tel.: Nr. des BBS: ____________________________________________
+
+Club[ ]  Name des Clubs
+
+         Str.  _____________________________________
+
+         PLZ Ort  __________________________________
+
+sonstiges [ ] ___________________________________________________
+
+
+

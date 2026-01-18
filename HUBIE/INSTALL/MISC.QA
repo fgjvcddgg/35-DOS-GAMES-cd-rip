@@ -1,0 +1,44 @@
+^014@Serendipity Tech Support 1-500-67HUBIE simmer@crl.com
+
+^011@Miscellaneous Technical Issues
+
+If you have problems with Hubie crashing or behaving
+erratically, please verify the following system 
+settings :
+
+^013 CONFIG.SYS 
+  
+  FILES and BUFFERS should be set at at least 20.
+  STACKS should be set at 9,256 or higher.
+  COMSPEC should be set to the COMMAND.COM you
+    boot from.
+
+^013 AUTOEXEC.BAT    
+
+  BLASTER environment variable should be present
+  for initial sound card setup.
+
+
+
+
+( continued )
+^013 RAM Memory
+
+  You should have at least 2MB of total RAM. Conventional
+  Memory can be as low as 300K.  Disabling Sound and/or
+  Music reduces RAM requirements.  To see how much 
+  RAM your PC is set up to use, type MEM [Enter] at the
+  DOS prompt.
+
+^013 DMPI Memory
+
+  Hubie uses DPMI memory.  This means you must have
+
+^014@HIMEM.SYS
+
+  loaded, or be running under OS/2 or Windows 95.
+  If none is available, Hubie will try to install its own
+  DPMI server. If that fails to work, you should set up
+  your system for use with HIMEM.SYS.  Check your DOS
+  manual for details.
+\\Page

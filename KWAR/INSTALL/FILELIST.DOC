@@ -1,0 +1,21 @@
+
+	  List of files on WAR IN KOREA (WIK) shareware disk
+
+	  File name	   Description		    File type
+
+	  KWAR	   EXE	   WIK exe		    code file *
+	  KMAP	   DAT	   WIK map		    data file *
+	  KCNAME   DAT	   WIK city name	    data file *
+	  KCLOC    DAT	   WIK city location	    data file *
+	  KULOC    DAT	   WIK unit location	    data file *
+	  EXAMPLE  SAV	   saved game (example)     data file
+	  FILELIST DOC	   this file		    text file
+	  KWAR	   DOC	   users manual 	    text file
+	  VENDOR   DOC	   shareware vendor info    text file
+	  ORDERFOR DOC	   user order form	    text file
+
+	  KWAR	   ZIP	   all files above compressed for modem transmission
+
+	  * = files needed to run program.
+
+

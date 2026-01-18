@@ -1,0 +1,7 @@
+
+
+   SETUP.EXE is used to configure the hardware that will be used
+by the HMI utilities.  First select the digital device that you 
+are planning to use.  Then, if you are playing MIDI files, select
+the MIDI devices that you wish to use.
+

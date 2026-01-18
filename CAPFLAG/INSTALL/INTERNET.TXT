@@ -1,0 +1,20 @@
+Since INTERNET runs on UNIX you MAY need to run an uuencoder and
+an uudecoder program to successfully transfer DOS files across the
+Internet.  It depends on what Internet program you are using.  First 
+try sending the Capture the Flag saved game and see if it works.  I'm
+told that some of the newer Internet programs handle the uuencoder
+and the uudecoder functions for you automatically.
+
+If it doesn't work that means your Internet program cannot send
+DOS files successfully.  Talk to someone who knows Internet.  They
+will probably give you the UUENCODE/UUDECODE programs.  I'm told
+there are several excellent shareware UUENCODE/UUDECODE programs.
+
+Before you send the saved game type "uuencode -s filename.md1 filename"
+where filename is the 1-8 character name you have given to your saved
+game.  For example, if you gave your save game file the name of cblue1
+then you would type "uuencode -s cblue1.md1 cblue1".  Then send the
+uuencode file cblue1 (and not the cblue1.md1) to your opponent.
+
+You opponent types "uudecode cblue1" which I'm told recreates the
+cblue1.md1 file.  The cblue1.md1 is now ready to be loaded.

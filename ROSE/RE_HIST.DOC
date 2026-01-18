@@ -1,0 +1,190 @@
+
+
+     Rosenthal Engineering P.O.Box 1650, San Luis Obispo CA USA 93406 
+   U.S. Patent No. 5,359,659, Copyright 1994, 1995 all rights reserved.
+
+    WWW http://slonet.org/~doren/             e-mail doren@slonet.org
+
+
+                         Rosenthal History (tm)
+
+
+Rosenthal History (tm) maintains a running timeline of changes,  additions 
+and deletions made to the AUTOEXEC.BAT, CONFIG.SYS, WIN.INI and SYSTEM.INI 
+files. An easy to understand, plain text file (RE_HIST.DAT) history report 
+can be referred to when uninstalling software or to resolve conflicts. Add 
+Rosenthal History and begin recording the timeline as soon as possible.
+
+The  bonus  utility "Rosenthal History (tm)" is included  ABSOLUTELY  FREE 
+with paid registration or upgrade of Rosenthal UnInstall (tm) or Rosenthal 
+System  Monitor (tm). See the ORDER.FRM or SM_ORDER.FRM file  to  register 
+this top rated award, winning combo.
+
+                        -    -    -    -    -    -
+          
+     "Rosenthal UnInstall is an excellent program for keeping your  system 
+     neat,  clean, and free of unwanted program files. It can remove  even 
+     the  most  complex program installations *and*  restore  your  system 
+     files!  It's  a  program I wouldn't be  without.  Rosenthal  History, 
+     provided  free to registered users of Rosenthal Uninstall,  keeps  an 
+     ongoing  history of all changes to your system! This is  a  must-have 
+     combo for anyone who uses software! Excellent!"
+
+                            Michael E. Callahan
+                          aka Dr. File Finder (tm)
+
+                        -    -    -    -    -    -
+
+Rosenthal  UnInstall  has been awarded "Five Stars" by  PC-Plus  magazine. 
+Reserved as their highest honor for any software. 
+
+     "If  you  are  the sort of person who likes to  experiment  with  new 
+     programs, you can't afford to be without Rosenthal UnInstall. It will 
+     save you untold aggravation, and help to keep your system healthy."
+
+                                Roman Iwaschkin 
+                     "On Test" column in PC Plus magazine.
+
+                             -    -    -    -    -    -
+
+     "Rosenthal UnInstall. Awarded the much coveted 'Works for Me' award."
+
+                              Dr. Ed Hoffman
+                       Windows-On-Line Review (tm). 
+
+                             -    -    -    -    -    -
+
+     "I  have  tried several Windows uninstallers  before  running  across 
+     Rosenthal  UnInstall and found them slow and somewhat complicated  in 
+     the  basic  learning curve. With this little DOS program,  I  had  it 
+     installed  and  running in minutes with its short and  to  the  point 
+     documentation.  No  frills, no pretty graphics or  pictures  of  your 
+     disk, just pure uninstalling power in this package!
+
+     Rosenthal Uninstall not only located all of the files but efficiently 
+     removed them in seconds!"
+
+                                  Paul Mayer 
+                             Spotlights magazine
+
+                         -    -    -    -    -    -
+      
+     "Every  so  often, I discover a company that hits on just  the  right 
+     product  and  delivers  it. This time, it's a  small  company  called 
+     Rosenthal Engineering....
+
+     "Rosenthal UnInstall makes removing files, program groups and  icons, 
+     and  restoring your configuration files a quick, easy, and  pain-free 
+     procedure. "
+
+                                John V. Hedtke
+                            Mobile Office Magazine 
+
+                         -    -    -    -    -    -
+
+Editors' Choice Award "Computer Telephony Magazine". 
+
+     "All  Windows programs like Clean Sweep, Uninstaller  II,  WInformat, 
+     WinDelete,  Uninstall-It, etc. make educated guesses as to  what  you 
+     should remove... There is a far better way: Use Rosenthal UnInstall."
+
+                               Harry Newton
+                       Computer Telephony Magazine
+
+                         -    -    -    -    -    -
+
+"I  like Rosenthal UnInstall -- The only one that can work from MS-DOS.  If 
+an installation should botch up so badly that Windows won't load, Rosenthal 
+UnInstall can fix it.... Rosenthal UnInstall is a real bargin."
+
+                            William M. Frazier
+                        Government Comuputer News
+
+                         -    -    -    -    -    -
+
+Recommended  by  Brian Livingston in his "Infoworld", Window  Manager  and 
+"Compuserve Magazine" columns. 
+
+Rosenthal  UnInstall  has also been written about  in  "Windows",  "Byte", 
+"Computer  Shopper",  "PC-Week"  magazines.  Its  innovative  design   and 
+technically  excellent  performance  has  also earned  a  place  on  "Gold 
+Medallions"  CD-ROM, "Neon" and "Computes" companion disk as well as  many 
+top rated collections.
+
+ -----------------------------------------------------------------------
+
+                      How to use Rosenthal History
+
+First copy the files from your distribution diskette, CD-ROM or archive to 
+the root directory of your hard disk. 
+
+               For example:
+                              COPY A:*.* C:\
+
+Rosenthal  History  shares information with Rosenthal UnInstall  (tm)  and 
+Rosenthal  System Monitor (tm). All versions of DOS 3.1 -7 and  MS-Windows 
+including Win95 are supported.
+
+Operation is totally automatic and no input is required of the user.  When 
+used  with  Rosenthal  UnInstall or the registered  version  of  Rosenthal 
+System  Monitor  this  RE_HIST.EXE  is  executed  automatically  and   its 
+operation is almost completely transparent to the user. Whenever Rosenthal 
+UnInstall updates or purges files, it will also execute Rosenthal  History 
+to maintain a running timeline history of additions changes and  deletions 
+of your system files.
+
+When  used  with Rosenthal System Monitor, Rosenthal History  will  review 
+your  system  files each time you start the system. Rosenthal  History  is 
+extremely  fast and will only add updates to your  timeline  (RE_HIST.DAT) 
+file as required no matter how often it is run.
+
+System administrators, network managers and technical support people  find 
+using  Rosenthal History in combination with Rosenthal System  Monitor  on  
+clients systems before they encounter difficulties is extremely helpful to 
+resolve problems in the future. Users aren't always aware of changes  made 
+to  their system files until it becomes a problem. The  Rosenthal  History 
+and System Monitor timeline files RE_HIST.DAT and SYSMON.DAT can be a real 
+life  saver  and  turn  disaster into a  simple  and  obvious  correction. 
+Installing Rosenthal History and System Monitor on a clients system before 
+there are problems can make a consultant look like a real hero when a user 
+needs him most.
+
+As  soon  as Rosenthal UnInstall is executed it records  its  timeline  as 
+plain  text  file  RE_HIST.DAT.  The indented  outline  format  makes  the 
+information in your system files much simpiler to understand. 
+
+Comments  begin  with  ";"  and any changes  are  shown  with  a  complete 
+description  of  what was done, the date and time and the  file  that  was 
+changed. The indented outline format makes it easy to see exactly what has 
+happened  and  when.  When  a line of  your  system  file  gets  modified, 
+Rosenthal  History will show very clearly when and where, as well as  what 
+the  line  used  to  be  and what is was  changed  to.  Clearly  and  well 
+commented.
+
+As  soon  as you install Rosenthal History on your system,  you  take  the 
+mystery  out of your DOS and Windows system files. You can then  use  your 
+plain  text  editor to changes you would never have attempted  before  and 
+keep your system free of junk and running smooth.
+
+
+                        Software License agreement
+
+
+Rosenthal  History  is provided ABSOLUTELY FREE OF  CHARGE  to  registered 
+users  of  Rosenthal  UnInstall or Rosenthal System Monitor.  It  is  only 
+available  with a paid registration or upgrade. Return the file  ORDER.FRM 
+or SM_ORDER.FRM to register or upgrade.
+
+You may not make any changes or modifications to the software, and you may 
+not decompile, disassemble or in anyway reverse engineer the software. 
+
+This  software  is  provided  "as is"  without  warranties  of  any  kind. 
+Responsibility rests entirely with the user to determine its fitness for a 
+particular purpose. ROSENTHAL ENGINEERING SHALL NOT IN ANY CASE BE  LIABLE 
+FOR SPECIAL, INCIDENTAL, CONSEQUENTIAL, INDIRECT OR OTHER SIMILAR  DAMAGES 
+ARISING FROM ANY USE OF THIS SOFTWARE.
+
+This  constitutes  the  entire agreement  and  understanding  between  the 
+parties  and supersedes any prior agreement or understanding whether  oral 
+or written and may only be modified in writing.
+ 

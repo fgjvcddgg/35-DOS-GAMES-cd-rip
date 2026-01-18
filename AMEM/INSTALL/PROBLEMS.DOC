@@ -1,0 +1,103 @@
+Known problems (and in some cases, fixes):
+
+Not finding EGA in the detection routine:
+Some older EGA video cards only have 64K of memory, more
+is needed for the high-resolution animation in the FLIX software
+__________________________________________________________________
+
+The software must be installed to your hard drive.
+When installing the software, be sure to make a directory to put
+the software into:
+     MD FLIX  (Make a directory called FLIX, for example)
+     CD FLIX  (Change to the FLIX directory)
+     COPY A:*.* (Copy the floppies to your hard drive)
+When running the software, be sure to change to the directory
+it has been installed into first (CD FLIX).
+You don't have to do the above, but it prevents having a big mess.
+__________________________________________________________________
+
+TSR's (Terminate and stay resident programs), that can "pop-up"
+while other things are running can lead to unexpected results...
+__________________________________________________________________
+
+GRASPRT.EXE is a DOS program (it is the run-time module for the
+software).  It is best to run the software under DOS, not WINDOWS.
+Depending on your WINDOWS version and configuration, you may
+experience problems.  For instance, the sound for "Animated Words"
+will be distorted when using the SoundBlaster with Windows 3.1
+using multimedia extensions.  You may have better results by running
+windows in standard mode: start windows with WIN /S
+__________________________________________________________________
+
+Some of the software is invoked from a batch (.BAT) file.  
+This may cause a problem with some menu programs (control not 
+returning to the menu after the FLIX program is run).  
+There are two possible fixes for this.  
+
+The easiest is to use the command CALL (which allows control to
+return to the calling batch file - your menu) to prefix the
+instruction you use in your menu program.  For example: use CALL
+SHAPES when running "Animated Shapes" from your menu, not just
+SHAPES.
+
+Another solution would be to bypass the .BAT file used to run the
+FLIX software by using the contents of the .BAT file instead.  To
+see what is in the .BAT file use TYPE SHAPES.BAT (for example).  In
+this case it would tell you that SHAPES.BAT says GRASPRT SHAPES. 
+So instead of telling your menu program to use SHAPES, tell it to
+use GRASPRT SHAPES to run "Animated Shapes".
+__________________________________________________________________
+
+"The Animated Memory Game" is invoked with the AMEM.BAT file, not
+AMEN.BAT (AMEM vs. AMEN)
+__________________________________________________________________
+
+Digital sound for "Animated Words":
+
+Can't hear the PC speaker very well, or it doesn't sound very good:
+Some PC's have very small speakers located deep inside the cabinet
+- they won't sound very good.  The ability to play digitized speech
+through the PC's speaker was not engineered into the design of
+PC's, the ability to do it using RealSound, is going to vary
+significantly depending on your hardware.  I licensed RealSound to
+get the best commercial-quality program to perform this trick.
+
+What is the Covox Speech Thing?
+It is a sound device that runs from the printer port (parallel
+port) of your PC.  The Disney Sound Source operates in a similar
+manner.  I am licensed to use the Disney Sound Source, but that
+support is not available at this time, the GRASP/RealSound sound
+drivers used do not support it and I would need to write my own
+drivers.  If the demand for that is great, an upgrade may be
+implemented.
+
+When the program is first run you will be taken through a set-up
+process to determine the type of input device you want to use as
+well as how the sound will be handled.  Please be accurate when
+telling the set-up routine what type of equipment (sound cards
+etc.) you have installed.  If you have an AdLib or Sound Blaster
+compatible card (but is not a AdLib or Sound Blaster), one or the
+other choice may work.  If you experience difficulties, exit to
+DOS, type RESET, and try again.  If you need to change your set-up
+(if you install a new sound card, for instance), type RESET to tell
+the program about it.
+__________________________________________________________________
+
+Programs that use SETUP.  You need to run SETUP first to tell the
+programs about your software (sound devices, input devices, etc.)
+After that the program can be run normally, and you aren't asked for
+this information again.  If you need to change your setup
+(if you install a new sound card, for instance), type SETUP to tell
+the program about it.
+__________________________________________________________________
+
+I do extensive Beta-testing, but the DOS world is somewhat
+unpredictable, by the time you take a motherboard from manufacturer
+A, and combine it with a video card from B, monitor from C, memory
+from D, software from E, all the combinations become impossible to
+test for....
+__________________________________________________________________
+
+Tom Guthery IV,    601 Ranch Road,    DelValle TX     78617
+
+(5/10/94)

@@ -1,0 +1,34 @@
+
+; This is readouts.txt.  It puts universe registers up on the screen
+; wherever you like.  The first two columns are x and y pixel numbers
+; on the screen.  THe 'x' number must be evenly divisible by 4.
+; 0,0 is the left top corner of the screen.
+;  The next two to columns should be left as 0 and 48.  I think the 48 is the
+; color of the little flashing bars above and below the number.
+;  The fifth column is the universe register number.  See the chapter in the
+; manual about universe registers to see what the purposes of univ reg 122-127
+; are.
+;122 animation frames per second of game
+;123 current player health 100=perfect
+;124 number of hits scored on opponents 
+;125 amount of ammo rounds fired by player
+;126 number of enemies killed
+
+;  This file should be in your project directory off the engine directory.
+;
+;psx,psy,flashrate,flashcolor, iptr
+; psx must be evenly divisible by 4!!!!
+264 129 0 48 127 
+264 137 0 48 126 
+264 145 0 48 125 
+264 153 0 48 124 
+264 161 0 48 123 
+48 1 0 48 122 
+
+; The following like selects the text color of the text message boxes
+; that pop up.  This is the color number in your palette.  To find the
+; number of the color you wish to use, bring up any image that is used
+; in your game in GCSPAINT, and click on the color you want, and look
+; at color number on the bottom row of the GCSPAINT screen.
+textcolor 67
+

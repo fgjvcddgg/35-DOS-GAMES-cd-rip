@@ -1,0 +1,23 @@
+                               ULTIMATE GIN
+                                 HELP.DOC
+                
+                COPYRIGHT (C) ACCIDENTAL SOFTWARE 1993, 1994
+                      "If it's good, it's ACCIDENTAL"
+
+Thank you for choosing this program for evaluation.  Every effort has been
+made to provide you with a quality entertainment package.  After a short
+trial period for evaluation, if you decide to use this software a
+registration fee is required.  Run "GINBOOK.EXE" for information.
+
+                             GETTING STARTED
+
+Type "INSTALL" at the DOS prompt to install and set up this program for use.
+If you encounter a problem with "INSTALL", you can manually install the
+game.  To manually install ULTIMATE GIN you should first create a
+directory on your hard disk for your game.   Now use the DOS copy command
+to copy the file "GINGAME.EXE" to the directory on your hard disk that you
+created for the game.  Next, switch to this directory and type "GINGAME".
+This will self extract all game files.  To play the game you need only type
+"GIN".  If you have purchased the VOICE PACK for this game, follow the same
+procedure substituting "GINVOICE.EXE" for "GINGAME.EXE".
+
